@@ -15,7 +15,7 @@
 <link rel="preconnect" href="https://c.basemaps.cartocdn.com" crossorigin>
 <link rel="preconnect" href="https://d.basemaps.cartocdn.com" crossorigin>
 
-<title>DANE Municipalities</title>
+<title>DANE Adoption Among UK and German Municipalities</title>
 <meta name="description" content="Interactive map showing email security (SPF, DMARC) of ~15,300 municipalities in Germany, Austria, and Switzerland.">
 <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
@@ -37,6 +37,7 @@
 <script defer src="https://unpkg.com/topojson-client@3/dist/topojson-client.min.js"></script>
 
 <!--Eigne JS-Dateien -->
+<script defer src="js/nav.js"></script>
 <script defer src="js/map-shared.js"></script>
 <script defer src="js/map-security_dane.js"></script>
 </head>
@@ -52,7 +53,7 @@
 </header>
 <section id="info-bar" aria-label="About this project">
 <script>if(window.innerWidth<=600)document.getElementById('info-bar').classList.add('collapsed');</script>
-  <h2 class="info-title">DANE usage of UK and DE Municipalities (upper tier)</h2>
+  <h2 class="info-title">DANE Adoption Among UK and German Municipalities (upper tier)</h2>
 </section>
 
 <!-- hier ist die Leafleat-Karte im Dokument-->
