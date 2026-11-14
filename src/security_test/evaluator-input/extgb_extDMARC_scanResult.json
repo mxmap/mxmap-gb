@@ -1,0 +1,29 @@
+{
+  "scanTime": "2026-10-06T22:14:59.181194317Z",
+  "mtaStsPolicyResult": [
+  ],
+  "mtaStsDnsRecordResult": [
+  ],
+  "tlsCertTest": [
+  ],
+  "dkimResult": [
+  ],
+  "daneCheckResult": [
+  ],
+  "dnssecDomain": [
+  ],
+  "testSSLResult": [
+  ],
+  "scanData": [
+  ],
+  "dnssecMX": [
+  ],
+  "tlsRptDnsRecordResult": [
+  ],
+  "tls12Test": [
+  ],
+  "spfResult": [
+  ],
+  "dmarcResult": [
+  ]
+}

@@ -1,0 +1,395 @@
+﻿"aggDomainDataTransport_domain";"aggDataTransportMetadata_isValid";"aggDataTransportMetadata_mxRecordCount";"aggDataTransportMetadata_mxRecords";"aggDataTransportMetadata_invalidMxCount";"tlsCertData_atLeastOneMxValidTlsResult";"tlsCertData_allMxValidTlsResult";"tlsVersionData_atLeastOneValidTlsResult";"tlsVersionData_allValidTlsResult";"tlsVersionData_hasNoStarttlsSupport";"tlsVersionData_hasTls1AtLeastOneMta";"tlsVersionData_hasTls1_1AtLeastOneMta";"tlsVersionData_hasTls1_2AtLeastOneMta";"tlsVersionData_minVersionAtLeastOneMta";"tls12Result_validTls12AllMta";"tls12Result_validTls12AtLeastOneMta";"tls12Result_partlyValidTls12AllMta";"tls12Result_partlyValidTls12AtLeastOneMta";"mtaStsData_usesMtaSts";"mtaStsData_generalErrorType";"mtaStsData_rawDnsString";"mtaStsData_cnameDnsRecord";"mtaStsData_rawPolicy";"mtaStsData_cnamePolicy";"mtaStsData_ipCountryCode";"policy_max_age";"policy_mode";"policy_mx_list";"mtaStsPolicyValidation_allMtaValid";"mtaStsPolicyValidation_atLeastOneMtaValid";"mtaStsPolicyValidation_mtaInvalidTlsCount";"mtaStsPolicyValidation_mtaNotInPolicyCount";"mtaStsPolicyValidation_mtaValidCount";"mtaStsPolicyValidation_mtaValidCountList";"certData_issuerCN";"certData_issuerOrgName";"certData_issuerCountry";"certData_distinctSanCount";"certData_sanDnsMatch";"certData_sanStrictIdentifierMatch";"certData_validPeriod";"certData_sigAlg";"certData_pubKeyAlg";"certData_EXPubKeyLen";"policytlsData_tlsVersion";"policytlsData_cipherSuite";"policytlsData_errorType";"tlsRptData_hasTlsrptDnsRecord";"tlsRptData_rawRecord";"tlsRptData_lastCname";"tlsRptData_errorType";"tlsRptData_distinctRepotingDomains";"tlsRptData_reportingOverHTTPS";"tlsRptData_reportingOverMAILTO";"tlsRptData_distinctExternalDomains";"tlsRptData_externalOverHTTPS";"tlsRptData_externalOverMAILTO";"dnssecResult_domainDNSSEC";"dnssecResult_domainDNSSECPubResolver";"dnssecResult_domainDNSSECLocalResolver";"dnssecResult_mxAllDNSSEC";"dnssecResult_mxAtLeastOneDNSSEC";"dnssecResult_mtaStsDNSRecordDNSSEC";"dnssecResult_mtaStsPolicyRecordDNSSEC";"dnssecResult_tlsRptDNSSEC";"daneResult_hasValidDaneAllMta";"daneResult_hasValidDaneAtLeastOneMta";"daneResult_atLeastOneMtaSupportsDane"
+"ag.dmarcian-eu.com";"True";"1";"ag.dmarcian-eu.com";"0";"False";"False";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"False";"False";"True";"policyAllMtaInvalid";"v=STSv1; id=20200218v04;";"";"version: STSv1
+mode: testing
+mx: mx1.smtp.goog
+mx: mx2.smtp.goog
+mx: mx3.smtp.goog
+mx: mx4.smtp.goog
+mx: ag.dmarcian.com
+mx: fr.dmarcian.com
+mx: tls.dmarcian.com
+mx: ag.ap.dmarcian.com
+mx: fr.ap.dmarcian.com
+mx: tls.ap.dmarcian.com
+mx: ag.eu.dmarcian.com
+mx: fr.eu.dmarcian.com
+mx: tls.eu.dmarcian.com
+mx: ag.jp.dmarcian.com
+mx: fr.jp.dmarcian.com
+mx: tls.jp.dmarcian.com
+mx: ag.us.dmarcian.com
+mx: fr.us.dmarcian.com
+mx: tls.us.dmarcian.com
+mx: ag.dmarcian-ap.com
+mx: fr.dmarcian-ap.com
+mx: tls.dmarcian-ap.com
+mx: ag.dmarcian-eu.com
+mx: fr.dmarcian-eu.com
+mx: tls.dmarcian-eu.com
+mx: ag.dmarcian.eu
+mx: fr.dmarcian.eu
+mx: tls.dmarcian.eu
+mx: ag.lab1.lab.dmarcian.com
+mx: fr.lab1.lab.dmarcian.com
+mx: tls.lab1.lab.dmarcian.com
+mx: ag.lab2.lab.dmarcian.com
+mx: fr.lab2.lab.dmarcian.com
+mx: tls.lab2.lab.dmarcian.com
+mx: ag.lab3.lab.dmarcian.com
+mx: fr.lab3.lab.dmarcian.com
+mx: tls.lab3.lab.dmarcian.com
+mx: ag.overheidsmail.nl
+mx: fr.overheidsmail.nl
+mx: tls.overheidsmail.nl
+mx: ap-app.ap.dmarcian.com
+mx: eu-app.eu.dmarcian.com
+mx: jp-app.jp.dmarcian.com
+mx: us-app.us.dmarcian.com
+mx: ap-fr.ap.dmarcian.com
+mx: eu-fr.eu.dmarcian.com
+mx: jp-fr.jp.dmarcian.com
+mx: us-fr.us.dmarcian.com
+mx: relay1.util.dmarcian.com
+mx: relay.dmarcian.com
+max_age: 86400
+";"";"US";"86400";"testing";"mx1.smtp.goog, mx2.smtp.goog, mx3.smtp.goog, mx4.smtp.goog, ag.dmarcian.com, fr.dmarcian.com, tls.dmarcian.com, ag.ap.dmarcian.com, fr.ap.dmarcian.com, tls.ap.dmarcian.com, ag.eu.dmarcian.com, fr.eu.dmarcian.com, tls.eu.dmarcian.com, ag.jp.dmarcian.com, fr.jp.dmarcian.com, tls.jp.dmarcian.com, ag.us.dmarcian.com, fr.us.dmarcian.com, tls.us.dmarcian.com, ag.dmarcian-ap.com, fr.dmarcian-ap.com, tls.dmarcian-ap.com, ag.dmarcian-eu.com, fr.dmarcian-eu.com, tls.dmarcian-eu.com, ag.dmarcian.eu, fr.dmarcian.eu, tls.dmarcian.eu, ag.lab1.lab.dmarcian.com, fr.lab1.lab.dmarcian.com, tls.lab1.lab.dmarcian.com, ag.lab2.lab.dmarcian.com, fr.lab2.lab.dmarcian.com, tls.lab2.lab.dmarcian.com, ag.lab3.lab.dmarcian.com, fr.lab3.lab.dmarcian.com, tls.lab3.lab.dmarcian.com, ag.overheidsmail.nl, fr.overheidsmail.nl, tls.overheidsmail.nl, ap-app.ap.dmarcian.com, eu-app.eu.dmarcian.com, jp-app.jp.dmarcian.com, us-app.us.dmarcian.com, ap-fr.ap.dmarcian.com, eu-fr.eu.dmarcian.com, jp-fr.jp.dmarcian.com, us-fr.us.dmarcian.com, relay1.util.dmarcian.com, relay.dmarcian.com";"False";"False";"1,0";"0,0";"0,0";"";"YR1";"Let's Encrypt";"US";"8,0";"True";"True";"90,0";"SHA256withRSA";"RSA";"2048,0";"TLSv1.3";"TLS_AES_256_GCM_SHA384";"";"True";"v=TLSRPTv1; rua=mailto:dmcn-eu-tls-in@corp-tls-in.dmarcian.com";"";"";"1,0";"0,0";"1,0";"1,0";"0,0";"1,0";"True";"True";"True";"True";"True";"True";"True";"True";"False";"False";"False"
+"fr.dmarcian-eu.com";"True";"1";"eu-fr.eu.dmarcian.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"True";"";"v=STSv1; id=20200218v04;";"";"version: STSv1
+mode: testing
+mx: mx1.smtp.goog
+mx: mx2.smtp.goog
+mx: mx3.smtp.goog
+mx: mx4.smtp.goog
+mx: ag.dmarcian.com
+mx: fr.dmarcian.com
+mx: tls.dmarcian.com
+mx: ag.ap.dmarcian.com
+mx: fr.ap.dmarcian.com
+mx: tls.ap.dmarcian.com
+mx: ag.eu.dmarcian.com
+mx: fr.eu.dmarcian.com
+mx: tls.eu.dmarcian.com
+mx: ag.jp.dmarcian.com
+mx: fr.jp.dmarcian.com
+mx: tls.jp.dmarcian.com
+mx: ag.us.dmarcian.com
+mx: fr.us.dmarcian.com
+mx: tls.us.dmarcian.com
+mx: ag.dmarcian-ap.com
+mx: fr.dmarcian-ap.com
+mx: tls.dmarcian-ap.com
+mx: ag.dmarcian-eu.com
+mx: fr.dmarcian-eu.com
+mx: tls.dmarcian-eu.com
+mx: ag.dmarcian.eu
+mx: fr.dmarcian.eu
+mx: tls.dmarcian.eu
+mx: ag.lab1.lab.dmarcian.com
+mx: fr.lab1.lab.dmarcian.com
+mx: tls.lab1.lab.dmarcian.com
+mx: ag.lab2.lab.dmarcian.com
+mx: fr.lab2.lab.dmarcian.com
+mx: tls.lab2.lab.dmarcian.com
+mx: ag.lab3.lab.dmarcian.com
+mx: fr.lab3.lab.dmarcian.com
+mx: tls.lab3.lab.dmarcian.com
+mx: ag.overheidsmail.nl
+mx: fr.overheidsmail.nl
+mx: tls.overheidsmail.nl
+mx: ap-app.ap.dmarcian.com
+mx: eu-app.eu.dmarcian.com
+mx: jp-app.jp.dmarcian.com
+mx: us-app.us.dmarcian.com
+mx: ap-fr.ap.dmarcian.com
+mx: eu-fr.eu.dmarcian.com
+mx: jp-fr.jp.dmarcian.com
+mx: us-fr.us.dmarcian.com
+mx: relay1.util.dmarcian.com
+mx: relay.dmarcian.com
+max_age: 86400
+";"";"US";"86400";"testing";"mx1.smtp.goog, mx2.smtp.goog, mx3.smtp.goog, mx4.smtp.goog, ag.dmarcian.com, fr.dmarcian.com, tls.dmarcian.com, ag.ap.dmarcian.com, fr.ap.dmarcian.com, tls.ap.dmarcian.com, ag.eu.dmarcian.com, fr.eu.dmarcian.com, tls.eu.dmarcian.com, ag.jp.dmarcian.com, fr.jp.dmarcian.com, tls.jp.dmarcian.com, ag.us.dmarcian.com, fr.us.dmarcian.com, tls.us.dmarcian.com, ag.dmarcian-ap.com, fr.dmarcian-ap.com, tls.dmarcian-ap.com, ag.dmarcian-eu.com, fr.dmarcian-eu.com, tls.dmarcian-eu.com, ag.dmarcian.eu, fr.dmarcian.eu, tls.dmarcian.eu, ag.lab1.lab.dmarcian.com, fr.lab1.lab.dmarcian.com, tls.lab1.lab.dmarcian.com, ag.lab2.lab.dmarcian.com, fr.lab2.lab.dmarcian.com, tls.lab2.lab.dmarcian.com, ag.lab3.lab.dmarcian.com, fr.lab3.lab.dmarcian.com, tls.lab3.lab.dmarcian.com, ag.overheidsmail.nl, fr.overheidsmail.nl, tls.overheidsmail.nl, ap-app.ap.dmarcian.com, eu-app.eu.dmarcian.com, jp-app.jp.dmarcian.com, us-app.us.dmarcian.com, ap-fr.ap.dmarcian.com, eu-fr.eu.dmarcian.com, jp-fr.jp.dmarcian.com, us-fr.us.dmarcian.com, relay1.util.dmarcian.com, relay.dmarcian.com";"True";"True";"0,0";"0,0";"1,0";"eu-fr.eu.dmarcian.com";"YR1";"Let's Encrypt";"US";"8,0";"True";"True";"90,0";"SHA256withRSA";"RSA";"2048,0";"TLSv1.3";"TLS_AES_256_GCM_SHA384";"";"True";"v=TLSRPTv1; rua=mailto:dmcn-eu-tls-in@corp-tls-in.dmarcian.com";"";"";"1,0";"0,0";"1,0";"1,0";"0,0";"1,0";"True";"True";"True";"True";"True";"True";"True";"True";"False";"False";"False"
+"fr.eu.dmarcian.com";"True";"1";"eu-fr.eu.dmarcian.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"True";"";"v=STSv1; id=20200218v04;";"";"version: STSv1
+mode: testing
+mx: mx1.smtp.goog
+mx: mx2.smtp.goog
+mx: mx3.smtp.goog
+mx: mx4.smtp.goog
+mx: ag.dmarcian.com
+mx: fr.dmarcian.com
+mx: tls.dmarcian.com
+mx: ag.ap.dmarcian.com
+mx: fr.ap.dmarcian.com
+mx: tls.ap.dmarcian.com
+mx: ag.eu.dmarcian.com
+mx: fr.eu.dmarcian.com
+mx: tls.eu.dmarcian.com
+mx: ag.jp.dmarcian.com
+mx: fr.jp.dmarcian.com
+mx: tls.jp.dmarcian.com
+mx: ag.us.dmarcian.com
+mx: fr.us.dmarcian.com
+mx: tls.us.dmarcian.com
+mx: ag.dmarcian-ap.com
+mx: fr.dmarcian-ap.com
+mx: tls.dmarcian-ap.com
+mx: ag.dmarcian-eu.com
+mx: fr.dmarcian-eu.com
+mx: tls.dmarcian-eu.com
+mx: ag.dmarcian.eu
+mx: fr.dmarcian.eu
+mx: tls.dmarcian.eu
+mx: ag.lab1.lab.dmarcian.com
+mx: fr.lab1.lab.dmarcian.com
+mx: tls.lab1.lab.dmarcian.com
+mx: ag.lab2.lab.dmarcian.com
+mx: fr.lab2.lab.dmarcian.com
+mx: tls.lab2.lab.dmarcian.com
+mx: ag.lab3.lab.dmarcian.com
+mx: fr.lab3.lab.dmarcian.com
+mx: tls.lab3.lab.dmarcian.com
+mx: ag.overheidsmail.nl
+mx: fr.overheidsmail.nl
+mx: tls.overheidsmail.nl
+mx: ap-app.ap.dmarcian.com
+mx: eu-app.eu.dmarcian.com
+mx: jp-app.jp.dmarcian.com
+mx: us-app.us.dmarcian.com
+mx: ap-fr.ap.dmarcian.com
+mx: eu-fr.eu.dmarcian.com
+mx: jp-fr.jp.dmarcian.com
+mx: us-fr.us.dmarcian.com
+mx: relay1.util.dmarcian.com
+mx: relay.dmarcian.com
+max_age: 86400
+";"";"US";"86400";"testing";"mx1.smtp.goog, mx2.smtp.goog, mx3.smtp.goog, mx4.smtp.goog, ag.dmarcian.com, fr.dmarcian.com, tls.dmarcian.com, ag.ap.dmarcian.com, fr.ap.dmarcian.com, tls.ap.dmarcian.com, ag.eu.dmarcian.com, fr.eu.dmarcian.com, tls.eu.dmarcian.com, ag.jp.dmarcian.com, fr.jp.dmarcian.com, tls.jp.dmarcian.com, ag.us.dmarcian.com, fr.us.dmarcian.com, tls.us.dmarcian.com, ag.dmarcian-ap.com, fr.dmarcian-ap.com, tls.dmarcian-ap.com, ag.dmarcian-eu.com, fr.dmarcian-eu.com, tls.dmarcian-eu.com, ag.dmarcian.eu, fr.dmarcian.eu, tls.dmarcian.eu, ag.lab1.lab.dmarcian.com, fr.lab1.lab.dmarcian.com, tls.lab1.lab.dmarcian.com, ag.lab2.lab.dmarcian.com, fr.lab2.lab.dmarcian.com, tls.lab2.lab.dmarcian.com, ag.lab3.lab.dmarcian.com, fr.lab3.lab.dmarcian.com, tls.lab3.lab.dmarcian.com, ag.overheidsmail.nl, fr.overheidsmail.nl, tls.overheidsmail.nl, ap-app.ap.dmarcian.com, eu-app.eu.dmarcian.com, jp-app.jp.dmarcian.com, us-app.us.dmarcian.com, ap-fr.ap.dmarcian.com, eu-fr.eu.dmarcian.com, jp-fr.jp.dmarcian.com, us-fr.us.dmarcian.com, relay1.util.dmarcian.com, relay.dmarcian.com";"True";"True";"0,0";"0,0";"1,0";"eu-fr.eu.dmarcian.com";"YR1";"Let's Encrypt";"US";"8,0";"True";"True";"90,0";"SHA256withRSA";"RSA";"2048,0";"TLSv1.3";"TLS_AES_256_GCM_SHA384";"";"True";"v=TLSRPTv1; rua=mailto:dmcn-eu-tls-in@corp-tls-in.dmarcian.com";"";"";"1,0";"0,0";"1,0";"0,0";"0,0";"0,0";"True";"True";"True";"True";"True";"True";"True";"True";"False";"False";"False"
+"dmarc.service.gov.uk";"True";"1";"inbound-smtp.eu-west-1.amazonaws.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"rep.dmarcanalyzer.com";"True";"1";"inbound-smtp.eu-west-1.amazonaws.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"True";"True";"True";"False";"False";"";"";"";"False";"False";"False"
+"for.dmarcanalyzer.com";"True";"1";"inbound-smtp.eu-west-1.amazonaws.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"True";"True";"True";"False";"False";"";"";"";"False";"False";"False"
+"rua.easydmarc.eu";"True";"1";"inbound-smtp.eu-west-1.amazonaws.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"ruf.easydmarc.eu";"True";"1";"inbound-smtp.eu-west-1.amazonaws.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"dmarc-rua.mailcheck.service.ncsc.gov.uk";"True";"1";"inbound-smtp.eu-west-1.amazonaws.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"eu.cp-dmarc.com";"True";"1";"inbound-smtp.eu-west-1.amazonaws.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"rua.powerdmarc.com";"True";"1";"inbound-smtp.eu-west-1.amazonaws.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"True";"";"v=STSv1; id=20210201151926750599;";"rua-powerdmarc-com._mta.mta-sts.tech";"version: STSv1
+mode: testing
+max_age: 86400
+mx: inbound-smtp.eu-west-1.amazonaws.com
+";"rua-powerdmarc-com.mta-sts.tech";"US";"86400";"testing";"inbound-smtp.eu-west-1.amazonaws.com";"True";"True";"0,0";"0,0";"1,0";"inbound-smtp.eu-west-1.amazonaws.com";"ZeroSSL RSA DV SSL CA 2";"ZeroSSL GmbH";"AT";"2,0";"True";"True";"91,0";"SHA256withRSA";"RSA";"2048,0";"TLSv1.3";"TLS_AES_128_GCM_SHA256";"";"True";"v=TLSRPTv1;rua=mailto:15r6gzki9a@tls.powerdmarc.com";"rua-powerdmarc-com._smtp.tls-rpt.tech";"";"1,0";"0,0";"1,0";"0,0";"0,0";"0,0";"True";"True";"True";"False";"False";"True";"True";"True";"False";"False";"False"
+"ruf.powerdmarc.com";"True";"1";"inbound-smtp.eu-west-1.amazonaws.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"True";"";"v=STSv1; id=20210204150645261280;";"ruf-powerdmarc-com._mta.mta-sts.tech";"version: STSv1
+mode: testing
+max_age: 2419200
+mx: inbound-smtp.eu-west-1.amazonaws.com
+";"ruf-powerdmarc-com.mta-sts.tech";"US";"2419200";"testing";"inbound-smtp.eu-west-1.amazonaws.com";"True";"True";"0,0";"0,0";"1,0";"inbound-smtp.eu-west-1.amazonaws.com";"ZeroSSL RSA DV SSL CA 2";"ZeroSSL GmbH";"AT";"2,0";"True";"True";"91,0";"SHA256withRSA";"RSA";"2048,0";"TLSv1.3";"TLS_AES_128_GCM_SHA256";"";"True";"v=TLSRPTv1;rua=mailto:15r6gzki9a@tls.powerdmarc.com";"ruf-powerdmarc-com._smtp.tls-rpt.tech";"";"1,0";"0,0";"1,0";"0,0";"0,0";"0,0";"True";"True";"True";"False";"False";"True";"True";"True";"False";"False";"False"
+"rua.dmarceye.com";"True";"3";"rx3.sparkpostmail.com, rx2.sparkpostmail.com, rx1.sparkpostmail.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"mxtoolbox.dmarc-report.com";"True";"1";"inbound-smtp.us-east-1.amazonaws.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"forensics.dmarc-report.com";"True";"1";"inbound-smtp.us-east-1.amazonaws.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"dmarc.barracudanetworks.com";"True";"1";"inbound-smtp.us-east-1.amazonaws.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"vali.email";"True";"1";"inbound-smtp.us-west-2.amazonaws.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"inbox.ondmarc.com";"True";"2";"mx0.ondmarc.com, mx1.ondmarc.com";"0";"True";"True";"True";"True";"False";"True";"True";"True";"tls1";"False";"False";"False";"False";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"True";"True";"True";"True";"True";"";"";"";"False";"False";"False"
+"ag.dmarcly.com";"True";"1";"ag.dmarcly.com";"0";"False";"False";"True";"True";"False";"True";"True";"True";"tls1";"False";"False";"False";"False";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"dmarc.postmarkapp.com";"True";"1";"inbound.postmarkapp.com";"0";"True";"True";"True";"True";"False";"True";"True";"True";"tls1";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"fo.dmarcly.com";"True";"1";"fo.dmarcly.com";"0";"False";"False";"True";"True";"False";"True";"True";"True";"tls1";"False";"False";"False";"False";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"dmarc-reports.cloudflare.net";"True";"3";"route1.mx.cloudflare.net, route2.mx.cloudflare.net, route3.mx.cloudflare.net";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"True";"True";"True";"True";"True";"";"";"";"True";"True";"True"
+"rua.agari-eu.com";"True";"1";"etl.cp.euc1-prod.agari-eu.com";"0";"False";"False";"False";"False";"False";"False";"False";"False";"";"False";"False";"False";"False";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"ag.eu.dmarcian.com";"True";"1";"ag.eu.dmarcian.com";"0";"False";"False";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"False";"False";"True";"policyAllMtaInvalid";"v=STSv1; id=20200218v04;";"";"version: STSv1
+mode: testing
+mx: mx1.smtp.goog
+mx: mx2.smtp.goog
+mx: mx3.smtp.goog
+mx: mx4.smtp.goog
+mx: ag.dmarcian.com
+mx: fr.dmarcian.com
+mx: tls.dmarcian.com
+mx: ag.ap.dmarcian.com
+mx: fr.ap.dmarcian.com
+mx: tls.ap.dmarcian.com
+mx: ag.eu.dmarcian.com
+mx: fr.eu.dmarcian.com
+mx: tls.eu.dmarcian.com
+mx: ag.jp.dmarcian.com
+mx: fr.jp.dmarcian.com
+mx: tls.jp.dmarcian.com
+mx: ag.us.dmarcian.com
+mx: fr.us.dmarcian.com
+mx: tls.us.dmarcian.com
+mx: ag.dmarcian-ap.com
+mx: fr.dmarcian-ap.com
+mx: tls.dmarcian-ap.com
+mx: ag.dmarcian-eu.com
+mx: fr.dmarcian-eu.com
+mx: tls.dmarcian-eu.com
+mx: ag.dmarcian.eu
+mx: fr.dmarcian.eu
+mx: tls.dmarcian.eu
+mx: ag.lab1.lab.dmarcian.com
+mx: fr.lab1.lab.dmarcian.com
+mx: tls.lab1.lab.dmarcian.com
+mx: ag.lab2.lab.dmarcian.com
+mx: fr.lab2.lab.dmarcian.com
+mx: tls.lab2.lab.dmarcian.com
+mx: ag.lab3.lab.dmarcian.com
+mx: fr.lab3.lab.dmarcian.com
+mx: tls.lab3.lab.dmarcian.com
+mx: ag.overheidsmail.nl
+mx: fr.overheidsmail.nl
+mx: tls.overheidsmail.nl
+mx: ap-app.ap.dmarcian.com
+mx: eu-app.eu.dmarcian.com
+mx: jp-app.jp.dmarcian.com
+mx: us-app.us.dmarcian.com
+mx: ap-fr.ap.dmarcian.com
+mx: eu-fr.eu.dmarcian.com
+mx: jp-fr.jp.dmarcian.com
+mx: us-fr.us.dmarcian.com
+mx: relay1.util.dmarcian.com
+mx: relay.dmarcian.com
+max_age: 86400
+";"";"US";"86400";"testing";"mx1.smtp.goog, mx2.smtp.goog, mx3.smtp.goog, mx4.smtp.goog, ag.dmarcian.com, fr.dmarcian.com, tls.dmarcian.com, ag.ap.dmarcian.com, fr.ap.dmarcian.com, tls.ap.dmarcian.com, ag.eu.dmarcian.com, fr.eu.dmarcian.com, tls.eu.dmarcian.com, ag.jp.dmarcian.com, fr.jp.dmarcian.com, tls.jp.dmarcian.com, ag.us.dmarcian.com, fr.us.dmarcian.com, tls.us.dmarcian.com, ag.dmarcian-ap.com, fr.dmarcian-ap.com, tls.dmarcian-ap.com, ag.dmarcian-eu.com, fr.dmarcian-eu.com, tls.dmarcian-eu.com, ag.dmarcian.eu, fr.dmarcian.eu, tls.dmarcian.eu, ag.lab1.lab.dmarcian.com, fr.lab1.lab.dmarcian.com, tls.lab1.lab.dmarcian.com, ag.lab2.lab.dmarcian.com, fr.lab2.lab.dmarcian.com, tls.lab2.lab.dmarcian.com, ag.lab3.lab.dmarcian.com, fr.lab3.lab.dmarcian.com, tls.lab3.lab.dmarcian.com, ag.overheidsmail.nl, fr.overheidsmail.nl, tls.overheidsmail.nl, ap-app.ap.dmarcian.com, eu-app.eu.dmarcian.com, jp-app.jp.dmarcian.com, us-app.us.dmarcian.com, ap-fr.ap.dmarcian.com, eu-fr.eu.dmarcian.com, jp-fr.jp.dmarcian.com, us-fr.us.dmarcian.com, relay1.util.dmarcian.com, relay.dmarcian.com";"False";"False";"1,0";"0,0";"0,0";"";"YR1";"Let's Encrypt";"US";"8,0";"True";"True";"90,0";"SHA256withRSA";"RSA";"2048,0";"TLSv1.3";"TLS_AES_256_GCM_SHA384";"";"True";"v=TLSRPTv1; rua=mailto:dmcn-eu-tls-in@corp-tls-in.dmarcian.com";"";"";"1,0";"0,0";"1,0";"0,0";"0,0";"0,0";"True";"True";"True";"True";"True";"True";"True";"True";"False";"False";"False"
+"ruf.agari-eu.com";"True";"2";"mx-00.ruf.agari-eu.com, mx-01.ruf.agari-eu.com";"0";"False";"False";"True";"True";"True";"False";"False";"False";"no_starttls";"False";"False";"False";"False";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"in.mailhardener.com";"True";"2";"mx4.mailhardener.com, mx3.mailhardener.com";"0";"True";"True";"True";"True";"False";"True";"True";"True";"tls1";"False";"False";"True";"True";"True";"";"v=STSv1; id=20260616142506";"in.mailhardener.com._mta-sts.mailhardener.com";"version: STSv1
+mode: enforce
+mx: mx3.mailhardener.com
+mx: mx4.mailhardener.com
+max_age: 1209600
+";"in.mailhardener.com.mta-sts.mailhardener.com";"NL";"1209600";"enforce";"mx3.mailhardener.com, mx4.mailhardener.com";"True";"True";"0,0";"0,0";"2,0";"mx4.mailhardener.com, mx3.mailhardener.com";"YR2";"Let's Encrypt";"US";"1,0";"True";"True";"90,0";"SHA256withRSA";"RSA";"4096,0";"TLSv1.3";"TLS_AES_256_GCM_SHA384";"";"True";"v=TLSRPTv1; rua=mailto:tlsrpt@in.mailhardener.com";"in.mailhardener.com._smtp._tls.mailhardener.com";"";"1,0";"0,0";"1,0";"0,0";"0,0";"0,0";"True";"True";"True";"True";"True";"True";"True";"True";"True";"True";"True"
+"ag.eu.dmarcadvisor.com";"True";"1";"ag.eu.dmarcadvisor.com";"0";"False";"False";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"False";"False";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"True";"v=TLSRPTv1; rua=mailto:tls-reports@dmarcadvisor.com";"tls.dmarcmanager.app.eu-2o4fmqie.e1.dmarcmanager.app";"";"1,0";"0,0";"1,0";"0,0";"0,0";"0,0";"True";"True";"True";"True";"True";"";"";"True";"False";"False";"False"
+"fr.eu.dmarcadvisor.com";"True";"1";"fr.eu.dmarcadvisor.com";"0";"False";"False";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"False";"False";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"True";"v=TLSRPTv1; rua=mailto:tls-reports@dmarcadvisor.com";"tls.dmarcmanager.app.eu-2o4fmqie.e1.dmarcmanager.app";"";"1,0";"0,0";"1,0";"0,0";"0,0";"0,0";"True";"True";"True";"True";"True";"";"";"True";"False";"False";"False"
+"ag.eu.dmarcly.com";"True";"1";"ag.eu.dmarcly.com";"0";"False";"False";"True";"True";"False";"True";"True";"True";"tls1";"False";"False";"False";"False";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"5qcen8mz.uriports.com";"True";"1";"uriports.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"True";"True";"True";"True";"True";"";"";"";"True";"True";"True"
+"ipswichbc.uriports.com";"True";"1";"uriports.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"True";"True";"True";"True";"True";"";"";"";"True";"True";"True"
+"6qfg4pck.uriports.com";"True";"1";"uriports.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"True";"True";"True";"True";"True";"";"";"";"True";"True";"True"
+"4gby4br8.uriports.com";"True";"1";"uriports.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"True";"True";"True";"True";"True";"";"";"";"True";"True";"True"
+"2h3nfqhm.uriports.com";"True";"1";"uriports.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"True";"True";"True";"True";"True";"";"";"";"True";"True";"True"
+"w3r-mta.uriports.com";"True";"1";"uriports.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"True";"True";"True";"True";"True";"";"";"";"True";"True";"True"
+"sdmarc.net";"True";"1";"mail.sdmarc.net";"0";"False";"False";"True";"True";"False";"True";"True";"True";"tls1";"False";"False";"False";"False";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"True";"True";"True";"True";"True";"";"";"";"False";"False";"False"
+"allerdale.gov.uk";"True";"1";"allerdale-gov-uk.mail.protection.outlook.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"True";"";"v=STSv1; id=20240221T1015";"";"version: STSv1
+mode: enforce
+mx: allerdale-gov-uk.mail.protection.outlook.com
+max_age: 1209600";"";"GB";"1209600";"enforce";"allerdale-gov-uk.mail.protection.outlook.com";"True";"True";"0,0";"0,0";"1,0";"allerdale-gov-uk.mail.protection.outlook.com";"Entrust OV TLS Issuing RSA CA 2";"Entrust Limited";"CA";"1,0";"True";"False";"366,0";"SHA256withRSA";"RSA";"2048,0";"TLSv1.2";"TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384";"";"True";"v=TLSRPTv1;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk";"";"ReportingDomainNoMXRecods";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"False";"False";"False";"False";"False";"False"
+"uk1.smtp.az.brand.darktrace.com";"False";"0";"";"0";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";""
+"dmarc-ruf.mailcheck.service.ncsc.gov.uk";"False";"0";"";"0";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";""
+"ag.dmarcian.com";"True";"1";"ag.dmarcian.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"True";"";"v=STSv1; id=20200218v04;";"";"version: STSv1
+mode: testing
+mx: mx1.smtp.goog
+mx: mx2.smtp.goog
+mx: mx3.smtp.goog
+mx: mx4.smtp.goog
+mx: ag.dmarcian.com
+mx: fr.dmarcian.com
+mx: tls.dmarcian.com
+mx: ag.ap.dmarcian.com
+mx: fr.ap.dmarcian.com
+mx: tls.ap.dmarcian.com
+mx: ag.eu.dmarcian.com
+mx: fr.eu.dmarcian.com
+mx: tls.eu.dmarcian.com
+mx: ag.jp.dmarcian.com
+mx: fr.jp.dmarcian.com
+mx: tls.jp.dmarcian.com
+mx: ag.us.dmarcian.com
+mx: fr.us.dmarcian.com
+mx: tls.us.dmarcian.com
+mx: ag.dmarcian-ap.com
+mx: fr.dmarcian-ap.com
+mx: tls.dmarcian-ap.com
+mx: ag.dmarcian-eu.com
+mx: fr.dmarcian-eu.com
+mx: tls.dmarcian-eu.com
+mx: ag.dmarcian.eu
+mx: fr.dmarcian.eu
+mx: tls.dmarcian.eu
+mx: ag.lab1.lab.dmarcian.com
+mx: fr.lab1.lab.dmarcian.com
+mx: tls.lab1.lab.dmarcian.com
+mx: ag.lab2.lab.dmarcian.com
+mx: fr.lab2.lab.dmarcian.com
+mx: tls.lab2.lab.dmarcian.com
+mx: ag.lab3.lab.dmarcian.com
+mx: fr.lab3.lab.dmarcian.com
+mx: tls.lab3.lab.dmarcian.com
+mx: ag.overheidsmail.nl
+mx: fr.overheidsmail.nl
+mx: tls.overheidsmail.nl
+mx: ap-app.ap.dmarcian.com
+mx: eu-app.eu.dmarcian.com
+mx: jp-app.jp.dmarcian.com
+mx: us-app.us.dmarcian.com
+mx: ap-fr.ap.dmarcian.com
+mx: eu-fr.eu.dmarcian.com
+mx: jp-fr.jp.dmarcian.com
+mx: us-fr.us.dmarcian.com
+mx: relay1.util.dmarcian.com
+mx: relay.dmarcian.com
+max_age: 86400
+";"";"US";"86400";"testing";"mx1.smtp.goog, mx2.smtp.goog, mx3.smtp.goog, mx4.smtp.goog, ag.dmarcian.com, fr.dmarcian.com, tls.dmarcian.com, ag.ap.dmarcian.com, fr.ap.dmarcian.com, tls.ap.dmarcian.com, ag.eu.dmarcian.com, fr.eu.dmarcian.com, tls.eu.dmarcian.com, ag.jp.dmarcian.com, fr.jp.dmarcian.com, tls.jp.dmarcian.com, ag.us.dmarcian.com, fr.us.dmarcian.com, tls.us.dmarcian.com, ag.dmarcian-ap.com, fr.dmarcian-ap.com, tls.dmarcian-ap.com, ag.dmarcian-eu.com, fr.dmarcian-eu.com, tls.dmarcian-eu.com, ag.dmarcian.eu, fr.dmarcian.eu, tls.dmarcian.eu, ag.lab1.lab.dmarcian.com, fr.lab1.lab.dmarcian.com, tls.lab1.lab.dmarcian.com, ag.lab2.lab.dmarcian.com, fr.lab2.lab.dmarcian.com, tls.lab2.lab.dmarcian.com, ag.lab3.lab.dmarcian.com, fr.lab3.lab.dmarcian.com, tls.lab3.lab.dmarcian.com, ag.overheidsmail.nl, fr.overheidsmail.nl, tls.overheidsmail.nl, ap-app.ap.dmarcian.com, eu-app.eu.dmarcian.com, jp-app.jp.dmarcian.com, us-app.us.dmarcian.com, ap-fr.ap.dmarcian.com, eu-fr.eu.dmarcian.com, jp-fr.jp.dmarcian.com, us-fr.us.dmarcian.com, relay1.util.dmarcian.com, relay.dmarcian.com";"True";"True";"0,0";"0,0";"1,0";"ag.dmarcian.com";"YR1";"Let's Encrypt";"US";"10,0";"True";"True";"90,0";"SHA256withRSA";"RSA";"2048,0";"TLSv1.3";"TLS_AES_256_GCM_SHA384";"";"True";"v=TLSRPTv1; rua=mailto:dmcn-corp-tls-in@corp-tls-in.dmarcian.com";"";"";"1,0";"0,0";"1,0";"0,0";"0,0";"0,0";"True";"True";"True";"True";"True";"True";"True";"True";"False";"False";"False"
+"fo.eu.dmarcly.com";"True";"1";"fo.eu.dmarcly.com";"0";"False";"False";"True";"True";"False";"True";"True";"True";"tls1";"False";"False";"False";"False";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"reports.sophosdmarc.net";"True";"1";"mail.reports.sophosdmarc.net";"0";"False";"False";"True";"True";"False";"True";"True";"True";"tls1";"False";"False";"False";"False";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"btlancashire.co.uk";"True";"1";"btlancashire-co-uk.mail.protection.outlook.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"hullcc.gov.uk";"True";"1";"hullcc-gov-uk.mail.protection.outlook.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"True";"policySyntaxError";"v=STSv1; id=123456789";"";"version: STSv1
+mode: testing
+mx: hullcc-gov-uk.mail.protection.outlook.com
+max_age: 604800
+
+";"";"GB";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"True";"v=TLSRPTv1;rua=mailto:neil.cherry@hullcc.gov.uk";"";"";"1,0";"0,0";"1,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"False";"False";"False";"False";"False";"False"
+"emaildefense.proofpoint.com";"False";"1";"mail.emaildefense.proofpoint.com";"1";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";""
+"fr.dmarcian.com";"True";"1";"us-fr.us.dmarcian.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"True";"";"v=STSv1; id=20200218v04;";"";"version: STSv1
+mode: testing
+mx: mx1.smtp.goog
+mx: mx2.smtp.goog
+mx: mx3.smtp.goog
+mx: mx4.smtp.goog
+mx: ag.dmarcian.com
+mx: fr.dmarcian.com
+mx: tls.dmarcian.com
+mx: ag.ap.dmarcian.com
+mx: fr.ap.dmarcian.com
+mx: tls.ap.dmarcian.com
+mx: ag.eu.dmarcian.com
+mx: fr.eu.dmarcian.com
+mx: tls.eu.dmarcian.com
+mx: ag.jp.dmarcian.com
+mx: fr.jp.dmarcian.com
+mx: tls.jp.dmarcian.com
+mx: ag.us.dmarcian.com
+mx: fr.us.dmarcian.com
+mx: tls.us.dmarcian.com
+mx: ag.dmarcian-ap.com
+mx: fr.dmarcian-ap.com
+mx: tls.dmarcian-ap.com
+mx: ag.dmarcian-eu.com
+mx: fr.dmarcian-eu.com
+mx: tls.dmarcian-eu.com
+mx: ag.dmarcian.eu
+mx: fr.dmarcian.eu
+mx: tls.dmarcian.eu
+mx: ag.lab1.lab.dmarcian.com
+mx: fr.lab1.lab.dmarcian.com
+mx: tls.lab1.lab.dmarcian.com
+mx: ag.lab2.lab.dmarcian.com
+mx: fr.lab2.lab.dmarcian.com
+mx: tls.lab2.lab.dmarcian.com
+mx: ag.lab3.lab.dmarcian.com
+mx: fr.lab3.lab.dmarcian.com
+mx: tls.lab3.lab.dmarcian.com
+mx: ag.overheidsmail.nl
+mx: fr.overheidsmail.nl
+mx: tls.overheidsmail.nl
+mx: ap-app.ap.dmarcian.com
+mx: eu-app.eu.dmarcian.com
+mx: jp-app.jp.dmarcian.com
+mx: us-app.us.dmarcian.com
+mx: ap-fr.ap.dmarcian.com
+mx: eu-fr.eu.dmarcian.com
+mx: jp-fr.jp.dmarcian.com
+mx: us-fr.us.dmarcian.com
+mx: relay1.util.dmarcian.com
+mx: relay.dmarcian.com
+max_age: 86400
+";"";"US";"86400";"testing";"mx1.smtp.goog, mx2.smtp.goog, mx3.smtp.goog, mx4.smtp.goog, ag.dmarcian.com, fr.dmarcian.com, tls.dmarcian.com, ag.ap.dmarcian.com, fr.ap.dmarcian.com, tls.ap.dmarcian.com, ag.eu.dmarcian.com, fr.eu.dmarcian.com, tls.eu.dmarcian.com, ag.jp.dmarcian.com, fr.jp.dmarcian.com, tls.jp.dmarcian.com, ag.us.dmarcian.com, fr.us.dmarcian.com, tls.us.dmarcian.com, ag.dmarcian-ap.com, fr.dmarcian-ap.com, tls.dmarcian-ap.com, ag.dmarcian-eu.com, fr.dmarcian-eu.com, tls.dmarcian-eu.com, ag.dmarcian.eu, fr.dmarcian.eu, tls.dmarcian.eu, ag.lab1.lab.dmarcian.com, fr.lab1.lab.dmarcian.com, tls.lab1.lab.dmarcian.com, ag.lab2.lab.dmarcian.com, fr.lab2.lab.dmarcian.com, tls.lab2.lab.dmarcian.com, ag.lab3.lab.dmarcian.com, fr.lab3.lab.dmarcian.com, tls.lab3.lab.dmarcian.com, ag.overheidsmail.nl, fr.overheidsmail.nl, tls.overheidsmail.nl, ap-app.ap.dmarcian.com, eu-app.eu.dmarcian.com, jp-app.jp.dmarcian.com, us-app.us.dmarcian.com, ap-fr.ap.dmarcian.com, eu-fr.eu.dmarcian.com, jp-fr.jp.dmarcian.com, us-fr.us.dmarcian.com, relay1.util.dmarcian.com, relay.dmarcian.com";"True";"True";"0,0";"0,0";"1,0";"us-fr.us.dmarcian.com";"YR1";"Let's Encrypt";"US";"10,0";"True";"True";"90,0";"SHA256withRSA";"RSA";"2048,0";"TLSv1.3";"TLS_AES_256_GCM_SHA384";"";"True";"v=TLSRPTv1; rua=mailto:dmcn-corp-tls-in@corp-tls-in.dmarcian.com";"";"";"1,0";"0,0";"1,0";"0,0";"0,0";"0,0";"True";"True";"True";"True";"True";"True";"True";"True";"False";"False";"False"
+"nottscc.gov.uk";"True";"1";"nottscc-gov-uk.mail.protection.outlook.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"True";"policyRetrievalError";"v=STSv1; id=20220314";"";"";"";"GB";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"True";"v=TLSRPTv1;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk";"";"ReportingDomainNoMXRecods";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"False";"False";"False";"False";"False";"False"
+"bromsgrove.gov.uk";"True";"1";"mail3.redditchbc.gov.uk";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"True";"";"v=STSv1; id=20240205";"";"version: STSv1
+mode: enforce
+mx: mail3.redditchbc.gov.uk
+max_age: 1209600";"";"GB";"1209600";"enforce";"mail3.redditchbc.gov.uk";"True";"True";"0,0";"0,0";"1,0";"mail3.redditchbc.gov.uk";"Starfield Secure Certificate Authority - G2";"Starfield Technologies, Inc.";"US";"2,0";"True";"False";"365,0";"SHA256withRSA";"RSA";"2048,0";"TLSv1.2";"TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384";"";"True";"v=TLSRPTv1;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk";"";"ReportingDomainNoMXRecods";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"False";"False";"False";"False";"False";"False"
+"inbound.flowmailer.net";"True";"1";"front.flowmailer.net";"0";"True";"True";"True";"True";"False";"True";"True";"True";"tls1";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"True";"True";"True";"True";"True";"";"";"";"False";"False";"False"
+"dmarcinput.com";"True";"1";"inbound-smtp.eu-central-1.amazonaws.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"rua.easydmarc.asia";"True";"1";"inbound-smtp.ap-south-1.amazonaws.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"
+"ruf.easydmarc.asia";"True";"1";"inbound-smtp.ap-south-1.amazonaws.com";"0";"True";"True";"True";"True";"False";"False";"False";"True";"tls1_2";"False";"False";"True";"True";"False";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"False";"";"";"";"0,0";"0,0";"0,0";"0,0";"0,0";"0,0";"False";"False";"False";"False";"False";"";"";"";"False";"False";"False"

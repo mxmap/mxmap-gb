@@ -1,0 +1,2946 @@
+{
+  "generated": "2026-08-27T23:51:12.506405Z",
+  "total": 294,
+  "municipalities": [
+    {
+      "code": "01051",
+      "name": "Dithmarschen",
+      "region": "Schleswig-Holstein",
+      "website": "",
+      "emails": [
+        "dithmarschen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "01053",
+      "name": "Herzogtum Lauenburg",
+      "region": "Schleswig-Holstein",
+      "website": "",
+      "emails": [
+        "kreis-rz.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "01054",
+      "name": "Nordfriesland",
+      "region": "Schleswig-Holstein",
+      "website": "",
+      "emails": [
+        "nordfriesland.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "01055",
+      "name": "Ostholstein",
+      "region": "Schleswig-Holstein",
+      "website": "",
+      "emails": [
+        "kreis-oh.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "01056",
+      "name": "Pinneberg",
+      "region": "Schleswig-Holstein",
+      "website": "",
+      "emails": [
+        "kreis-pinneberg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "01057",
+      "name": "Plön",
+      "region": "Schleswig-Holstein",
+      "website": "",
+      "emails": [
+        "kreis-ploen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "01058",
+      "name": "Rendsburg-Eckernförde",
+      "region": "Schleswig-Holstein",
+      "website": "",
+      "emails": [
+        "kreis-rd.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "01059",
+      "name": "Schleswig-Flensburg",
+      "region": "Schleswig-Holstein",
+      "website": "",
+      "emails": [
+        "schleswig-flensburg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "01060",
+      "name": "Segeberg",
+      "region": "Schleswig-Holstein",
+      "website": "",
+      "emails": [
+        "segeberg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "01061",
+      "name": "Steinburg",
+      "region": "Schleswig-Holstein",
+      "website": "",
+      "emails": [
+        "steinburg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "01062",
+      "name": "Stormarn",
+      "region": "Schleswig-Holstein",
+      "website": "",
+      "emails": [
+        "kreis-stormarn.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03151",
+      "name": "Gifhorn",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "landkreis-gifhorn.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03153",
+      "name": "Goslar",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "landkreis-goslar.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03154",
+      "name": "Helmstedt",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "landkreis-helmstedt.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03155",
+      "name": "Northeim",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "landkreis-northeim.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03157",
+      "name": "Peine",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "landkreis-peine.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03158",
+      "name": "Wolfenbüttel",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "lk-wf.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03159",
+      "name": "Göttingen",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "landkreisgoettingen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03241",
+      "name": "Region Hannover",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "region-hannover.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03251",
+      "name": "Diepholz",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "diepholz.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03252",
+      "name": "Hameln-Pyrmont",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "hameln-pyrmont.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03254",
+      "name": "Hildesheim",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "landkreishildesheim.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03255",
+      "name": "Holzminden",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "landkreis-holzminden.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03256",
+      "name": "Nienburg (Weser)",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "kreis-ni.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03257",
+      "name": "Schaumburg",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "landkreis-schaumburg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03351",
+      "name": "Celle",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "lkcelle.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03352",
+      "name": "Cuxhaven",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "landkreis-cuxhaven.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03353",
+      "name": "Harburg",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "lkharburg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03354",
+      "name": "Lüchow-Dannenberg",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "luechow-dannenberg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03355",
+      "name": "Lüneburg",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "landkreis.lueneburg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03356",
+      "name": "Osterholz",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "landkreis-osterholz.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03357",
+      "name": "Rotenburg (Wümme)",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "lk-row.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03358",
+      "name": "Heidekreis",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "heidekreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03359",
+      "name": "Stade",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "landkreis-stade.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03360",
+      "name": "Uelzen",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "landkreis-uelzen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03361",
+      "name": "Verden",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "landkreis-verden.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03451",
+      "name": "Ammerland",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "ammerland.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03452",
+      "name": "Aurich",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "landkreis-aurich.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03453",
+      "name": "Cloppenburg",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "lkclp.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03454",
+      "name": "Emsland",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "emsland.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03455",
+      "name": "Friesland",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "friesland.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03456",
+      "name": "Grafschaft Bentheim",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "grafschaft.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03457",
+      "name": "Leer",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "lkleer.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03458",
+      "name": "Oldenburg",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "oldenburg-kreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03459",
+      "name": "Osnabrück",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "landkreis-osnabrueck.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03460",
+      "name": "Vechta",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "landkreis-vechta.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03461",
+      "name": "Wesermarsch",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "wesermarsch.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "03462",
+      "name": "Wittmund",
+      "region": "Niedersachsen",
+      "website": "",
+      "emails": [
+        "lk.wittmund.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05154",
+      "name": "Kleve",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-kleve.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05158",
+      "name": "Mettmann",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-mettmann.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05162",
+      "name": "Rhein-Kreis Neuss",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "rhein-kreis-neuss.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05166",
+      "name": "Viersen",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-viersen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05170",
+      "name": "Wesel",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-wesel.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05334",
+      "name": "Städteregion Aachen",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "staedteregion-aachen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05358",
+      "name": "Düren",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-dueren.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05362",
+      "name": "Rhein-Erft-Kreis",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "rhein-erft-kreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05366",
+      "name": "Euskirchen",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-euskirchen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05370",
+      "name": "Heinsberg",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-heinsberg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05374",
+      "name": "Oberbergischer Kreis",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "obk.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05378",
+      "name": "Rheinisch-Bergischer Kreis",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "rbk-online.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05382",
+      "name": "Rhein-Sieg-Kreis",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "rhein-sieg-kreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05554",
+      "name": "Borken",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-borken.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05558",
+      "name": "Coesfeld",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-coesfeld.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05562",
+      "name": "Recklinghausen",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-re.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05566",
+      "name": "Steinfurt",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-steinfurt.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05570",
+      "name": "Warendorf",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-warendorf.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05754",
+      "name": "Gütersloh",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "gt-net.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05758",
+      "name": "Herford",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-herford.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05762",
+      "name": "Höxter",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-hoexter.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05766",
+      "name": "Lippe",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-lippe.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05770",
+      "name": "Minden-Lübbecke",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "minden-luebbecke.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05774",
+      "name": "Paderborn",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-paderborn.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05954",
+      "name": "Ennepe-Ruhr-Kreis",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "en-kreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05958",
+      "name": "Hochsauerlandkreis",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "hochsauerlandkreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05962",
+      "name": "Märkischer Kreis",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "maerkischer-kreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05966",
+      "name": "Olpe",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-olpe.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05970",
+      "name": "Siegen-Wittgenstein",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "siegen-wittgenstein.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05974",
+      "name": "Soest",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-soest.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "05978",
+      "name": "Unna",
+      "region": "Nordrhein-Westfalen",
+      "website": "",
+      "emails": [
+        "kreis-unna.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06431",
+      "name": "Bergstraße",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "kreis-bergstrasse.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06432",
+      "name": "Darmstadt-Dieburg",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "ladadi.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06433",
+      "name": "Groß-Gerau",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "kreisgg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06434",
+      "name": "Hochtaunuskreis",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "hochtaunuskreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06435",
+      "name": "Main-Kinzig-Kreis",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "mkk.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06436",
+      "name": "Main-Taunus-Kreis",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "mtk.org"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06437",
+      "name": "Odenwaldkreis",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "odenwaldkreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06438",
+      "name": "Offenbach",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "kreis-offenbach.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06439",
+      "name": "Rheingau-Taunus-Kreis",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "rheingau-taunus.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06440",
+      "name": "Wetteraukreis",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "wetteraukreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06531",
+      "name": "Gießen",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "lkgi.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06532",
+      "name": "Lahn-Dill-Kreis",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "lahn-dill-kreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06533",
+      "name": "Limburg-Weilburg",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "limburg-weilburg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06534",
+      "name": "Marburg-Biedenkopf",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "marburg-biedenkopf.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06535",
+      "name": "Vogelsbergkreis",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "vogelsbergkreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06631",
+      "name": "Fulda",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "landkreis-fulda.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06632",
+      "name": "Hersfeld-Rotenburg",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "hef-rof.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06633",
+      "name": "Kassel",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "landkreiskassel.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06634",
+      "name": "Schwalm-Eder-Kreis",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "schwalm-eder-kreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06635",
+      "name": "Waldeck-Frankenberg",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "lkwafkb.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "06636",
+      "name": "Werra-Meißner-Kreis",
+      "region": "Hessen",
+      "website": "",
+      "emails": [
+        "werra-meissner-kreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07131",
+      "name": "Ahrweiler",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "kreis-ahrweiler.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07132",
+      "name": "Altenkirchen (Westerwald)",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "kreis-ak.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07133",
+      "name": "Bad Kreuznach",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "kreis-badkreuznach.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07134",
+      "name": "Birkenfeld",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "landkreis-birkenfeld.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07135",
+      "name": "Cochem-Zell",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "cochem-zell.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07137",
+      "name": "Mayen-Koblenz",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "kvmyk.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07138",
+      "name": "Neuwied",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "kreis-neuwied.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07140",
+      "name": "Rhein-Hunsrück-Kreis",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "rheinhunsrueck.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07141",
+      "name": "Rhein-Lahn-Kreis",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "rhein-lahn.rlp.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07143",
+      "name": "Westerwaldkreis",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "westerwaldkreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07231",
+      "name": "Bernkastel-Wittlich",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "bernkastel-wittlich.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07232",
+      "name": "Eifelkreis Bitburg-Prüm",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "bitburg-pruem.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07233",
+      "name": "Vulkaneifel",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "vulkaneifel.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07235",
+      "name": "Trier-Saarburg",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "trier-saarburg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07331",
+      "name": "Alzey-Worms",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "alzey-worms.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07332",
+      "name": "Bad Dürkheim",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "kreis-bad-duerkheim.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07333",
+      "name": "Donnersbergkreis",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "donnersberg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07334",
+      "name": "Germersheim",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "kreis-germersheim.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07335",
+      "name": "Kaiserslautern",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "kaiserslautern-kreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07336",
+      "name": "Kusel",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "kv-kus.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07337",
+      "name": "Südliche Weinstraße",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "suedliche-weinstrasse.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07338",
+      "name": "Rhein-Pfalz-Kreis",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "rheinpfalzkreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07339",
+      "name": "Mainz-Bingen",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "mainz-bingen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "07340",
+      "name": "Südwestpfalz",
+      "region": "Rheinland-Pfalz",
+      "website": "",
+      "emails": [
+        "lksuedwestpfalz.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08115",
+      "name": "Böblingen",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "lrabb.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08116",
+      "name": "Esslingen",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "lra-es.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08117",
+      "name": "Göppingen",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "lkgp.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08118",
+      "name": "Ludwigsburg",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "landkreis-ludwigsburg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08119",
+      "name": "Rems-Murr-Kreis",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "rems-murr-kreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08125",
+      "name": "Heilbronn",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "landratsamt-heilbronn.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08126",
+      "name": "Hohenlohekreis",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "hohenlohekreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08127",
+      "name": "Schwäbisch Hall",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "lrasha.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08128",
+      "name": "Main-Tauber-Kreis",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "main-tauber-kreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08135",
+      "name": "Heidenheim",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "landkreis-heidenheim.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08136",
+      "name": "Ostalbkreis",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "ostalbkreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08215",
+      "name": "Karlsruhe",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "landratsamt-karlsruhe.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08216",
+      "name": "Rastatt",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "landkreis-rastatt.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08225",
+      "name": "Neckar-Odenwald-Kreis",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "neckar-odenwald-kreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08226",
+      "name": "Rhein-Neckar-Kreis",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "rhein-neckar-kreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08235",
+      "name": "Calw",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "kreis-calw.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08236",
+      "name": "Enzkreis",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "enzkreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08237",
+      "name": "Freudenstadt",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "kreis-fds.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08315",
+      "name": "Breisgau-Hochschwarzwald",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "lkbh.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08316",
+      "name": "Emmendingen",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "landkreis-emmendingen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08317",
+      "name": "Ortenaukreis",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "ortenaukreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08325",
+      "name": "Rottweil",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "landkreis-rottweil.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08326",
+      "name": "Schwarzwald-Baar-Kreis",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "lrasbk.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08327",
+      "name": "Tuttlingen",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "landkreis-tuttlingen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08335",
+      "name": "Konstanz",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "lrakn.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08336",
+      "name": "Lörrach",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "loerrach-landkreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08337",
+      "name": "Waldshut",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "landkreis-waldshut.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08415",
+      "name": "Reutlingen",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "kreis-reutlingen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08416",
+      "name": "Tübingen",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "kreis-tuebingen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08417",
+      "name": "Zollernalbkreis",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "zollernalbkreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08425",
+      "name": "Alb-Donau-Kreis",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "alb-donau-kreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08426",
+      "name": "Biberach",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "biberach.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08435",
+      "name": "Bodenseekreis",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "bodenseekreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08436",
+      "name": "Ravensburg",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "rv.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "08437",
+      "name": "Sigmaringen",
+      "region": "Baden-Württemberg",
+      "website": "",
+      "emails": [
+        "lrasig.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09171",
+      "name": "Altötting",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-aoe.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09172",
+      "name": "Berchtesgadener Land",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-bgl.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09173",
+      "name": "Bad Tölz-Wolfratshausen",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-toelz.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09174",
+      "name": "Dachau",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-dah.bayern.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09175",
+      "name": "Ebersberg",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-ebe.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09176",
+      "name": "Eichstätt",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-ei.bayern.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09177",
+      "name": "Erding",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-ed.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09178",
+      "name": "Freising",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "kreis-fs.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09179",
+      "name": "Fürstenfeldbruck",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-ffb.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09180",
+      "name": "Garmisch-Partenkirchen",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-gap.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09181",
+      "name": "Landsberg am Lech",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-ll.bayern.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09182",
+      "name": "Miesbach",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-mb.bayern.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09183",
+      "name": "Mühldorf a.Inn",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-mue.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09184",
+      "name": "München",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-m.bayern.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09185",
+      "name": "Neuburg-Schrobenhausen",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "neuburg-schrobenhausen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09186",
+      "name": "Pfaffenhofen a.d.Ilm",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landratsamt-paf.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09187",
+      "name": "Rosenheim",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-rosenheim.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09188",
+      "name": "Starnberg",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-starnberg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09189",
+      "name": "Traunstein",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "traunstein.bayern"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09190",
+      "name": "Weilheim-Schongau",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-wm.bayern.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09271",
+      "name": "Deggendorf",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-deg.bayern.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09272",
+      "name": "Freyung-Grafenau",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landkreis-frg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09273",
+      "name": "Kelheim",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landkreis-kelheim.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09274",
+      "name": "Landshut",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landkreis-landshut.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09275",
+      "name": "Passau",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landkreis-passau.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09276",
+      "name": "Regen",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra.landkreis-regen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09277",
+      "name": "Rottal-Inn",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "rottal-inn.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09278",
+      "name": "Straubing-Bogen",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landkreis-straubing-bogen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09279",
+      "name": "Dingolfing-Landau",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landkreis-dingolfing-landau.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09371",
+      "name": "Amberg-Sulzbach",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "amberg-sulzbach.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09372",
+      "name": "Cham",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra.landkreis-cham.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09373",
+      "name": "Neumarkt i.d.OPf.",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landkreis-neumarkt.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09374",
+      "name": "Neustadt a.d.Waldnaab",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "kreis-nea.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09375",
+      "name": "Regensburg",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landratsamt-regensburg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09376",
+      "name": "Schwandorf",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landkreis-schwandorf.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09377",
+      "name": "Tirschenreuth",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "tirschenreuth.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09471",
+      "name": "Bamberg",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-ba.bayern.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09472",
+      "name": "Bayreuth",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-bt.bayern.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09473",
+      "name": "Coburg",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landkreis-coburg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09474",
+      "name": "Forchheim",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-fo.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09475",
+      "name": "Hof",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landkreis-hof.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09476",
+      "name": "Kronach",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-kc.bayern.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09477",
+      "name": "Kulmbach",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landkreis-kulmbach.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09478",
+      "name": "Lichtenfels",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landkreis-lichtenfels.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09479",
+      "name": "Wunsiedel i.Fichtelgebirge",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landkreis-wunsiedel.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09571",
+      "name": "Ansbach",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landratsamt-ansbach.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09572",
+      "name": "Erlangen-Höchstadt",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "erlangen-hoechstadt.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09573",
+      "name": "Fürth",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-fue.bayern.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09574",
+      "name": "Nürnberger Land",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "nuernberger-land.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09575",
+      "name": "Neustadt a.d.Aisch-Bad Windsheim",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "kreis-nea.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09576",
+      "name": "Roth",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landratsamt-roth.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09577",
+      "name": "Weißenburg-Gunzenhausen",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landkreis-wug.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09671",
+      "name": "Aschaffenburg",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-ab.bayern.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09672",
+      "name": "Bad Kissingen",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "kg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09673",
+      "name": "Rhön-Grabfeld",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "rhoen-grabfeld.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09674",
+      "name": "Haßberge",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landratsamt-hassberge.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09675",
+      "name": "Kitzingen",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "kitzingen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09676",
+      "name": "Miltenberg",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-mil.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09677",
+      "name": "Main-Spessart",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lramsp.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09678",
+      "name": "Schweinfurt",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lrasw.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09679",
+      "name": "Würzburg",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-wue.bayern.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09771",
+      "name": "Aichach-Friedberg",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-aic-fdb.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09772",
+      "name": "Augsburg",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-a.bayern.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09773",
+      "name": "Dillingen a.d.Donau",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landratsamt.dillingen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09774",
+      "name": "Günzburg",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landkreis-guenzburg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09775",
+      "name": "Neu-Ulm",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landkreis-nu.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09776",
+      "name": "Lindau (Bodensee)",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "landkreis-lindau.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09777",
+      "name": "Ostallgäu",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-oal.bayern.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09778",
+      "name": "Unterallgäu",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra.unterallgaeu.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09779",
+      "name": "Donau-Ries",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-donau-ries.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "09780",
+      "name": "Oberallgäu",
+      "region": "Bayern",
+      "website": "",
+      "emails": [
+        "lra-oa.bayern.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "10041",
+      "name": "Regionalverband Saarbrücken",
+      "region": "Saarland",
+      "website": "",
+      "emails": [
+        "rvsbr.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "10042",
+      "name": "Merzig-Wadern",
+      "region": "Saarland",
+      "website": "",
+      "emails": [
+        "merzig-wadern.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "10043",
+      "name": "Neunkirchen",
+      "region": "Saarland",
+      "website": "",
+      "emails": [
+        "landkreis-neunkirchen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "10044",
+      "name": "Saarlouis",
+      "region": "Saarland",
+      "website": "",
+      "emails": [
+        "kreis-saarlouis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "10045",
+      "name": "Saarpfalz-Kreis",
+      "region": "Saarland",
+      "website": "",
+      "emails": [
+        "saarpfalz-kreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "10046",
+      "name": "St. Wendel",
+      "region": "Saarland",
+      "website": "",
+      "emails": [
+        "lkwnd.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "12060",
+      "name": "Barnim",
+      "region": "Brandenburg",
+      "website": "",
+      "emails": [
+        "kvbarnim.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "12061",
+      "name": "Dahme-Spreewald",
+      "region": "Brandenburg",
+      "website": "",
+      "emails": [
+        "dahme-spreewald.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "12062",
+      "name": "Elbe-Elster",
+      "region": "Brandenburg",
+      "website": "",
+      "emails": [
+        "lkee.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "12063",
+      "name": "Havelland",
+      "region": "Brandenburg",
+      "website": "",
+      "emails": [
+        "havelland.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "12064",
+      "name": "Märkisch-Oderland",
+      "region": "Brandenburg",
+      "website": "",
+      "emails": [
+        "landkreismol.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "12065",
+      "name": "Oberhavel",
+      "region": "Brandenburg",
+      "website": "",
+      "emails": [
+        "oberhavel.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "12066",
+      "name": "Oberspreewald-Lausitz",
+      "region": "Brandenburg",
+      "website": "",
+      "emails": [
+        "osl-online.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "12067",
+      "name": "Oder-Spree",
+      "region": "Brandenburg",
+      "website": "",
+      "emails": [
+        "l-os.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "12068",
+      "name": "Ostprignitz-Ruppin",
+      "region": "Brandenburg",
+      "website": "",
+      "emails": [
+        "opr.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "12069",
+      "name": "Potsdam-Mittelmark",
+      "region": "Brandenburg",
+      "website": "",
+      "emails": [
+        "potsdam-mittelmark.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "12070",
+      "name": "Prignitz",
+      "region": "Brandenburg",
+      "website": "",
+      "emails": [
+        "lkprignitz.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "12071",
+      "name": "Spree-Neiße",
+      "region": "Brandenburg",
+      "website": "",
+      "emails": [
+        "lkspn.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "12072",
+      "name": "Teltow-Fläming",
+      "region": "Brandenburg",
+      "website": "",
+      "emails": [
+        "teltow-flaeming.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "12073",
+      "name": "Uckermark",
+      "region": "Brandenburg",
+      "website": "",
+      "emails": [
+        "uckermark.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "13071",
+      "name": "Mecklenburgische Seenplatte",
+      "region": "Mecklenburg-Vorpommern",
+      "website": "",
+      "emails": [
+        "lk-seenplatte.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "13072",
+      "name": "Landkreis Rostock",
+      "region": "Mecklenburg-Vorpommern",
+      "website": "",
+      "emails": [
+        "lkros.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "13073",
+      "name": "Vorpommern-Rügen",
+      "region": "Mecklenburg-Vorpommern",
+      "website": "",
+      "emails": [
+        "lk-vr.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "13074",
+      "name": "Nordwestmecklenburg",
+      "region": "Mecklenburg-Vorpommern",
+      "website": "",
+      "emails": [
+        "nordwestmecklenburg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "13075",
+      "name": "Vorpommern-Greifswald",
+      "region": "Mecklenburg-Vorpommern",
+      "website": "",
+      "emails": [
+        "kreis-vg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "13076",
+      "name": "Ludwigslust-Parchim",
+      "region": "Mecklenburg-Vorpommern",
+      "website": "",
+      "emails": [
+        "kreis-lup.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "14521",
+      "name": "Erzgebirgskreis",
+      "region": "Sachsen",
+      "website": "",
+      "emails": [
+        "kreis-erz.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "14522",
+      "name": "Mittelsachsen",
+      "region": "Sachsen",
+      "website": "",
+      "emails": [
+        "landkreis-mittelsachsen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "14523",
+      "name": "Vogtlandkreis",
+      "region": "Sachsen",
+      "website": "",
+      "emails": [
+        "vogtlandkreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "14524",
+      "name": "Zwickau",
+      "region": "Sachsen",
+      "website": "",
+      "emails": [
+        "landkreis-zwickau.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "14625",
+      "name": "Bautzen",
+      "region": "Sachsen",
+      "website": "",
+      "emails": [
+        "lra-bautzen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "14626",
+      "name": "Görlitz",
+      "region": "Sachsen",
+      "website": "",
+      "emails": [
+        "kreis-gr.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "14627",
+      "name": "Meißen",
+      "region": "Sachsen",
+      "website": "",
+      "emails": [
+        "kreis-meissen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "14628",
+      "name": "Sächsische Schweiz-Osterzgebirge",
+      "region": "Sachsen",
+      "website": "",
+      "emails": [
+        "landratsamt-pirna.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "14729",
+      "name": "Leipzig",
+      "region": "Sachsen",
+      "website": "",
+      "emails": [
+        "lk-l.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "14730",
+      "name": "Nordsachsen",
+      "region": "Sachsen",
+      "website": "",
+      "emails": [
+        "lra-nordsachsen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "15081",
+      "name": "Altmarkkreis Salzwedel",
+      "region": "Sachsen-Anhalt",
+      "website": "",
+      "emails": [
+        "altmarkkreis-salzwedel.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "15082",
+      "name": "Anhalt-Bitterfeld",
+      "region": "Sachsen-Anhalt",
+      "website": "",
+      "emails": [
+        "anhalt-bitterfeld.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "15083",
+      "name": "Börde",
+      "region": "Sachsen-Anhalt",
+      "website": "",
+      "emails": [
+        "landkreis-boerde.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "15084",
+      "name": "Burgenlandkreis",
+      "region": "Sachsen-Anhalt",
+      "website": "",
+      "emails": [
+        "blk.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "15085",
+      "name": "Harz",
+      "region": "Sachsen-Anhalt",
+      "website": "",
+      "emails": [
+        "kreis-hz.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "15086",
+      "name": "Jerichower Land",
+      "region": "Sachsen-Anhalt",
+      "website": "",
+      "emails": [
+        "lkjl.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "15087",
+      "name": "Mansfeld-Südharz",
+      "region": "Sachsen-Anhalt",
+      "website": "",
+      "emails": [
+        "lkmsh.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "15088",
+      "name": "Saalekreis",
+      "region": "Sachsen-Anhalt",
+      "website": "",
+      "emails": [
+        "saalekreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "15089",
+      "name": "Salzlandkreis",
+      "region": "Sachsen-Anhalt",
+      "website": "",
+      "emails": [
+        "kreis-slk.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "15090",
+      "name": "Stendal",
+      "region": "Sachsen-Anhalt",
+      "website": "",
+      "emails": [
+        "landkreis-stendal.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "15091",
+      "name": "Wittenberg",
+      "region": "Sachsen-Anhalt",
+      "website": "",
+      "emails": [
+        "landkreis-wittenberg.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "16061",
+      "name": "Eichsfeld",
+      "region": "Thüringen",
+      "website": "",
+      "emails": [
+        "kreis-eic.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "16062",
+      "name": "Nordhausen",
+      "region": "Thüringen",
+      "website": "",
+      "emails": [
+        "lrandh.thueringen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "16063",
+      "name": "Wartburgkreis",
+      "region": "Thüringen",
+      "website": "",
+      "emails": [
+        "wartburgkreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "16064",
+      "name": "Unstrut-Hainich-Kreis",
+      "region": "Thüringen",
+      "website": "",
+      "emails": [
+        "uh-kreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "16065",
+      "name": "Kyffhäuserkreis",
+      "region": "Thüringen",
+      "website": "",
+      "emails": [
+        "kyffhaeuser.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "16066",
+      "name": "Schmalkalden-Meiningen",
+      "region": "Thüringen",
+      "website": "",
+      "emails": [
+        "lra-sm.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "16067",
+      "name": "Gotha",
+      "region": "Thüringen",
+      "website": "",
+      "emails": [
+        "kreis-gth.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "16068",
+      "name": "Sömmerda",
+      "region": "Thüringen",
+      "website": "",
+      "emails": [
+        "lra-soemmerda.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "16069",
+      "name": "Hildburghausen",
+      "region": "Thüringen",
+      "website": "",
+      "emails": [
+        "lrahbn.thueringen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "16070",
+      "name": "Ilm-Kreis",
+      "region": "Thüringen",
+      "website": "",
+      "emails": [
+        "ilm-kreis.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "16071",
+      "name": "Weimarer Land",
+      "region": "Thüringen",
+      "website": "",
+      "emails": [
+        "weimarerland.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "16072",
+      "name": "Sonneberg",
+      "region": "Thüringen",
+      "website": "",
+      "emails": [
+        "lkson.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "16073",
+      "name": "Saalfeld-Rudolstadt",
+      "region": "Thüringen",
+      "website": "",
+      "emails": [
+        "kreis-slf.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "16074",
+      "name": "Saale-Holzland-Kreis",
+      "region": "Thüringen",
+      "website": "",
+      "emails": [
+        "lrashk.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "16075",
+      "name": "Saale-Orla-Kreis",
+      "region": "Thüringen",
+      "website": "",
+      "emails": [
+        "lrasok.thueringen.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "16076",
+      "name": "Greiz",
+      "region": "Thüringen",
+      "website": "",
+      "emails": [
+        "landkreis-greiz.de"
+      ],
+      "tier_id": "Landkreis"
+    },
+    {
+      "code": "16077",
+      "name": "Altenburger Land",
+      "region": "Thüringen",
+      "website": "",
+      "emails": [
+        "altenburgerland.de"
+      ],
+      "tier_id": "Landkreis"
+    }
+  ]
+}

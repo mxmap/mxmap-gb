@@ -1,0 +1,257 @@
+{
+  "scanTime": "2026-10-06T22:13:24.871351714Z",
+  "mtaStsPolicyResult": [
+  ],
+  "mtaStsDnsRecordResult": [
+    {
+        "domain": "goellheim.de",
+        "hasRecord": false,
+        "rawRecord": null,
+        "lastCname": null,
+        "errorType": null,
+        "hasADFlag": null
+    }
+  ],
+  "tlsCertTest": [
+    {
+        "domain": "mcno-bbg-05.internet1.de",
+        "ip": null,
+        "tlsServerCertificateInfo": {
+            "issuerCommonName": "Sectigo Public Server Authentication CA DV R36",
+            "issuerOrganisationName": "Sectigo Limited",
+            "issuerCountry": "GB",
+            "subjectCommonName": "*.internet1.de",
+            "sanList": [
+                "*.internet1.de",
+                "internet1.de"
+            ],
+            "sanDnsMatch": true,
+            "sanStrictIdentifierMatch": false,
+            "validFrom": "2025-09-29T00:00:00Z",
+            "validUntil": "2026-10-30T23:59:59Z",
+            "validPeriod": 397,
+            "signatureAlgorithm": "SHA256withRSA",
+            "publicKeyAlgorithm": "RSA",
+            "publicKeyLength": 2048
+        },
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "errorType": null
+    }
+  ],
+  "dkimResult": [
+    {
+        "domain": "goellheim.de",
+        "result": "NoDKIM",
+        "domainKeyDomain": "NXDOMAIN",
+        "otherDomain": null
+    }
+  ],
+  "daneCheckResult": [
+    {
+        "host": "mcno-bbg-05.internet1.de",
+        "exitCode": 2,
+        "consoleLog": "Host: mcno-bbg-05.internet1.de Port: 25\nSNI: mcno-bbg-05.internet1.de\nSTARTTLS application: smtp\nNo DANE TLSA records found.\n"
+    }
+  ],
+  "dnssecDomain": [
+    {
+        "domain": "goellheim.de",
+        "resolver": "unbound",
+        "type": "MX",
+        "validAnswer": true,
+        "hasADFlag": false,
+        "hasADFlagPubResolver": false,
+        "RCODE": "NOERROR",
+        "errorLog": null
+    }
+  ],
+  "testSSLResult": [
+    {
+        "host": "mcno-bbg-05.internet1.de",
+        "exitCode": 0,
+        "consoleLog": "PROTOS_OFFERED: tls1:yes tls1_1:yes tls1_2:yes"
+    }
+  ],
+  "scanData": [
+    {
+        "domain": "goellheim.de",
+        "mxRecord": "mcno-bbg-05.internet1.de",
+        "ipAddress": "158.181.48.182",
+        "adFlagForMx": false,
+        "adFlagForA": false,
+        "ipCountryCode": "DE"
+    }
+  ],
+  "dnssecMX": [
+    {
+        "domain": "mcno-bbg-05.internet1.de",
+        "resolver": "unbound",
+        "type": "A",
+        "validAnswer": true,
+        "hasADFlag": false,
+        "hasADFlagPubResolver": false,
+        "RCODE": "NOERROR",
+        "errorLog": null
+    }
+  ],
+  "tlsRptDnsRecordResult": [
+    {
+        "domain": "goellheim.de",
+        "hasDnsRecord": false,
+        "rawRecord": null,
+        "lastCname": null,
+        "errorType": null,
+        "adressList": null,
+        "hasADFlag": null
+    }
+  ],
+  "tls12Test": [
+    {
+        "domain": "mcno-bbg-05.internet1.de",
+        "resultList": {
+            "Recommended_ECDSA_GCM_P-256": {
+                "domain": "mcno-bbg-05.internet1.de",
+                "cipherSuite": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+                "groupName": "secp256r1",
+                "valid": false,
+                "errorMessage": "TlsFatalAlertReceived: handshake_failure(40)",
+                "keyAlgorithm": null,
+                "keyLength": null,
+                "sigAlgorithm": null,
+                "tlsData": {
+                    "domain": "mcno-bbg-05.internet1.de",
+                    "ip": null,
+                    "tlsServerCertificateInfo": null,
+                    "tlsVersion": null,
+                    "cipherSuite": null,
+                    "errorType": "TlsFatalAlertReceived: handshake_failure(40)"
+                }
+            },
+            "Recommended_RSA_GCM_P-256": {
+                "domain": "mcno-bbg-05.internet1.de",
+                "cipherSuite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+                "groupName": "secp256r1",
+                "valid": false,
+                "errorMessage": "TooShortRSAKey",
+                "keyAlgorithm": "RSA",
+                "keyLength": 2048,
+                "sigAlgorithm": "SHA256withRSA",
+                "tlsData": {
+                    "domain": "mcno-bbg-05.internet1.de",
+                    "ip": null,
+                    "tlsServerCertificateInfo": {
+                        "issuerCommonName": "Sectigo Public Server Authentication CA DV R36",
+                        "issuerOrganisationName": "Sectigo Limited",
+                        "issuerCountry": "GB",
+                        "subjectCommonName": "*.internet1.de",
+                        "sanList": [
+                            "*.internet1.de",
+                            "internet1.de"
+                        ],
+                        "sanDnsMatch": true,
+                        "sanStrictIdentifierMatch": false,
+                        "validFrom": "2025-09-29T00:00:00Z",
+                        "validUntil": "2026-10-30T23:59:59Z",
+                        "validPeriod": 397,
+                        "signatureAlgorithm": "SHA256withRSA",
+                        "publicKeyAlgorithm": "RSA",
+                        "publicKeyLength": 2048
+                    },
+                    "tlsVersion": "TLSv1.2",
+                    "cipherSuite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+                    "errorType": null
+                }
+            },
+            "Recommended_ECDSA_GCM_Brainpool": {
+                "domain": "mcno-bbg-05.internet1.de",
+                "cipherSuite": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+                "groupName": "brainpoolP256r1",
+                "valid": false,
+                "errorMessage": "TlsFatalAlertReceived: handshake_failure(40)",
+                "keyAlgorithm": null,
+                "keyLength": null,
+                "sigAlgorithm": null,
+                "tlsData": {
+                    "domain": "mcno-bbg-05.internet1.de",
+                    "ip": null,
+                    "tlsServerCertificateInfo": null,
+                    "tlsVersion": null,
+                    "cipherSuite": null,
+                    "errorType": "TlsFatalAlertReceived: handshake_failure(40)"
+                }
+            },
+            "Recommended_RSA_GCM_Brainpool": {
+                "domain": "mcno-bbg-05.internet1.de",
+                "cipherSuite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+                "groupName": "brainpoolP256r1",
+                "valid": false,
+                "errorMessage": "TlsFatalAlertReceived: handshake_failure(40)",
+                "keyAlgorithm": null,
+                "keyLength": null,
+                "sigAlgorithm": null,
+                "tlsData": {
+                    "domain": "mcno-bbg-05.internet1.de",
+                    "ip": null,
+                    "tlsServerCertificateInfo": null,
+                    "tlsVersion": null,
+                    "cipherSuite": null,
+                    "errorType": "TlsFatalAlertReceived: handshake_failure(40)"
+                }
+            }
+        }
+    }
+  ],
+  "spfResult": [
+    {
+        "domain": "goellheim.de",
+        "spf_General_Data": {
+            "valid": false,
+            "record": "v=spf1 a mx ipv4:109.75.223.208 include:_spf.internet1.de -all",
+            "errorType": "goellheim.de: ipv4 is not a valid SPF mechanism or modifier",
+            "warnings": [
+            ],
+            "lengthWarning": false,
+            "oldSPFRecordWarning": false,
+            "dnsLookups": null,
+            "voidDnsLookups": null,
+            "allQualifier": null,
+            "mCount": {
+                "a": 0,
+                "mx": 0,
+                "ptr": 0,
+                "ip4": 0,
+                "ip6": 0,
+                "include": 0,
+                "exists": 0
+            },
+            "redirectCount": 0
+        },
+        "includeData": [
+        ],
+        "redirectData": [
+        ]
+    }
+  ],
+  "dmarcResult": [
+    {
+        "domain": "goellheim.de",
+        "generalDMARCData": {
+            "hasPolicy": false,
+            "hasADFlag": null,
+            "errorType": null,
+            "errorMessage": null,
+            "rawPolicyOld": null,
+            "oldOrgDomain": null,
+            "policyLocationDomain": null,
+            "policyLocation": null,
+            "cnameRecord": null,
+            "policyMode": null,
+            "newOrgDomain": null,
+            "newRawDMARCPolicy": null
+        },
+        "policyTags": null,
+        "reportDomains": null
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+output/security/*.json filter=lfs diff=lfs merge=lfs -text
+output/security/*.log filter=lfs diff=lfs merge=lfs -text
+output/security/*.json !text !filter !merge !diff
+output/security/*.log !text !filter !merge !diff

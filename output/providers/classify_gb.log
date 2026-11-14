@@ -1,0 +1,1215 @@
+2026-08-24 18:04:22 | DEBUG   | logging:callHandlers:1741 | Using selector: EpollSelector
+2026-08-24 18:04:22 | INFO    | mail_municipalities.provider_classification.runner:run:201 | Classifying 382 municipalities
+2026-08-24 18:04:22 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:22 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(hartlepool.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=18
+2026-08-24 18:04:22 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [   1/382] hartlepool.gov.uk: provider=ms365 confidence=1.00 signals=18
+2026-08-24 18:04:23 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:23 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(middlesbrough.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=23
+2026-08-24 18:04:23 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [   2/382] middlesbrough.gov.uk: provider=ms365 confidence=1.00 signals=23
+2026-08-24 18:04:23 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:23 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(redcar-cleveland.gov.uk): provider=ms365 confidence=0.98 rule=mx_spf signals=20
+2026-08-24 18:04:23 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [   3/382] redcar-cleveland.gov.uk: provider=ms365 confidence=0.98 signals=20
+2026-08-24 18:04:24 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:24 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(stockton.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=18
+2026-08-24 18:04:24 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [   4/382] stockton.gov.uk: provider=ms365 confidence=1.00 signals=18
+2026-08-24 18:04:24 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:24 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(darlington.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=16
+2026-08-24 18:04:24 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [   5/382] darlington.gov.uk: provider=ms365 confidence=1.00 signals=16
+2026-08-24 18:04:25 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:25 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(halton.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:04:25 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [   6/382] halton.gov.uk: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:04:28 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:04:28 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:04:28 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(warrington.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=23
+2026-08-24 18:04:28 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [   7/382] warrington.gov.uk: provider=domestic confidence=0.80 signals=23
+2026-08-24 18:04:28 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:28 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(blackburn.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:04:28 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [   8/382] blackburn.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:04:29 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:04:29 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:04:29 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(blackpool.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=7
+2026-08-24 18:04:29 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [   9/382] blackpool.gov.uk: provider=domestic confidence=0.80 signals=7
+2026-08-24 18:04:29 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:29 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(hull.gov.uk): provider=ms365 confidence=0.94 rule=mx_spf signals=15
+2026-08-24 18:04:29 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  10/382] hull.gov.uk: provider=ms365 confidence=0.94 signals=15
+2026-08-24 18:04:31 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:31 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(eastriding.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=18
+2026-08-24 18:04:31 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  11/382] eastriding.gov.uk: provider=ms365 confidence=1.00 signals=18
+2026-08-24 18:04:32 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:32 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(nelincs.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=25
+2026-08-24 18:04:32 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  12/382] nelincs.gov.uk: provider=ms365 confidence=1.00 signals=25
+2026-08-24 18:04:33 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:33 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(northlincs.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=22
+2026-08-24 18:04:33 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  13/382] northlincs.gov.uk: provider=ms365 confidence=1.00 signals=22
+2026-08-24 18:04:33 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:04:33 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(york.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=15
+2026-08-24 18:04:33 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  14/382] york.gov.uk: provider=ms365 confidence=0.76 signals=15
+2026-08-24 18:04:34 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:34 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(derby.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=23
+2026-08-24 18:04:34 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  15/382] derby.gov.uk: provider=ms365 confidence=1.00 signals=23
+2026-08-24 18:04:35 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:256 | rule=gateway_no_primary (gateway blocks primary signals)
+2026-08-24 18:04:35 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(leicester.gov.uk): provider=unknown confidence=0.00 rule=gateway_no_primary signals=15
+2026-08-24 18:04:35 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  16/382] leicester.gov.uk: provider=unknown confidence=0.00 signals=15
+2026-08-24 18:04:35 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:04:35 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(rutland.gov.uk): provider=ms365 confidence=0.80 rule=spf_gw signals=23
+2026-08-24 18:04:35 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  17/382] rutland.gov.uk: provider=ms365 confidence=0.80 signals=23
+2026-08-24 18:04:36 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:36 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(nottinghamcity.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=19
+2026-08-24 18:04:36 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  18/382] nottinghamcity.gov.uk: provider=ms365 confidence=1.00 signals=19
+2026-08-24 18:04:37 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:37 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(herefordshire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=26
+2026-08-24 18:04:37 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  19/382] herefordshire.gov.uk: provider=ms365 confidence=1.00 signals=26
+2026-08-24 18:04:37 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:37 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(telford.gov.uk): provider=ms365 confidence=0.98 rule=mx_spf signals=18
+2026-08-24 18:04:37 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  20/382] telford.gov.uk: provider=ms365 confidence=0.98 signals=18
+2026-08-24 18:04:38 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:04:38 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:04:38 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(stoke.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=7
+2026-08-24 18:04:38 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  21/382] stoke.gov.uk: provider=domestic confidence=0.80 signals=7
+2026-08-24 18:04:38 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:04:38 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(bathnes.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=27
+2026-08-24 18:04:38 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  22/382] bathnes.gov.uk: provider=ms365 confidence=0.78 signals=27
+2026-08-24 18:04:39 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:39 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(bristol.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=16
+2026-08-24 18:04:39 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  23/382] bristol.gov.uk: provider=ms365 confidence=1.00 signals=16
+2026-08-24 18:04:39 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:39 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(n-somerset.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:04:39 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  24/382] n-somerset.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:04:44 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:44 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(southglos.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=31
+2026-08-24 18:04:44 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  25/382] southglos.gov.uk: provider=ms365 confidence=1.00 signals=31
+2026-08-24 18:04:45 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:45 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(plymouth.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=27
+2026-08-24 18:04:45 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  26/382] plymouth.gov.uk: provider=ms365 confidence=1.00 signals=27
+2026-08-24 18:04:45 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:45 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(torbay.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=18
+2026-08-24 18:04:45 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  27/382] torbay.gov.uk: provider=ms365 confidence=1.00 signals=18
+2026-08-24 18:04:46 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:46 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(swindon.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=24
+2026-08-24 18:04:46 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  28/382] swindon.gov.uk: provider=ms365 confidence=1.00 signals=24
+2026-08-24 18:04:46 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=dkim_gw base=0.65 provider=ms365
+2026-08-24 18:04:46 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(peterborough.gov.uk): provider=ms365 confidence=0.71 rule=dkim_gw signals=19
+2026-08-24 18:04:46 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  29/382] peterborough.gov.uk: provider=ms365 confidence=0.71 signals=19
+2026-08-24 18:04:47 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:04:47 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:04:47 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(luton.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=6
+2026-08-24 18:04:47 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  30/382] luton.gov.uk: provider=domestic confidence=0.80 signals=6
+2026-08-24 18:04:48 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:48 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(southend.gov.uk): provider=ms365 confidence=0.96 rule=mx_spf signals=22
+2026-08-24 18:04:48 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  31/382] southend.gov.uk: provider=ms365 confidence=0.96 signals=22
+2026-08-24 18:04:49 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:04:49 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(thurrock.gov.uk): provider=ms365 confidence=0.88 rule=mx_only signals=14
+2026-08-24 18:04:49 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  32/382] thurrock.gov.uk: provider=ms365 confidence=0.88 signals=14
+2026-08-24 18:04:49 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:04:49 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:04:49 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(medway.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=9
+2026-08-24 18:04:49 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  33/382] medway.gov.uk: provider=domestic confidence=0.80 signals=9
+2026-08-24 18:04:50 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:50 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(bracknell-forest.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=27
+2026-08-24 18:04:50 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  34/382] bracknell-forest.gov.uk: provider=ms365 confidence=1.00 signals=27
+2026-08-24 18:04:50 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=fallback base=0.40 provider=ms365
+2026-08-24 18:04:50 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(westberks.gov.uk): provider=ms365 confidence=0.46 rule=fallback signals=27
+2026-08-24 18:04:50 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  35/382] westberks.gov.uk: provider=ms365 confidence=0.46 signals=27
+2026-08-24 18:04:53 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:04:53 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(reading.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=25
+2026-08-24 18:04:53 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  36/382] reading.gov.uk: provider=ms365 confidence=0.76 signals=25
+2026-08-24 18:04:54 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:54 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(slough.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=22
+2026-08-24 18:04:54 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  37/382] slough.gov.uk: provider=ms365 confidence=1.00 signals=22
+2026-08-24 18:04:55 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:04:55 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:04:55 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(rbwm.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=21
+2026-08-24 18:04:55 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  38/382] rbwm.gov.uk: provider=domestic confidence=0.80 signals=21
+2026-08-24 18:04:56 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:56 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(wokingham.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=22
+2026-08-24 18:04:56 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  39/382] wokingham.gov.uk: provider=ms365 confidence=1.00 signals=22
+2026-08-24 18:04:57 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:57 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(milton-keynes.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:04:57 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  40/382] milton-keynes.gov.uk: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:04:57 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:04:57 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(brighton-hove.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:04:57 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  41/382] brighton-hove.gov.uk: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:04:58 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:04:58 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(portsmouth.gov.uk): provider=ms365 confidence=0.88 rule=mx_only signals=12
+2026-08-24 18:04:58 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  42/382] portsmouth.gov.uk: provider=ms365 confidence=0.88 signals=12
+2026-08-24 18:05:08 | DEBUG   | mail_municipalities.provider_classification.probes:probe_smtp:266 | SMTP banner fetch failed for mxa-00118001.gslb.pphosted.com: 
+2026-08-24 18:05:08 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:05:08 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(southampton.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=12
+2026-08-24 18:05:08 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  43/382] southampton.gov.uk: provider=ms365 confidence=0.78 signals=12
+2026-08-24 18:05:09 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:05:09 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:05:09 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(iow.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=4
+2026-08-24 18:05:09 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  44/382] iow.gov.uk: provider=domestic confidence=0.80 signals=4
+2026-08-24 18:05:09 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:09 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(durham.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=19
+2026-08-24 18:05:09 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  45/382] durham.gov.uk: provider=ms365 confidence=1.00 signals=19
+2026-08-24 18:05:10 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:10 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(cheshireeast.gov.uk): provider=ms365 confidence=0.98 rule=mx_spf signals=17
+2026-08-24 18:05:10 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  46/382] cheshireeast.gov.uk: provider=ms365 confidence=0.98 signals=17
+2026-08-24 18:05:10 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:10 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(cheshirewestandchester.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:05:10 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  47/382] cheshirewestandchester.gov.uk: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:05:10 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:10 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(shropshire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:05:10 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  48/382] shropshire.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:05:11 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:11 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(cornwall.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=22
+2026-08-24 18:05:11 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  49/382] cornwall.gov.uk: provider=ms365 confidence=1.00 signals=22
+2026-08-24 18:05:11 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:11 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(scilly.gov.uk): provider=ms365 confidence=0.98 rule=mx_spf signals=17
+2026-08-24 18:05:11 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  50/382] scilly.gov.uk: provider=ms365 confidence=0.98 signals=17
+2026-08-24 18:05:12 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:12 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(wiltshire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=19
+2026-08-24 18:05:12 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  51/382] wiltshire.gov.uk: provider=ms365 confidence=1.00 signals=19
+2026-08-24 18:05:12 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:05:12 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(bedford.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=22
+2026-08-24 18:05:12 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  52/382] bedford.gov.uk: provider=ms365 confidence=0.78 signals=22
+2026-08-24 18:05:12 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:12 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(centralbedfordshire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=27
+2026-08-24 18:05:12 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  53/382] centralbedfordshire.gov.uk: provider=ms365 confidence=1.00 signals=27
+2026-08-24 18:05:13 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:13 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(northumberland.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=15
+2026-08-24 18:05:13 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  54/382] northumberland.gov.uk: provider=ms365 confidence=1.00 signals=15
+2026-08-24 18:05:14 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:14 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(bcpcouncil.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=29
+2026-08-24 18:05:14 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  55/382] bcpcouncil.gov.uk: provider=ms365 confidence=1.00 signals=29
+2026-08-24 18:05:14 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:14 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(dorsetcouncil.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:05:14 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  56/382] dorsetcouncil.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:05:14 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:14 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(buckinghamshire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=19
+2026-08-24 18:05:14 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  57/382] buckinghamshire.gov.uk: provider=ms365 confidence=1.00 signals=19
+2026-08-24 18:05:15 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:05:15 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(northnorthants.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=21
+2026-08-24 18:05:15 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  58/382] northnorthants.gov.uk: provider=ms365 confidence=0.78 signals=21
+2026-08-24 18:05:15 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:15 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(westnorthants.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:05:15 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  59/382] westnorthants.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:05:16 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:16 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(cumberland.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=19
+2026-08-24 18:05:16 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  60/382] cumberland.gov.uk: provider=ms365 confidence=1.00 signals=19
+2026-08-24 18:05:16 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:16 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(westmorlandandfurness.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=21
+2026-08-24 18:05:16 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  61/382] westmorlandandfurness.gov.uk: provider=ms365 confidence=1.00 signals=21
+2026-08-24 18:05:16 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:16 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(northyorks.gov.uk): provider=ms365 confidence=0.98 rule=mx_spf signals=17
+2026-08-24 18:05:16 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  62/382] northyorks.gov.uk: provider=ms365 confidence=0.98 signals=17
+2026-08-24 18:05:17 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:17 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(somerset.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=25
+2026-08-24 18:05:17 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  63/382] somerset.gov.uk: provider=ms365 confidence=1.00 signals=25
+2026-08-24 18:05:17 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=fallback base=0.40 provider=ms365
+2026-08-24 18:05:17 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(cambridge.gov.uk): provider=ms365 confidence=0.46 rule=fallback signals=21
+2026-08-24 18:05:17 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  64/382] cambridge.gov.uk: provider=ms365 confidence=0.46 signals=21
+2026-08-24 18:05:17 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:05:17 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(eastcambs.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=23
+2026-08-24 18:05:17 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  65/382] eastcambs.gov.uk: provider=ms365 confidence=0.76 signals=23
+2026-08-24 18:05:18 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:05:18 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(fenland.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=14
+2026-08-24 18:05:18 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  66/382] fenland.gov.uk: provider=ms365 confidence=0.76 signals=14
+2026-08-24 18:05:18 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=fallback base=0.40 provider=ms365
+2026-08-24 18:05:18 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(huntingdonshire.gov.uk): provider=ms365 confidence=0.44 rule=fallback signals=18
+2026-08-24 18:05:18 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  67/382] huntingdonshire.gov.uk: provider=ms365 confidence=0.44 signals=18
+2026-08-24 18:05:20 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=fallback base=0.40 provider=ms365
+2026-08-24 18:05:20 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(scambs.gov.uk): provider=ms365 confidence=0.46 rule=fallback signals=19
+2026-08-24 18:05:20 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  68/382] scambs.gov.uk: provider=ms365 confidence=0.46 signals=19
+2026-08-24 18:05:25 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:25 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(ambervalley.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=26
+2026-08-24 18:05:25 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  69/382] ambervalley.gov.uk: provider=ms365 confidence=1.00 signals=26
+2026-08-24 18:05:25 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:25 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(bolsover.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=18
+2026-08-24 18:05:25 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  70/382] bolsover.gov.uk: provider=ms365 confidence=1.00 signals=18
+2026-08-24 18:05:26 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:26 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(chesterfield.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=21
+2026-08-24 18:05:26 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  71/382] chesterfield.gov.uk: provider=ms365 confidence=1.00 signals=21
+2026-08-24 18:05:26 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:26 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(derbyshiredales.gov.uk): provider=ms365 confidence=0.98 rule=mx_spf signals=17
+2026-08-24 18:05:26 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  72/382] derbyshiredales.gov.uk: provider=ms365 confidence=0.98 signals=17
+2026-08-24 18:05:26 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=dkim_gw base=0.65 provider=ms365
+2026-08-24 18:05:26 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(erewash.gov.uk): provider=ms365 confidence=0.69 rule=dkim_gw signals=25
+2026-08-24 18:05:26 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  73/382] erewash.gov.uk: provider=ms365 confidence=0.69 signals=25
+2026-08-24 18:05:41 | DEBUG   | mail_municipalities.provider_classification.probes:probe_smtp:266 | SMTP banner fetch failed for uk.mx1.mailanyone.net: 
+2026-08-24 18:05:41 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:05:41 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(highpeak.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=18
+2026-08-24 18:05:41 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  74/382] highpeak.gov.uk: provider=ms365 confidence=0.78 signals=18
+2026-08-24 18:05:51 | DEBUG   | mail_municipalities.provider_classification.probes:probe_smtp:266 | SMTP banner fetch failed for mailgate.ne-derbyshire.gov.uk: 
+2026-08-24 18:05:51 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:51 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(ne-derbyshire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=19
+2026-08-24 18:05:51 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  75/382] ne-derbyshire.gov.uk: provider=ms365 confidence=1.00 signals=19
+2026-08-24 18:05:52 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=fallback base=0.40 provider=ms365
+2026-08-24 18:05:52 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(southderbyshire.gov.uk): provider=ms365 confidence=0.44 rule=fallback signals=22
+2026-08-24 18:05:52 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  76/382] southderbyshire.gov.uk: provider=ms365 confidence=0.44 signals=22
+2026-08-24 18:05:52 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:05:52 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(eastdevon.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=19
+2026-08-24 18:05:52 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  77/382] eastdevon.gov.uk: provider=ms365 confidence=0.76 signals=19
+2026-08-24 18:05:52 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:05:52 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(exeter.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=19
+2026-08-24 18:05:52 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  78/382] exeter.gov.uk: provider=ms365 confidence=0.76 signals=19
+2026-08-24 18:05:53 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:53 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(middevon.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=18
+2026-08-24 18:05:53 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  79/382] middevon.gov.uk: provider=ms365 confidence=1.00 signals=18
+2026-08-24 18:05:53 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:05:53 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(northdevon.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=19
+2026-08-24 18:05:53 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  80/382] northdevon.gov.uk: provider=ms365 confidence=0.78 signals=19
+2026-08-24 18:05:53 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:256 | rule=gateway_no_primary (gateway blocks primary signals)
+2026-08-24 18:05:53 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(southhams.gov.uk): provider=unknown confidence=0.00 rule=gateway_no_primary signals=22
+2026-08-24 18:05:53 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  81/382] southhams.gov.uk: provider=unknown confidence=0.00 signals=22
+2026-08-24 18:05:53 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:05:53 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(teignbridge.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=21
+2026-08-24 18:05:53 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  82/382] teignbridge.gov.uk: provider=ms365 confidence=0.76 signals=21
+2026-08-24 18:05:54 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:05:54 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(torridge.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=23
+2026-08-24 18:05:54 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  83/382] torridge.gov.uk: provider=ms365 confidence=0.76 signals=23
+2026-08-24 18:05:54 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:256 | rule=gateway_no_primary (gateway blocks primary signals)
+2026-08-24 18:05:54 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(westdevon.gov.uk): provider=unknown confidence=0.00 rule=gateway_no_primary signals=19
+2026-08-24 18:05:54 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  84/382] westdevon.gov.uk: provider=unknown confidence=0.00 signals=19
+2026-08-24 18:05:55 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:55 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(lewes-eastbourne.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=28
+2026-08-24 18:05:55 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  86/382] lewes-eastbourne.gov.uk: provider=ms365 confidence=1.00 signals=28
+2026-08-24 18:05:55 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:05:55 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(hastings.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=18
+2026-08-24 18:05:55 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  87/382] hastings.gov.uk: provider=ms365 confidence=0.76 signals=18
+2026-08-24 18:05:56 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:05:56 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(rother.gov.uk): provider=ms365 confidence=0.74 rule=spf_gw signals=31
+2026-08-24 18:05:56 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  88/382] rother.gov.uk: provider=ms365 confidence=0.74 signals=31
+2026-08-24 18:05:56 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:56 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(wealden.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=24
+2026-08-24 18:05:56 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  89/382] wealden.gov.uk: provider=ms365 confidence=1.00 signals=24
+2026-08-24 18:05:56 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:05:56 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(basildon.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=25
+2026-08-24 18:05:56 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  90/382] basildon.gov.uk: provider=ms365 confidence=0.78 signals=25
+2026-08-24 18:05:57 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:57 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(braintree.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:05:57 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  91/382] braintree.gov.uk: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:05:58 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:05:58 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(brentwood.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=10
+2026-08-24 18:05:58 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  92/382] brentwood.gov.uk: provider=ms365 confidence=0.78 signals=10
+2026-08-24 18:05:59 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:05:59 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(castlepoint.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=22
+2026-08-24 18:05:59 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  93/382] castlepoint.gov.uk: provider=ms365 confidence=0.76 signals=22
+2026-08-24 18:05:59 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:05:59 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(chelmsford.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=22
+2026-08-24 18:05:59 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  94/382] chelmsford.gov.uk: provider=ms365 confidence=1.00 signals=22
+2026-08-24 18:06:00 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:00 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(colchester.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=23
+2026-08-24 18:06:00 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  95/382] colchester.gov.uk: provider=ms365 confidence=1.00 signals=23
+2026-08-24 18:06:00 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:06:00 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(eppingforestdc.gov.uk): provider=ms365 confidence=0.90 rule=mx_only signals=15
+2026-08-24 18:06:00 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  96/382] eppingforestdc.gov.uk: provider=ms365 confidence=0.90 signals=15
+2026-08-24 18:06:00 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:00 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(harlow.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=18
+2026-08-24 18:06:00 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  97/382] harlow.gov.uk: provider=ms365 confidence=1.00 signals=18
+2026-08-24 18:06:01 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:01 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(maldon.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=19
+2026-08-24 18:06:01 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  98/382] maldon.gov.uk: provider=ms365 confidence=1.00 signals=19
+2026-08-24 18:06:01 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:01 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(rochford.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:06:01 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [  99/382] rochford.gov.uk: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:06:01 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:01 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(tendringdc.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=22
+2026-08-24 18:06:01 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 100/382] tendringdc.gov.uk: provider=ms365 confidence=1.00 signals=22
+2026-08-24 18:06:02 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=dkim_gw base=0.65 provider=ms365
+2026-08-24 18:06:02 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(uttlesford.gov.uk): provider=ms365 confidence=0.69 rule=dkim_gw signals=9
+2026-08-24 18:06:02 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 101/382] uttlesford.gov.uk: provider=ms365 confidence=0.69 signals=9
+2026-08-24 18:06:02 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:02 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(cheltenham.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:06:02 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 102/382] cheltenham.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:06:03 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:03 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(cotswold.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:06:03 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 103/382] cotswold.gov.uk: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:06:03 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:03 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(fdean.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=16
+2026-08-24 18:06:03 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 104/382] fdean.gov.uk: provider=ms365 confidence=1.00 signals=16
+2026-08-24 18:06:03 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:03 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(gloucester.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=21
+2026-08-24 18:06:03 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 105/382] gloucester.gov.uk: provider=ms365 confidence=1.00 signals=21
+2026-08-24 18:06:05 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:06:05 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(stroud.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=21
+2026-08-24 18:06:05 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 106/382] stroud.gov.uk: provider=ms365 confidence=0.76 signals=21
+2026-08-24 18:06:05 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:05 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(tewkesbury.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=23
+2026-08-24 18:06:05 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 107/382] tewkesbury.gov.uk: provider=ms365 confidence=1.00 signals=23
+2026-08-24 18:06:06 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:06 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(basingstoke.gov.uk): provider=ms365 confidence=0.98 rule=mx_spf signals=21
+2026-08-24 18:06:06 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 108/382] basingstoke.gov.uk: provider=ms365 confidence=0.98 signals=21
+2026-08-24 18:06:06 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:06 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(easthants.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:06:06 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 109/382] easthants.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:06:06 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:06 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(eastleigh.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=21
+2026-08-24 18:06:06 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 110/382] eastleigh.gov.uk: provider=ms365 confidence=1.00 signals=21
+2026-08-24 18:06:07 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:07 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(fareham.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=18
+2026-08-24 18:06:07 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 111/382] fareham.gov.uk: provider=ms365 confidence=1.00 signals=18
+2026-08-24 18:06:08 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=aws
+2026-08-24 18:06:08 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(gosport.gov.uk): provider=aws confidence=0.74 rule=spf_gw signals=20
+2026-08-24 18:06:08 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 112/382] gosport.gov.uk: provider=aws confidence=0.74 signals=20
+2026-08-24 18:06:10 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:10 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(hart.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=23
+2026-08-24 18:06:10 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 113/382] hart.gov.uk: provider=ms365 confidence=1.00 signals=23
+2026-08-24 18:06:10 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:10 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(havant.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:06:10 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 114/382] havant.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:06:10 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:10 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(newforest.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:06:10 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 115/382] newforest.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:06:11 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:11 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(rushmoor.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=19
+2026-08-24 18:06:11 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 116/382] rushmoor.gov.uk: provider=ms365 confidence=1.00 signals=19
+2026-08-24 18:06:12 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:06:12 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(testvalley.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=15
+2026-08-24 18:06:12 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 117/382] testvalley.gov.uk: provider=ms365 confidence=0.78 signals=15
+2026-08-24 18:06:14 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:06:14 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(winchester.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=11
+2026-08-24 18:06:14 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 118/382] winchester.gov.uk: provider=ms365 confidence=0.76 signals=11
+2026-08-24 18:06:14 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:06:14 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(broxbourne.gov.uk): provider=ms365 confidence=0.90 rule=mx_only signals=18
+2026-08-24 18:06:14 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 119/382] broxbourne.gov.uk: provider=ms365 confidence=0.90 signals=18
+2026-08-24 18:06:16 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:06:16 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(dacorum.gov.uk): provider=ms365 confidence=0.74 rule=spf_gw signals=7
+2026-08-24 18:06:16 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 120/382] dacorum.gov.uk: provider=ms365 confidence=0.74 signals=7
+2026-08-24 18:06:17 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:06:17 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:06:17 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(hertsmere.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=16
+2026-08-24 18:06:17 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 121/382] hertsmere.gov.uk: provider=domestic confidence=0.80 signals=16
+2026-08-24 18:06:17 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=dkim_gw base=0.65 provider=ms365
+2026-08-24 18:06:17 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(north-herts.gov.uk): provider=ms365 confidence=0.71 rule=dkim_gw signals=21
+2026-08-24 18:06:17 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 122/382] north-herts.gov.uk: provider=ms365 confidence=0.71 signals=21
+2026-08-24 18:06:17 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=fallback base=0.40 provider=ms365
+2026-08-24 18:06:17 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(threerivers.gov.uk): provider=ms365 confidence=0.44 rule=fallback signals=19
+2026-08-24 18:06:17 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 123/382] threerivers.gov.uk: provider=ms365 confidence=0.44 signals=19
+2026-08-24 18:06:18 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=aws
+2026-08-24 18:06:18 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(watford.gov.uk): provider=aws confidence=0.74 rule=spf_gw signals=23
+2026-08-24 18:06:18 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 124/382] watford.gov.uk: provider=aws confidence=0.74 signals=23
+2026-08-24 18:06:18 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:06:18 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:06:18 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(ashford.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=12
+2026-08-24 18:06:18 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 125/382] ashford.gov.uk: provider=domestic confidence=0.80 signals=12
+2026-08-24 18:06:18 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:18 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(canterbury.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=19
+2026-08-24 18:06:18 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 126/382] canterbury.gov.uk: provider=ms365 confidence=1.00 signals=19
+2026-08-24 18:06:20 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:06:20 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:06:20 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(dartford.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=20
+2026-08-24 18:06:20 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 127/382] dartford.gov.uk: provider=domestic confidence=0.80 signals=20
+2026-08-24 18:06:20 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:20 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(dover.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=24
+2026-08-24 18:06:20 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 128/382] dover.gov.uk: provider=ms365 confidence=1.00 signals=24
+2026-08-24 18:06:21 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:06:21 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:06:21 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(gravesham.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=16
+2026-08-24 18:06:21 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 129/382] gravesham.gov.uk: provider=domestic confidence=0.80 signals=16
+2026-08-24 18:06:21 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:06:21 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:06:21 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(maidstone.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=11
+2026-08-24 18:06:21 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 130/382] maidstone.gov.uk: provider=domestic confidence=0.80 signals=11
+2026-08-24 18:06:21 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:06:21 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:06:21 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(sevenoaks.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=13
+2026-08-24 18:06:21 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 131/382] sevenoaks.gov.uk: provider=domestic confidence=0.80 signals=13
+2026-08-24 18:06:21 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:06:21 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:06:21 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(folkestone-hythe.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=14
+2026-08-24 18:06:21 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 132/382] folkestone-hythe.gov.uk: provider=domestic confidence=0.80 signals=14
+2026-08-24 18:06:22 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:06:22 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:06:22 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(swale.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=11
+2026-08-24 18:06:22 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 133/382] swale.gov.uk: provider=domestic confidence=0.80 signals=11
+2026-08-24 18:06:22 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=google
+2026-08-24 18:06:22 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(thanet.gov.uk): provider=google confidence=0.84 rule=mx_only signals=23
+2026-08-24 18:06:22 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 134/382] thanet.gov.uk: provider=google confidence=0.84 signals=23
+2026-08-24 18:06:22 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:06:22 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:06:22 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(tmbc.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=10
+2026-08-24 18:06:22 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 135/382] tmbc.gov.uk: provider=domestic confidence=0.80 signals=10
+2026-08-24 18:06:23 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:06:23 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:06:23 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(tunbridgewells.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=11
+2026-08-24 18:06:23 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 136/382] tunbridgewells.gov.uk: provider=domestic confidence=0.80 signals=11
+2026-08-24 18:06:23 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:23 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(burnley.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=19
+2026-08-24 18:06:23 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 137/382] burnley.gov.uk: provider=ms365 confidence=1.00 signals=19
+2026-08-24 18:06:24 | WARNING | mail_municipalities.core.dns:resolve_robust:58 | DNS selector1._domainkey.chorley.gov.uk/CNAME: all resolvers exhausted
+2026-08-24 18:06:26 | WARNING | mail_municipalities.core.dns:resolve_robust:58 | DNS selector2._domainkey.chorley.gov.uk/CNAME: all resolvers exhausted
+2026-08-24 18:06:26 | WARNING | mail_municipalities.core.dns:resolve_robust:58 | DNS google._domainkey.chorley.gov.uk/CNAME: all resolvers exhausted
+2026-08-24 18:06:27 | WARNING | mail_municipalities.core.dns:resolve_robust:58 | DNS google2048._domainkey.chorley.gov.uk/CNAME: all resolvers exhausted
+2026-08-24 18:06:27 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=aws
+2026-08-24 18:06:27 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(chorley.gov.uk): provider=aws confidence=0.74 rule=spf_gw signals=25
+2026-08-24 18:06:27 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 138/382] chorley.gov.uk: provider=aws confidence=0.74 signals=25
+2026-08-24 18:06:27 | DEBUG   | mail_municipalities.provider_classification.probes:probe_smtp:266 | SMTP banner fetch failed for 8206dc17f5bb9e302252a5c119d0c34e77ea42ef.msv1.invalid: [Errno -3] Temporary failure in name resolution
+2026-08-24 18:06:27 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:06:27 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(fylde.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=17
+2026-08-24 18:06:27 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 139/382] fylde.gov.uk: provider=ms365 confidence=0.76 signals=17
+2026-08-24 18:06:28 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:06:28 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(hyndburnbc.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=30
+2026-08-24 18:06:28 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 140/382] hyndburnbc.gov.uk: provider=ms365 confidence=0.78 signals=30
+2026-08-24 18:06:43 | DEBUG   | mail_municipalities.provider_classification.probes:probe_smtp:266 | SMTP banner fetch failed for uk.mx1.mailanyone.net: 
+2026-08-24 18:06:43 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:06:43 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(lancaster.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=22
+2026-08-24 18:06:43 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 141/382] lancaster.gov.uk: provider=ms365 confidence=0.78 signals=22
+2026-08-24 18:06:43 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:43 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(pendle.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=21
+2026-08-24 18:06:43 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 142/382] pendle.gov.uk: provider=ms365 confidence=1.00 signals=21
+2026-08-24 18:06:44 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:44 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(preston.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=22
+2026-08-24 18:06:44 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 143/382] preston.gov.uk: provider=ms365 confidence=1.00 signals=22
+2026-08-24 18:06:44 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:06:44 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(ribblevalley.gov.uk): provider=ms365 confidence=0.74 rule=spf_gw signals=16
+2026-08-24 18:06:44 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 144/382] ribblevalley.gov.uk: provider=ms365 confidence=0.74 signals=16
+2026-08-24 18:06:45 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:06:45 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:06:45 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(rossendale.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=3
+2026-08-24 18:06:45 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 145/382] rossendale.gov.uk: provider=domestic confidence=0.80 signals=3
+2026-08-24 18:06:45 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:06:45 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(southribble.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=21
+2026-08-24 18:06:45 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 146/382] southribble.gov.uk: provider=ms365 confidence=0.76 signals=21
+2026-08-24 18:06:46 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:06:46 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(westlancs.gov.uk): provider=ms365 confidence=0.92 rule=mx_only signals=20
+2026-08-24 18:06:46 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 147/382] westlancs.gov.uk: provider=ms365 confidence=0.92 signals=20
+2026-08-24 18:06:47 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:47 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(wyre.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=24
+2026-08-24 18:06:47 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 148/382] wyre.gov.uk: provider=ms365 confidence=1.00 signals=24
+2026-08-24 18:06:47 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:06:47 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(blaby.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=19
+2026-08-24 18:06:47 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 149/382] blaby.gov.uk: provider=ms365 confidence=1.00 signals=19
+2026-08-24 18:06:57 | DEBUG   | mail_municipalities.provider_classification.probes:probe_smtp:266 | SMTP banner fetch failed for mail.charnwood.gov.uk: 
+2026-08-24 18:06:57 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:06:57 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(charnwood.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=35
+2026-08-24 18:06:57 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 150/382] charnwood.gov.uk: provider=ms365 confidence=0.78 signals=35
+2026-08-24 18:08:03 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:03 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(harborough.gov.uk): provider=ms365 confidence=0.98 rule=mx_spf signals=20
+2026-08-24 18:08:04 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 151/382] harborough.gov.uk: provider=ms365 confidence=0.98 signals=20
+2026-08-24 18:08:04 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:08:04 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:08:04 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(hinckley-bosworth.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=14
+2026-08-24 18:08:04 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 152/382] hinckley-bosworth.gov.uk: provider=domestic confidence=0.80 signals=14
+2026-08-24 18:08:04 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:08:04 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:08:04 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(melton.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=10
+2026-08-24 18:08:04 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 153/382] melton.gov.uk: provider=domestic confidence=0.80 signals=10
+2026-08-24 18:08:04 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:04 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(nwleicestershire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:08:04 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 154/382] nwleicestershire.gov.uk: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:08:05 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:05 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(oadby-wigston.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:08:05 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 155/382] oadby-wigston.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:08:05 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:05 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(boston.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=20
+2026-08-24 18:08:05 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 156/382] boston.gov.uk: provider=ms365 confidence=0.76 signals=20
+2026-08-24 18:08:05 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:05 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(e-lindsey.gov.uk): provider=ms365 confidence=0.74 rule=spf_gw signals=26
+2026-08-24 18:08:05 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 157/382] e-lindsey.gov.uk: provider=ms365 confidence=0.74 signals=26
+2026-08-24 18:08:05 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:08:05 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(lincoln.gov.uk): provider=ms365 confidence=0.90 rule=mx_only signals=35
+2026-08-24 18:08:05 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 158/382] lincoln.gov.uk: provider=ms365 confidence=0.90 signals=35
+2026-08-24 18:08:06 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:06 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(n-kesteven.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=9
+2026-08-24 18:08:06 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 159/382] n-kesteven.gov.uk: provider=ms365 confidence=0.76 signals=9
+2026-08-24 18:08:06 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:06 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(sholland.gov.uk): provider=ms365 confidence=0.74 rule=spf_gw signals=26
+2026-08-24 18:08:06 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 160/382] sholland.gov.uk: provider=ms365 confidence=0.74 signals=26
+2026-08-24 18:08:06 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:06 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(southkesteven.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=27
+2026-08-24 18:08:06 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 161/382] southkesteven.gov.uk: provider=ms365 confidence=0.78 signals=27
+2026-08-24 18:08:07 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:07 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(west-lindsey.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=10
+2026-08-24 18:08:07 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 162/382] west-lindsey.gov.uk: provider=ms365 confidence=0.76 signals=10
+2026-08-24 18:08:07 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:07 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(breckland.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=22
+2026-08-24 18:08:07 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 163/382] breckland.gov.uk: provider=ms365 confidence=1.00 signals=22
+2026-08-24 18:08:09 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:09 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(southnorfolkandbroadland.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=29
+2026-08-24 18:08:09 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 165/382] southnorfolkandbroadland.gov.uk: provider=ms365 confidence=1.00 signals=29
+2026-08-24 18:08:09 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:09 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(great-yarmouth.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=28
+2026-08-24 18:08:09 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 166/382] great-yarmouth.gov.uk: provider=ms365 confidence=1.00 signals=28
+2026-08-24 18:08:10 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=dkim_gw base=0.65 provider=ms365
+2026-08-24 18:08:10 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(west-norfolk.gov.uk): provider=ms365 confidence=0.71 rule=dkim_gw signals=18
+2026-08-24 18:08:10 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 167/382] west-norfolk.gov.uk: provider=ms365 confidence=0.71 signals=18
+2026-08-24 18:08:10 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:10 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(north-norfolk.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=16
+2026-08-24 18:08:10 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 168/382] north-norfolk.gov.uk: provider=ms365 confidence=1.00 signals=16
+2026-08-24 18:08:10 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:10 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(norwich.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=19
+2026-08-24 18:08:10 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 169/382] norwich.gov.uk: provider=ms365 confidence=0.78 signals=19
+2026-08-24 18:08:10 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:10 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(ashfield.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:08:10 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 170/382] ashfield.gov.uk: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:08:10 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:10 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(bassetlaw.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=22
+2026-08-24 18:08:10 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 171/382] bassetlaw.gov.uk: provider=ms365 confidence=0.76 signals=22
+2026-08-24 18:08:11 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:11 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(broxtowe.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:08:11 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 172/382] broxtowe.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:08:13 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:13 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(gedling.gov.uk): provider=ms365 confidence=0.74 rule=spf_gw signals=24
+2026-08-24 18:08:13 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 173/382] gedling.gov.uk: provider=ms365 confidence=0.74 signals=24
+2026-08-24 18:08:14 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=fallback base=0.40 provider=ms365
+2026-08-24 18:08:14 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(mansfield.gov.uk): provider=ms365 confidence=0.44 rule=fallback signals=16
+2026-08-24 18:08:14 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 174/382] mansfield.gov.uk: provider=ms365 confidence=0.44 signals=16
+2026-08-24 18:08:16 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:08:16 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:08:16 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(newark-sherwooddc.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=13
+2026-08-24 18:08:16 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 175/382] newark-sherwooddc.gov.uk: provider=domestic confidence=0.80 signals=13
+2026-08-24 18:08:17 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:17 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(rushcliffe.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=25
+2026-08-24 18:08:17 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 176/382] rushcliffe.gov.uk: provider=ms365 confidence=1.00 signals=25
+2026-08-24 18:08:18 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:18 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(cherwell-dc.gov.uk): provider=ms365 confidence=0.80 rule=spf_gw signals=25
+2026-08-24 18:08:18 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 177/382] cherwell-dc.gov.uk: provider=ms365 confidence=0.80 signals=25
+2026-08-24 18:08:18 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:18 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(oxford.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=22
+2026-08-24 18:08:18 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 178/382] oxford.gov.uk: provider=ms365 confidence=1.00 signals=22
+2026-08-24 18:08:18 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:18 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(southoxon.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:08:18 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 179/382] southoxon.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:08:19 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:19 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(whitehorsedc.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=21
+2026-08-24 18:08:19 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 180/382] whitehorsedc.gov.uk: provider=ms365 confidence=1.00 signals=21
+2026-08-24 18:08:19 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:19 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(westoxon.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:08:19 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 181/382] westoxon.gov.uk: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:08:19 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:19 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(cannockchasedc.gov.uk): provider=ms365 confidence=0.80 rule=spf_gw signals=9
+2026-08-24 18:08:19 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 182/382] cannockchasedc.gov.uk: provider=ms365 confidence=0.80 signals=9
+2026-08-24 18:08:19 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:19 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(eaststaffsbc.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=18
+2026-08-24 18:08:19 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 183/382] eaststaffsbc.gov.uk: provider=ms365 confidence=0.76 signals=18
+2026-08-24 18:08:20 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=fallback base=0.40 provider=ms365
+2026-08-24 18:08:20 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(lichfielddc.gov.uk): provider=ms365 confidence=0.46 rule=fallback signals=9
+2026-08-24 18:08:20 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 184/382] lichfielddc.gov.uk: provider=ms365 confidence=0.46 signals=9
+2026-08-24 18:08:20 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:20 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(newcastle-staffs.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=31
+2026-08-24 18:08:20 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 185/382] newcastle-staffs.gov.uk: provider=ms365 confidence=1.00 signals=31
+2026-08-24 18:08:21 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:21 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(sstaffs.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=31
+2026-08-24 18:08:21 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 186/382] sstaffs.gov.uk: provider=ms365 confidence=0.76 signals=31
+2026-08-24 18:08:21 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:21 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(staffordbc.gov.uk): provider=ms365 confidence=0.80 rule=spf_gw signals=11
+2026-08-24 18:08:21 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 187/382] staffordbc.gov.uk: provider=ms365 confidence=0.80 signals=11
+2026-08-24 18:08:36 | DEBUG   | mail_municipalities.provider_classification.probes:probe_smtp:266 | SMTP banner fetch failed for uk.mx1.mailanyone.net: 
+2026-08-24 18:08:36 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:36 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(staffsmoorlands.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=19
+2026-08-24 18:08:36 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 188/382] staffsmoorlands.gov.uk: provider=ms365 confidence=0.76 signals=19
+2026-08-24 18:08:36 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:36 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(tamworth.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:08:36 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 189/382] tamworth.gov.uk: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:08:36 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:36 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(babergh.gov.uk): provider=ms365 confidence=0.74 rule=spf_gw signals=11
+2026-08-24 18:08:36 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 190/382] babergh.gov.uk: provider=ms365 confidence=0.74 signals=11
+2026-08-24 18:08:38 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:38 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(ipswich.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=33
+2026-08-24 18:08:38 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 191/382] ipswich.gov.uk: provider=ms365 confidence=0.78 signals=33
+2026-08-24 18:08:38 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:38 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(midsuffolk.gov.uk): provider=ms365 confidence=0.74 rule=spf_gw signals=11
+2026-08-24 18:08:38 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 192/382] midsuffolk.gov.uk: provider=ms365 confidence=0.74 signals=11
+2026-08-24 18:08:39 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:39 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(elmbridge.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=17
+2026-08-24 18:08:39 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 193/382] elmbridge.gov.uk: provider=ms365 confidence=0.78 signals=17
+2026-08-24 18:08:40 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:40 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(epsom-ewell.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=18
+2026-08-24 18:08:40 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 194/382] epsom-ewell.gov.uk: provider=ms365 confidence=1.00 signals=18
+2026-08-24 18:08:40 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=dkim_gw base=0.65 provider=ms365
+2026-08-24 18:08:40 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(guildford.gov.uk): provider=ms365 confidence=0.71 rule=dkim_gw signals=23
+2026-08-24 18:08:40 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 195/382] guildford.gov.uk: provider=ms365 confidence=0.71 signals=23
+2026-08-24 18:08:40 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:40 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(molevalley.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=19
+2026-08-24 18:08:40 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 196/382] molevalley.gov.uk: provider=ms365 confidence=1.00 signals=19
+2026-08-24 18:08:41 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=dkim_gw base=0.65 provider=ms365
+2026-08-24 18:08:41 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(reigate-banstead.gov.uk): provider=ms365 confidence=0.69 rule=dkim_gw signals=6
+2026-08-24 18:08:41 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 197/382] reigate-banstead.gov.uk: provider=ms365 confidence=0.69 signals=6
+2026-08-24 18:08:42 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:42 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(runnymede.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=26
+2026-08-24 18:08:42 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 198/382] runnymede.gov.uk: provider=ms365 confidence=1.00 signals=26
+2026-08-24 18:08:43 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:43 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(spelthorne.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=21
+2026-08-24 18:08:43 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 199/382] spelthorne.gov.uk: provider=ms365 confidence=1.00 signals=21
+2026-08-24 18:08:43 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=dkim_gw base=0.65 provider=ms365
+2026-08-24 18:08:43 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(surreyheath.gov.uk): provider=ms365 confidence=0.71 rule=dkim_gw signals=20
+2026-08-24 18:08:43 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 200/382] surreyheath.gov.uk: provider=ms365 confidence=0.71 signals=20
+2026-08-24 18:08:44 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:44 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(tandridge.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=23
+2026-08-24 18:08:44 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 201/382] tandridge.gov.uk: provider=ms365 confidence=1.00 signals=23
+2026-08-24 18:08:44 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:44 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(waverley.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=27
+2026-08-24 18:08:44 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 202/382] waverley.gov.uk: provider=ms365 confidence=0.76 signals=27
+2026-08-24 18:08:46 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:46 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(woking.gov.uk): provider=ms365 confidence=0.74 rule=spf_gw signals=8
+2026-08-24 18:08:46 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 203/382] woking.gov.uk: provider=ms365 confidence=0.74 signals=8
+2026-08-24 18:08:46 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:08:46 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(northwarks.gov.uk): provider=ms365 confidence=0.90 rule=mx_only signals=14
+2026-08-24 18:08:46 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 204/382] northwarks.gov.uk: provider=ms365 confidence=0.90 signals=14
+2026-08-24 18:08:46 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:46 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(nuneatonandbedworth.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=21
+2026-08-24 18:08:46 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 205/382] nuneatonandbedworth.gov.uk: provider=ms365 confidence=1.00 signals=21
+2026-08-24 18:08:47 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=dkim_gw base=0.65 provider=ms365
+2026-08-24 18:08:47 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(rugby.gov.uk): provider=ms365 confidence=0.73 rule=dkim_gw signals=23
+2026-08-24 18:08:47 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 206/382] rugby.gov.uk: provider=ms365 confidence=0.73 signals=23
+2026-08-24 18:08:47 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:08:47 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(stratford.gov.uk): provider=ms365 confidence=0.90 rule=mx_only signals=14
+2026-08-24 18:08:47 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 207/382] stratford.gov.uk: provider=ms365 confidence=0.90 signals=14
+2026-08-24 18:08:49 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:49 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(warwickdc.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=24
+2026-08-24 18:08:49 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 208/382] warwickdc.gov.uk: provider=ms365 confidence=0.78 signals=24
+2026-08-24 18:08:49 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=google
+2026-08-24 18:08:49 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(adur-worthing.gov.uk): provider=google confidence=0.72 rule=spf_gw signals=28
+2026-08-24 18:08:49 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 210/382] adur-worthing.gov.uk: provider=google confidence=0.72 signals=28
+2026-08-24 18:08:49 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:49 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(arun.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=17
+2026-08-24 18:08:49 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 211/382] arun.gov.uk: provider=ms365 confidence=0.76 signals=17
+2026-08-24 18:08:50 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=dkim_gw base=0.65 provider=ms365
+2026-08-24 18:08:50 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(chichester.gov.uk): provider=ms365 confidence=0.71 rule=dkim_gw signals=20
+2026-08-24 18:08:50 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 212/382] chichester.gov.uk: provider=ms365 confidence=0.71 signals=20
+2026-08-24 18:08:50 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:50 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(crawley.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=21
+2026-08-24 18:08:50 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 213/382] crawley.gov.uk: provider=ms365 confidence=0.78 signals=21
+2026-08-24 18:08:50 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=dkim_gw base=0.65 provider=ms365
+2026-08-24 18:08:50 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(horsham.gov.uk): provider=ms365 confidence=0.69 rule=dkim_gw signals=16
+2026-08-24 18:08:50 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 214/382] horsham.gov.uk: provider=ms365 confidence=0.69 signals=16
+2026-08-24 18:08:50 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:08:50 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(midsussex.gov.uk): provider=ms365 confidence=0.92 rule=mx_only signals=15
+2026-08-24 18:08:50 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 215/382] midsussex.gov.uk: provider=ms365 confidence=0.92 signals=15
+2026-08-24 18:08:52 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:08:52 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:08:52 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(bromsgrove.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=12
+2026-08-24 18:08:52 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 216/382] bromsgrove.gov.uk: provider=domestic confidence=0.80 signals=12
+2026-08-24 18:08:53 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:53 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(malvernhills.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=27
+2026-08-24 18:08:53 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 217/382] malvernhills.gov.uk: provider=ms365 confidence=1.00 signals=27
+2026-08-24 18:08:53 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:08:53 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:08:53 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(redditchbc.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=12
+2026-08-24 18:08:53 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 218/382] redditchbc.gov.uk: provider=domestic confidence=0.80 signals=12
+2026-08-24 18:08:53 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:53 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(worcester.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=27
+2026-08-24 18:08:53 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 219/382] worcester.gov.uk: provider=ms365 confidence=1.00 signals=27
+2026-08-24 18:08:53 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:53 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(wychavon.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=26
+2026-08-24 18:08:53 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 220/382] wychavon.gov.uk: provider=ms365 confidence=1.00 signals=26
+2026-08-24 18:08:53 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:53 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(wyreforestdc.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=22
+2026-08-24 18:08:53 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 221/382] wyreforestdc.gov.uk: provider=ms365 confidence=0.76 signals=22
+2026-08-24 18:08:54 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:54 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(stalbans.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=26
+2026-08-24 18:08:54 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 222/382] stalbans.gov.uk: provider=ms365 confidence=0.78 signals=26
+2026-08-24 18:08:54 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:54 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(welhat.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=22
+2026-08-24 18:08:54 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 223/382] welhat.gov.uk: provider=ms365 confidence=1.00 signals=22
+2026-08-24 18:08:56 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:56 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(eastherts.gov.uk): provider=ms365 confidence=0.72 rule=spf_gw signals=23
+2026-08-24 18:08:56 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 224/382] eastherts.gov.uk: provider=ms365 confidence=0.72 signals=23
+2026-08-24 18:08:56 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:256 | rule=gateway_no_primary (gateway blocks primary signals)
+2026-08-24 18:08:56 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(stevenage.gov.uk): provider=unknown confidence=0.00 rule=gateway_no_primary signals=18
+2026-08-24 18:08:56 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 225/382] stevenage.gov.uk: provider=unknown confidence=0.00 signals=18
+2026-08-24 18:08:56 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:08:56 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(eastsuffolk.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=28
+2026-08-24 18:08:56 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 226/382] eastsuffolk.gov.uk: provider=ms365 confidence=0.76 signals=28
+2026-08-24 18:08:57 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:57 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(westsuffolk.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:08:57 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 227/382] westsuffolk.gov.uk: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:08:58 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:58 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(bolton.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=26
+2026-08-24 18:08:58 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 228/382] bolton.gov.uk: provider=ms365 confidence=1.00 signals=26
+2026-08-24 18:08:58 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:58 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(bury.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=21
+2026-08-24 18:08:58 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 229/382] bury.gov.uk: provider=ms365 confidence=1.00 signals=21
+2026-08-24 18:08:58 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:58 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(manchester.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=19
+2026-08-24 18:08:58 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 230/382] manchester.gov.uk: provider=ms365 confidence=1.00 signals=19
+2026-08-24 18:08:59 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:08:59 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:08:59 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(oldham.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=15
+2026-08-24 18:08:59 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 231/382] oldham.gov.uk: provider=domestic confidence=0.80 signals=15
+2026-08-24 18:08:59 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:08:59 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(rochdale.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=18
+2026-08-24 18:08:59 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 232/382] rochdale.gov.uk: provider=ms365 confidence=1.00 signals=18
+2026-08-24 18:08:59 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:08:59 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:08:59 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(salford.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=6
+2026-08-24 18:08:59 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 233/382] salford.gov.uk: provider=domestic confidence=0.80 signals=6
+2026-08-24 18:09:00 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:00 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(stockport.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:09:00 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 234/382] stockport.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:09:00 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:09:00 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:09:00 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(tameside.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=13
+2026-08-24 18:09:00 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 235/382] tameside.gov.uk: provider=domestic confidence=0.80 signals=13
+2026-08-24 18:09:01 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:09:01 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:09:01 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(trafford.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=15
+2026-08-24 18:09:01 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 236/382] trafford.gov.uk: provider=domestic confidence=0.80 signals=15
+2026-08-24 18:09:01 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:01 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(wigan.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=23
+2026-08-24 18:09:01 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 237/382] wigan.gov.uk: provider=ms365 confidence=1.00 signals=23
+2026-08-24 18:09:01 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:01 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(knowsley.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=18
+2026-08-24 18:09:01 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 238/382] knowsley.gov.uk: provider=ms365 confidence=1.00 signals=18
+2026-08-24 18:09:03 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:256 | rule=gateway_no_primary (gateway blocks primary signals)
+2026-08-24 18:09:03 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(liverpool.gov.uk): provider=unknown confidence=0.00 rule=gateway_no_primary signals=20
+2026-08-24 18:09:03 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 239/382] liverpool.gov.uk: provider=unknown confidence=0.00 signals=20
+2026-08-24 18:09:04 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:09:04 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:09:04 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(sthelens.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=15
+2026-08-24 18:09:04 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 240/382] sthelens.gov.uk: provider=domestic confidence=0.80 signals=15
+2026-08-24 18:09:05 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:05 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(sefton.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:09:05 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 241/382] sefton.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:09:06 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:06 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(wirral.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=23
+2026-08-24 18:09:06 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 242/382] wirral.gov.uk: provider=ms365 confidence=1.00 signals=23
+2026-08-24 18:09:06 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:06 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(barnsley.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=19
+2026-08-24 18:09:06 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 243/382] barnsley.gov.uk: provider=ms365 confidence=1.00 signals=19
+2026-08-24 18:09:07 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:07 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(doncaster.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=19
+2026-08-24 18:09:07 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 244/382] doncaster.gov.uk: provider=ms365 confidence=1.00 signals=19
+2026-08-24 18:09:08 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:08 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(rotherham.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=22
+2026-08-24 18:09:08 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 245/382] rotherham.gov.uk: provider=ms365 confidence=1.00 signals=22
+2026-08-24 18:09:10 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:10 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(sheffield.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=26
+2026-08-24 18:09:10 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 246/382] sheffield.gov.uk: provider=ms365 confidence=1.00 signals=26
+2026-08-24 18:09:10 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:10 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(newcastle.gov.uk): provider=ms365 confidence=0.98 rule=mx_spf signals=21
+2026-08-24 18:09:10 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 247/382] newcastle.gov.uk: provider=ms365 confidence=0.98 signals=21
+2026-08-24 18:09:10 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:10 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(northtyneside.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=18
+2026-08-24 18:09:10 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 248/382] northtyneside.gov.uk: provider=ms365 confidence=1.00 signals=18
+2026-08-24 18:09:11 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:11 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(southtyneside.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=18
+2026-08-24 18:09:11 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 249/382] southtyneside.gov.uk: provider=ms365 confidence=1.00 signals=18
+2026-08-24 18:09:11 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:11 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(sunderland.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:09:11 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 250/382] sunderland.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:09:12 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:12 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(birmingham.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=21
+2026-08-24 18:09:12 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 251/382] birmingham.gov.uk: provider=ms365 confidence=1.00 signals=21
+2026-08-24 18:09:12 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=fallback base=0.40 provider=ms365
+2026-08-24 18:09:12 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(coventry.gov.uk): provider=ms365 confidence=0.46 rule=fallback signals=10
+2026-08-24 18:09:12 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 252/382] coventry.gov.uk: provider=ms365 confidence=0.46 signals=10
+2026-08-24 18:09:12 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:09:12 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(dudley.gov.uk): provider=ms365 confidence=0.90 rule=mx_only signals=15
+2026-08-24 18:09:12 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 253/382] dudley.gov.uk: provider=ms365 confidence=0.90 signals=15
+2026-08-24 18:09:12 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:09:12 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(sandwell.gov.uk): provider=ms365 confidence=0.90 rule=mx_only signals=16
+2026-08-24 18:09:12 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 254/382] sandwell.gov.uk: provider=ms365 confidence=0.90 signals=16
+2026-08-24 18:09:13 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:256 | rule=gateway_no_primary (gateway blocks primary signals)
+2026-08-24 18:09:13 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(solihull.gov.uk): provider=unknown confidence=0.00 rule=gateway_no_primary signals=23
+2026-08-24 18:09:13 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 255/382] solihull.gov.uk: provider=unknown confidence=0.00 signals=23
+2026-08-24 18:09:13 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:13 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(walsall.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=22
+2026-08-24 18:09:13 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 256/382] walsall.gov.uk: provider=ms365 confidence=1.00 signals=22
+2026-08-24 18:09:14 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:14 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(wolverhampton.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:09:14 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 257/382] wolverhampton.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:09:14 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:09:14 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:09:14 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(bradford.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=8
+2026-08-24 18:09:14 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 258/382] bradford.gov.uk: provider=domestic confidence=0.80 signals=8
+2026-08-24 18:09:15 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:15 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(calderdale.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=19
+2026-08-24 18:09:15 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 259/382] calderdale.gov.uk: provider=ms365 confidence=1.00 signals=19
+2026-08-24 18:09:15 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:15 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(kirklees.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=26
+2026-08-24 18:09:15 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 260/382] kirklees.gov.uk: provider=ms365 confidence=1.00 signals=26
+2026-08-24 18:09:15 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:09:15 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(leeds.gov.uk): provider=ms365 confidence=0.74 rule=spf_gw signals=21
+2026-08-24 18:09:15 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 261/382] leeds.gov.uk: provider=ms365 confidence=0.74 signals=21
+2026-08-24 18:09:16 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:16 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(wakefield.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=21
+2026-08-24 18:09:16 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 262/382] wakefield.gov.uk: provider=ms365 confidence=1.00 signals=21
+2026-08-24 18:09:17 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:09:17 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(gateshead.gov.uk): provider=ms365 confidence=0.88 rule=mx_only signals=16
+2026-08-24 18:09:17 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 263/382] gateshead.gov.uk: provider=ms365 confidence=0.88 signals=16
+2026-08-24 18:09:18 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:18 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(cityoflondon.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=25
+2026-08-24 18:09:18 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 264/382] cityoflondon.gov.uk: provider=ms365 confidence=1.00 signals=25
+2026-08-24 18:09:18 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:18 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(lbbd.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=25
+2026-08-24 18:09:18 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 265/382] lbbd.gov.uk: provider=ms365 confidence=1.00 signals=25
+2026-08-24 18:09:19 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:09:19 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(barnet.gov.uk): provider=ms365 confidence=0.92 rule=mx_only signals=19
+2026-08-24 18:09:19 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 266/382] barnet.gov.uk: provider=ms365 confidence=0.92 signals=19
+2026-08-24 18:09:20 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:09:20 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(bexley.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=16
+2026-08-24 18:09:20 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 267/382] bexley.gov.uk: provider=ms365 confidence=0.78 signals=16
+2026-08-24 18:09:20 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:09:20 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(brent.gov.uk): provider=ms365 confidence=0.86 rule=mx_only signals=12
+2026-08-24 18:09:20 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 268/382] brent.gov.uk: provider=ms365 confidence=0.86 signals=12
+2026-08-24 18:09:21 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:09:21 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(bromley.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=17
+2026-08-24 18:09:21 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 269/382] bromley.gov.uk: provider=ms365 confidence=0.76 signals=17
+2026-08-24 18:09:21 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:21 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(camden.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:09:21 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 270/382] camden.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:09:22 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:09:22 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(croydon.gov.uk): provider=ms365 confidence=0.92 rule=mx_only signals=20
+2026-08-24 18:09:22 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 271/382] croydon.gov.uk: provider=ms365 confidence=0.92 signals=20
+2026-08-24 18:09:22 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=fallback base=0.40 provider=ms365
+2026-08-24 18:09:22 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(ealing.gov.uk): provider=ms365 confidence=0.46 rule=fallback signals=16
+2026-08-24 18:09:22 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 272/382] ealing.gov.uk: provider=ms365 confidence=0.46 signals=16
+2026-08-24 18:09:23 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:23 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(enfield.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=32
+2026-08-24 18:09:23 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 273/382] enfield.gov.uk: provider=ms365 confidence=1.00 signals=32
+2026-08-24 18:09:24 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:24 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(royalgreenwich.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=26
+2026-08-24 18:09:24 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 274/382] royalgreenwich.gov.uk: provider=ms365 confidence=1.00 signals=26
+2026-08-24 18:09:25 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=google
+2026-08-24 18:09:25 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(hackney.gov.uk): provider=google confidence=0.96 rule=mx_spf signals=27
+2026-08-24 18:09:25 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 275/382] hackney.gov.uk: provider=google confidence=0.96 signals=27
+2026-08-24 18:09:26 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:26 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(lbhf.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=29
+2026-08-24 18:09:26 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 276/382] lbhf.gov.uk: provider=ms365 confidence=1.00 signals=29
+2026-08-24 18:09:26 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:256 | rule=gateway_no_primary (gateway blocks primary signals)
+2026-08-24 18:09:26 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(haringey.gov.uk): provider=unknown confidence=0.00 rule=gateway_no_primary signals=20
+2026-08-24 18:09:26 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 277/382] haringey.gov.uk: provider=unknown confidence=0.00 signals=20
+2026-08-24 18:09:28 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:28 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(harrow.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=18
+2026-08-24 18:09:28 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 278/382] harrow.gov.uk: provider=ms365 confidence=1.00 signals=18
+2026-08-24 18:09:30 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:30 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(havering.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=25
+2026-08-24 18:09:30 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 279/382] havering.gov.uk: provider=ms365 confidence=1.00 signals=25
+2026-08-24 18:09:30 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:30 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(hillingdon.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=29
+2026-08-24 18:09:30 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 280/382] hillingdon.gov.uk: provider=ms365 confidence=1.00 signals=29
+2026-08-24 18:09:31 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:31 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(hounslow.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=21
+2026-08-24 18:09:31 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 281/382] hounslow.gov.uk: provider=ms365 confidence=1.00 signals=21
+2026-08-24 18:09:31 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:31 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(islington.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=18
+2026-08-24 18:09:31 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 282/382] islington.gov.uk: provider=ms365 confidence=1.00 signals=18
+2026-08-24 18:09:31 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:09:31 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(rbkc.gov.uk): provider=ms365 confidence=0.92 rule=mx_only signals=18
+2026-08-24 18:09:31 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 283/382] rbkc.gov.uk: provider=ms365 confidence=0.92 signals=18
+2026-08-24 18:09:33 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=google
+2026-08-24 18:09:33 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(kingston.gov.uk): provider=google confidence=0.86 rule=mx_only signals=30
+2026-08-24 18:09:33 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 284/382] kingston.gov.uk: provider=google confidence=0.86 signals=30
+2026-08-24 18:09:35 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:35 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(lambeth.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=35
+2026-08-24 18:09:35 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 285/382] lambeth.gov.uk: provider=ms365 confidence=1.00 signals=35
+2026-08-24 18:09:35 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:09:35 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(lewisham.gov.uk): provider=ms365 confidence=0.88 rule=mx_only signals=14
+2026-08-24 18:09:35 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 286/382] lewisham.gov.uk: provider=ms365 confidence=0.88 signals=14
+2026-08-24 18:09:35 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:256 | rule=gateway_no_primary (gateway blocks primary signals)
+2026-08-24 18:09:35 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(merton.gov.uk): provider=unknown confidence=0.00 rule=gateway_no_primary signals=5
+2026-08-24 18:09:35 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 287/382] merton.gov.uk: provider=unknown confidence=0.00 signals=5
+2026-08-24 18:09:37 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:37 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(newham.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=27
+2026-08-24 18:09:37 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 288/382] newham.gov.uk: provider=ms365 confidence=1.00 signals=27
+2026-08-24 18:09:37 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:37 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(redbridge.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=24
+2026-08-24 18:09:37 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 289/382] redbridge.gov.uk: provider=ms365 confidence=1.00 signals=24
+2026-08-24 18:09:38 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:38 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(richmond.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=23
+2026-08-24 18:09:38 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 290/382] richmond.gov.uk: provider=ms365 confidence=1.00 signals=23
+2026-08-24 18:09:38 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:09:38 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(southwark.gov.uk): provider=ms365 confidence=0.88 rule=mx_only signals=15
+2026-08-24 18:09:38 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 291/382] southwark.gov.uk: provider=ms365 confidence=0.88 signals=15
+2026-08-24 18:09:39 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=google
+2026-08-24 18:09:39 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(sutton.gov.uk): provider=google confidence=0.96 rule=mx_spf signals=34
+2026-08-24 18:09:39 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 292/382] sutton.gov.uk: provider=google confidence=0.96 signals=34
+2026-08-24 18:09:39 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:39 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(towerhamlets.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=29
+2026-08-24 18:09:39 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 293/382] towerhamlets.gov.uk: provider=ms365 confidence=1.00 signals=29
+2026-08-24 18:09:40 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:256 | rule=gateway_no_primary (gateway blocks primary signals)
+2026-08-24 18:09:40 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(walthamforest.gov.uk): provider=unknown confidence=0.00 rule=gateway_no_primary signals=27
+2026-08-24 18:09:40 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 294/382] walthamforest.gov.uk: provider=unknown confidence=0.00 signals=27
+2026-08-24 18:09:40 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:40 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(wandsworth.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=27
+2026-08-24 18:09:40 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 295/382] wandsworth.gov.uk: provider=ms365 confidence=1.00 signals=27
+2026-08-24 18:09:41 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:09:41 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(westminster.gov.uk): provider=ms365 confidence=0.88 rule=mx_only signals=16
+2026-08-24 18:09:41 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 296/382] westminster.gov.uk: provider=ms365 confidence=0.88 signals=16
+2026-08-24 18:09:42 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:09:42 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(cambridgeshire.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=16
+2026-08-24 18:09:42 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 297/382] cambridgeshire.gov.uk: provider=ms365 confidence=0.76 signals=16
+2026-08-24 18:09:43 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:43 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(derbyshire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=23
+2026-08-24 18:09:43 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 298/382] derbyshire.gov.uk: provider=ms365 confidence=1.00 signals=23
+2026-08-24 18:09:43 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:43 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(devon.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:09:43 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 299/382] devon.gov.uk: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:09:44 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:09:44 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:09:44 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(eastsussex.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=10
+2026-08-24 18:09:44 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 300/382] eastsussex.gov.uk: provider=domestic confidence=0.80 signals=10
+2026-08-24 18:09:44 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:09:44 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(essex.gov.uk): provider=ms365 confidence=0.90 rule=mx_only signals=17
+2026-08-24 18:09:44 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 301/382] essex.gov.uk: provider=ms365 confidence=0.90 signals=17
+2026-08-24 18:09:53 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:53 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(gloucestershire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=24
+2026-08-24 18:09:53 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 302/382] gloucestershire.gov.uk: provider=ms365 confidence=1.00 signals=24
+2026-08-24 18:09:53 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:09:53 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(hants.gov.uk): provider=ms365 confidence=0.90 rule=mx_only signals=16
+2026-08-24 18:09:53 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 303/382] hants.gov.uk: provider=ms365 confidence=0.90 signals=16
+2026-08-24 18:09:54 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:54 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(hertfordshire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=21
+2026-08-24 18:09:54 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 304/382] hertfordshire.gov.uk: provider=ms365 confidence=1.00 signals=21
+2026-08-24 18:09:55 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:55 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(kent.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=19
+2026-08-24 18:09:55 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 305/382] kent.gov.uk: provider=ms365 confidence=1.00 signals=19
+2026-08-24 18:09:56 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:09:56 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(lancashire.gov.uk): provider=ms365 confidence=0.90 rule=mx_only signals=23
+2026-08-24 18:09:56 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 306/382] lancashire.gov.uk: provider=ms365 confidence=0.90 signals=23
+2026-08-24 18:09:56 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:09:56 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:09:56 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(leicestershire.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=4
+2026-08-24 18:09:56 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 307/382] leicestershire.gov.uk: provider=domestic confidence=0.80 signals=4
+2026-08-24 18:09:57 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:57 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(lincolnshire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=32
+2026-08-24 18:09:57 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 308/382] lincolnshire.gov.uk: provider=ms365 confidence=1.00 signals=32
+2026-08-24 18:09:57 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:09:57 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(norfolk.gov.uk): provider=ms365 confidence=0.90 rule=mx_only signals=16
+2026-08-24 18:09:57 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 309/382] norfolk.gov.uk: provider=ms365 confidence=0.90 signals=16
+2026-08-24 18:09:58 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:09:58 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(nottinghamshire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:09:58 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 310/382] nottinghamshire.gov.uk: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:10:01 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:01 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(oxfordshire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=22
+2026-08-24 18:10:01 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 311/382] oxfordshire.gov.uk: provider=ms365 confidence=1.00 signals=22
+2026-08-24 18:10:01 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:01 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(staffordshire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=19
+2026-08-24 18:10:01 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 312/382] staffordshire.gov.uk: provider=ms365 confidence=1.00 signals=19
+2026-08-24 18:10:02 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:10:02 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(suffolk.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=21
+2026-08-24 18:10:02 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 313/382] suffolk.gov.uk: provider=ms365 confidence=0.76 signals=21
+2026-08-24 18:10:02 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:02 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(surreycc.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=18
+2026-08-24 18:10:02 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 314/382] surreycc.gov.uk: provider=ms365 confidence=1.00 signals=18
+2026-08-24 18:10:03 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:03 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(warwickshire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=28
+2026-08-24 18:10:03 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 315/382] warwickshire.gov.uk: provider=ms365 confidence=1.00 signals=28
+2026-08-24 18:10:04 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:04 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(westsussex.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:10:04 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 316/382] westsussex.gov.uk: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:10:04 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:10:04 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(worcestershire.gov.uk): provider=ms365 confidence=0.80 rule=spf_gw signals=20
+2026-08-24 18:10:04 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 317/382] worcestershire.gov.uk: provider=ms365 confidence=0.80 signals=20
+2026-08-24 18:10:05 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:05 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(antrimandnewtownabbey.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=24
+2026-08-24 18:10:05 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 318/382] antrimandnewtownabbey.gov.uk: provider=ms365 confidence=1.00 signals=24
+2026-08-24 18:10:05 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:05 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(armaghbanbridgecraigavon.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:10:05 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 319/382] armaghbanbridgecraigavon.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:10:05 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:10:05 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(belfastcity.gov.uk): provider=ms365 confidence=0.74 rule=spf_gw signals=19
+2026-08-24 18:10:05 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 320/382] belfastcity.gov.uk: provider=ms365 confidence=0.74 signals=19
+2026-08-24 18:10:05 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:256 | rule=gateway_no_primary (gateway blocks primary signals)
+2026-08-24 18:10:05 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(causewaycoastandglens.gov.uk): provider=unknown confidence=0.00 rule=gateway_no_primary signals=13
+2026-08-24 18:10:05 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 321/382] causewaycoastandglens.gov.uk: provider=unknown confidence=0.00 signals=13
+2026-08-24 18:10:05 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=fallback base=0.40 provider=ms365
+2026-08-24 18:10:05 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(derrystrabane.com): provider=ms365 confidence=0.46 rule=fallback signals=16
+2026-08-24 18:10:05 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 322/382] derrystrabane.com: provider=ms365 confidence=0.46 signals=16
+2026-08-24 18:10:07 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:10:07 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(fermanaghomagh.com): provider=ms365 confidence=0.78 rule=spf_gw signals=12
+2026-08-24 18:10:07 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 323/382] fermanaghomagh.com: provider=ms365 confidence=0.78 signals=12
+2026-08-24 18:10:07 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:07 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(lisburncastlereagh.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=23
+2026-08-24 18:10:07 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 324/382] lisburncastlereagh.gov.uk: provider=ms365 confidence=1.00 signals=23
+2026-08-24 18:10:08 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:08 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(midandeastantrim.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:10:08 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 325/382] midandeastantrim.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:10:08 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=dkim_gw base=0.65 provider=ms365
+2026-08-24 18:10:08 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(midulstercouncil.org): provider=ms365 confidence=0.71 rule=dkim_gw signals=20
+2026-08-24 18:10:08 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 326/382] midulstercouncil.org: provider=ms365 confidence=0.71 signals=20
+2026-08-24 18:10:08 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:08 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(nmandd.org): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:10:08 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 327/382] nmandd.org: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:10:08 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:08 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(ardsandnorthdown.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=15
+2026-08-24 18:10:08 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 328/382] ardsandnorthdown.gov.uk: provider=ms365 confidence=1.00 signals=15
+2026-08-24 18:10:09 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:10:09 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:10:09 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(clacks.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=12
+2026-08-24 18:10:09 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 329/382] clacks.gov.uk: provider=domestic confidence=0.80 signals=12
+2026-08-24 18:10:09 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:09 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(dumgal.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=23
+2026-08-24 18:10:09 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 330/382] dumgal.gov.uk: provider=ms365 confidence=1.00 signals=23
+2026-08-24 18:10:10 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:10:10 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:10:10 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(east-ayrshire.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=11
+2026-08-24 18:10:10 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 331/382] east-ayrshire.gov.uk: provider=domestic confidence=0.80 signals=11
+2026-08-24 18:10:10 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:10 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(eastlothian.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=15
+2026-08-24 18:10:10 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 332/382] eastlothian.gov.uk: provider=ms365 confidence=1.00 signals=15
+2026-08-24 18:10:11 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:11 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(eastrenfrewshire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=21
+2026-08-24 18:10:11 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 333/382] eastrenfrewshire.gov.uk: provider=ms365 confidence=1.00 signals=21
+2026-08-24 18:10:11 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:11 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(cne-siar.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=26
+2026-08-24 18:10:11 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 334/382] cne-siar.gov.uk: provider=ms365 confidence=1.00 signals=26
+2026-08-24 18:10:11 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:10:11 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(falkirk.gov.uk): provider=ms365 confidence=0.92 rule=mx_only signals=16
+2026-08-24 18:10:11 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 335/382] falkirk.gov.uk: provider=ms365 confidence=0.92 signals=16
+2026-08-24 18:10:12 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=fallback base=0.40 provider=ms365
+2026-08-24 18:10:12 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(fife.gov.uk): provider=ms365 confidence=0.48 rule=fallback signals=19
+2026-08-24 18:10:12 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 336/382] fife.gov.uk: provider=ms365 confidence=0.48 signals=19
+2026-08-24 18:10:13 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:13 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(highland.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=25
+2026-08-24 18:10:13 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 337/382] highland.gov.uk: provider=ms365 confidence=1.00 signals=25
+2026-08-24 18:10:13 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:10:13 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(inverclyde.gov.uk): provider=ms365 confidence=0.74 rule=spf_gw signals=27
+2026-08-24 18:10:13 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 338/382] inverclyde.gov.uk: provider=ms365 confidence=0.74 signals=27
+2026-08-24 18:10:14 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=dkim_gw base=0.65 provider=ms365
+2026-08-24 18:10:14 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(midlothian.gov.uk): provider=ms365 confidence=0.69 rule=dkim_gw signals=19
+2026-08-24 18:10:14 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 339/382] midlothian.gov.uk: provider=ms365 confidence=0.69 signals=19
+2026-08-24 18:10:15 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:10:15 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:10:15 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(moray.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=9
+2026-08-24 18:10:15 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 340/382] moray.gov.uk: provider=domestic confidence=0.80 signals=9
+2026-08-24 18:10:15 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:15 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(north-ayrshire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:10:15 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 341/382] north-ayrshire.gov.uk: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:10:15 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:10:15 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(orkney.gov.uk): provider=ms365 confidence=0.90 rule=mx_only signals=14
+2026-08-24 18:10:15 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 342/382] orkney.gov.uk: provider=ms365 confidence=0.90 signals=14
+2026-08-24 18:10:16 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:16 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(pkc.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:10:16 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 343/382] pkc.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:10:16 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:16 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(scotborders.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=18
+2026-08-24 18:10:16 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 344/382] scotborders.gov.uk: provider=ms365 confidence=1.00 signals=18
+2026-08-24 18:10:17 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:17 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(shetland.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=21
+2026-08-24 18:10:17 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 345/382] shetland.gov.uk: provider=ms365 confidence=1.00 signals=21
+2026-08-24 18:10:17 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:17 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(south-ayrshire.gov.uk): provider=ms365 confidence=0.98 rule=mx_spf signals=20
+2026-08-24 18:10:17 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 346/382] south-ayrshire.gov.uk: provider=ms365 confidence=0.98 signals=20
+2026-08-24 18:10:18 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:10:18 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:10:18 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(southlanarkshire.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=13
+2026-08-24 18:10:18 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 347/382] southlanarkshire.gov.uk: provider=domestic confidence=0.80 signals=13
+2026-08-24 18:10:18 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:10:18 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(stirling.gov.uk): provider=ms365 confidence=0.78 rule=spf_gw signals=26
+2026-08-24 18:10:18 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 348/382] stirling.gov.uk: provider=ms365 confidence=0.78 signals=26
+2026-08-24 18:10:20 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:256 | rule=gateway_no_primary (gateway blocks primary signals)
+2026-08-24 18:10:20 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(aberdeencity.gov.uk): provider=unknown confidence=0.00 rule=gateway_no_primary signals=3
+2026-08-24 18:10:20 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 349/382] aberdeencity.gov.uk: provider=unknown confidence=0.00 signals=3
+2026-08-24 18:10:20 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:10:20 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(aberdeenshire.gov.uk): provider=ms365 confidence=0.90 rule=mx_only signals=15
+2026-08-24 18:10:20 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 350/382] aberdeenshire.gov.uk: provider=ms365 confidence=0.90 signals=15
+2026-08-24 18:10:22 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:22 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(argyll-bute.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:10:22 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 351/382] argyll-bute.gov.uk: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:10:22 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:22 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(edinburgh.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=16
+2026-08-24 18:10:22 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 352/382] edinburgh.gov.uk: provider=ms365 confidence=1.00 signals=16
+2026-08-24 18:10:23 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:23 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(renfrewshire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=26
+2026-08-24 18:10:23 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 353/382] renfrewshire.gov.uk: provider=ms365 confidence=1.00 signals=26
+2026-08-24 18:10:38 | DEBUG   | mail_municipalities.provider_classification.probes:probe_smtp:266 | SMTP banner fetch failed for uk.mx1.mailanyone.net: 
+2026-08-24 18:10:38 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:10:38 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(west-dunbarton.gov.uk): provider=ms365 confidence=0.72 rule=spf_gw signals=13
+2026-08-24 18:10:38 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 354/382] west-dunbarton.gov.uk: provider=ms365 confidence=0.72 signals=13
+2026-08-24 18:10:38 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:10:38 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:10:38 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(westlothian.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=14
+2026-08-24 18:10:38 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 355/382] westlothian.gov.uk: provider=domestic confidence=0.80 signals=14
+2026-08-24 18:10:39 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:39 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(angus.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=29
+2026-08-24 18:10:39 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 356/382] angus.gov.uk: provider=ms365 confidence=1.00 signals=29
+2026-08-24 18:10:39 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:10:39 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(dundeecity.gov.uk): provider=ms365 confidence=0.90 rule=mx_only signals=14
+2026-08-24 18:10:39 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 357/382] dundeecity.gov.uk: provider=ms365 confidence=0.90 signals=14
+2026-08-24 18:10:39 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:10:39 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(northlanarkshire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=15
+2026-08-24 18:10:39 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 358/382] northlanarkshire.gov.uk: provider=ms365 confidence=1.00 signals=15
+2026-08-24 18:10:54 | DEBUG   | mail_municipalities.provider_classification.probes:probe_smtp:266 | SMTP banner fetch failed for uk.mx1.mailanyone.net: 
+2026-08-24 18:10:54 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:10:54 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(eastdunbarton.gov.uk): provider=ms365 confidence=0.74 rule=spf_gw signals=13
+2026-08-24 18:10:54 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 359/382] eastdunbarton.gov.uk: provider=ms365 confidence=0.74 signals=13
+2026-08-24 18:10:55 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_only base=0.80 provider=ms365
+2026-08-24 18:10:55 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(glasgow.gov.uk): provider=ms365 confidence=0.90 rule=mx_only signals=18
+2026-08-24 18:10:55 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 360/382] glasgow.gov.uk: provider=ms365 confidence=0.90 signals=18
+2026-08-24 18:10:55 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=dkim_gw base=0.65 provider=ms365
+2026-08-24 18:10:55 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(anglesey.gov.uk): provider=ms365 confidence=0.69 rule=dkim_gw signals=16
+2026-08-24 18:10:55 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 361/382] anglesey.gov.uk: provider=ms365 confidence=0.69 signals=16
+2026-08-24 18:10:56 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:10:56 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(gwynedd.llyw.cymru): provider=ms365 confidence=0.76 rule=spf_gw signals=12
+2026-08-24 18:10:56 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 362/382] gwynedd.llyw.cymru: provider=ms365 confidence=0.76 signals=12
+2026-08-24 18:10:56 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:256 | rule=gateway_no_primary (gateway blocks primary signals)
+2026-08-24 18:10:56 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(conwy.gov.uk): provider=unknown confidence=0.00 rule=gateway_no_primary signals=10
+2026-08-24 18:10:56 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 363/382] conwy.gov.uk: provider=unknown confidence=0.00 signals=10
+2026-08-24 18:11:09 | DEBUG   | mail_municipalities.provider_classification.probes:probe_smtp:266 | SMTP banner fetch failed for extsmtp002.denbighshire.gov.uk: 
+2026-08-24 18:11:09 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:11:09 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:11:09 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(denbighshire.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=7
+2026-08-24 18:11:09 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 364/382] denbighshire.gov.uk: provider=domestic confidence=0.80 signals=7
+2026-08-24 18:11:12 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:11:12 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(flintshire.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=11
+2026-08-24 18:11:12 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 365/382] flintshire.gov.uk: provider=ms365 confidence=0.76 signals=11
+2026-08-24 18:11:12 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:11:12 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(wrexham.gov.uk): provider=ms365 confidence=0.76 rule=spf_gw signals=21
+2026-08-24 18:11:12 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 366/382] wrexham.gov.uk: provider=ms365 confidence=0.76 signals=21
+2026-08-24 18:11:13 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:11:13 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(ceredigion.gov.uk): provider=ms365 confidence=0.98 rule=mx_spf signals=17
+2026-08-24 18:11:13 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 367/382] ceredigion.gov.uk: provider=ms365 confidence=0.98 signals=17
+2026-08-24 18:11:13 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:11:13 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(pembrokeshire.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=18
+2026-08-24 18:11:13 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 368/382] pembrokeshire.gov.uk: provider=ms365 confidence=1.00 signals=18
+2026-08-24 18:11:13 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:11:13 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(carmarthenshire.gov.wales): provider=ms365 confidence=1.00 rule=mx_spf signals=17
+2026-08-24 18:11:13 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 369/382] carmarthenshire.gov.wales: provider=ms365 confidence=1.00 signals=17
+2026-08-24 18:11:14 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:11:14 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(swansea.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=27
+2026-08-24 18:11:14 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 370/382] swansea.gov.uk: provider=ms365 confidence=1.00 signals=27
+2026-08-24 18:11:14 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:11:14 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(neath-porttalbot.gov.uk): provider=ms365 confidence=0.74 rule=spf_gw signals=10
+2026-08-24 18:11:14 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 371/382] neath-porttalbot.gov.uk: provider=ms365 confidence=0.74 signals=10
+2026-08-24 18:11:15 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=spf_gw base=0.70 provider=ms365
+2026-08-24 18:11:15 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(bridgend.gov.uk): provider=ms365 confidence=0.74 rule=spf_gw signals=9
+2026-08-24 18:11:15 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 372/382] bridgend.gov.uk: provider=ms365 confidence=0.74 signals=9
+2026-08-24 18:11:15 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:11:15 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(valeofglamorgan.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=25
+2026-08-24 18:11:15 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 373/382] valeofglamorgan.gov.uk: provider=ms365 confidence=1.00 signals=25
+2026-08-24 18:11:15 | DEBUG   | mail_municipalities.provider_classification.classifier:_country_confidence:174 | rule=dom_mx_spf base=0.80
+2026-08-24 18:11:15 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:225 | domestic MX override: rule=dom_mx_spf conf=0.80
+2026-08-24 18:11:15 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(cardiff.gov.uk): provider=domestic confidence=0.80 rule=dom_mx_spf signals=7
+2026-08-24 18:11:15 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 374/382] cardiff.gov.uk: provider=domestic confidence=0.80 signals=7
+2026-08-24 18:11:16 | DEBUG   | mail_municipalities.provider_classification.classifier:_aggregate:256 | rule=gateway_no_primary (gateway blocks primary signals)
+2026-08-24 18:11:16 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(rctcbc.gov.uk): provider=unknown confidence=0.00 rule=gateway_no_primary signals=25
+2026-08-24 18:11:16 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 375/382] rctcbc.gov.uk: provider=unknown confidence=0.00 signals=25
+2026-08-24 18:11:16 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:11:16 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(caerphilly.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=25
+2026-08-24 18:11:16 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 376/382] caerphilly.gov.uk: provider=ms365 confidence=1.00 signals=25
+2026-08-24 18:11:17 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:11:17 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(blaenau-gwent.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=20
+2026-08-24 18:11:17 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 377/382] blaenau-gwent.gov.uk: provider=ms365 confidence=1.00 signals=20
+2026-08-24 18:11:17 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:11:17 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(torfaen.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=21
+2026-08-24 18:11:17 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 378/382] torfaen.gov.uk: provider=ms365 confidence=1.00 signals=21
+2026-08-24 18:11:18 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:11:18 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(monmouthshire.gov.uk): provider=ms365 confidence=0.98 rule=mx_spf signals=22
+2026-08-24 18:11:18 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 379/382] monmouthshire.gov.uk: provider=ms365 confidence=0.98 signals=22
+2026-08-24 18:11:18 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:11:18 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(newport.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=22
+2026-08-24 18:11:18 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 380/382] newport.gov.uk: provider=ms365 confidence=1.00 signals=22
+2026-08-24 18:11:18 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:11:18 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(powys.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=25
+2026-08-24 18:11:18 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 381/382] powys.gov.uk: provider=ms365 confidence=1.00 signals=25
+2026-08-24 18:11:19 | DEBUG   | mail_municipalities.provider_classification.classifier:_rule_confidence:132 | rule=mx_spf base=0.90 provider=ms365
+2026-08-24 18:11:19 | DEBUG   | mail_municipalities.provider_classification.classifier:classify:335 | classify(merthyr.gov.uk): provider=ms365 confidence=1.00 rule=mx_spf signals=24
+2026-08-24 18:11:19 | INFO    | mail_municipalities.provider_classification.runner:run:247 | [ 382/382] merthyr.gov.uk: provider=ms365 confidence=1.00 signals=24
+2026-08-24 18:11:19 | INFO    | mail_municipalities.provider_classification.classifier:classify_many:380 | Rule hit summary:
+  mx_spf                 193
+  spf_gw                  79
+  dom_mx_spf              38
+  mx_only                 30
+  dkim_gw                 14
+  gateway_no_primary      13
+  fallback                12
+  dkim_spf                 0
+  spf_only                 0
+  dom_mx_only              0
+  dom_secondary            0
+  dom_none                 0
+  frgn_mx_spf              0
+  frgn_mx_only             0
+  frgn_secondary           0
+  frgn_none                0
+2026-08-24 18:11:19 | INFO    | mail_municipalities.provider_classification.runner:run:274 | --- Classification: 382 municipalities in 417.1s ---
+2026-08-24 18:11:19 | INFO    | mail_municipalities.provider_classification.runner:run:275 |   US Cloud           331  (MS=322 Google=6 AWS=3)
+2026-08-24 18:11:19 | INFO    | mail_municipalities.provider_classification.runner:run:282 |   Domestic            38
+2026-08-24 18:11:19 | INFO    | mail_municipalities.provider_classification.runner:run:286 |   Foreign              0
+2026-08-24 18:11:19 | INFO    | mail_municipalities.provider_classification.runner:run:290 |   Unknown/No MX       13
+2026-08-24 18:11:19 | INFO    | mail_municipalities.provider_classification.runner:run:326 | Wrote output/providers/providers_gb.json (1026.1044921875 KB)
+2026-08-24 18:11:19 | INFO    | mail_municipalities.provider_classification.runner:run:327 | Wrote output/providers/providers_gb.min.json (695 KB)

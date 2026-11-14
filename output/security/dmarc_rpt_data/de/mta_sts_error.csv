@@ -1,0 +1,5 @@
+﻿"scope";"domainname";"generalErrorType";"detailedErrorType"
+"mxHost";"ag.eu.dmarcian.com";"policyMtaNoValidTls";""
+"domain";"gemeinde-hasbergen.de";"policydnsLookupError";"NoPolicyARecordFound"
+"domain";"stadt.wuppertal.de";"policyTlsError";"SANMismatch"
+"mxHost";"kv-zinnowitz.de";"policyMtaNoValidTls";""

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Municipality Email Maps</title>
+<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+<link rel="manifest" href="../favicon/site.webmanifest">
+<link rel="stylesheet" href="/cards/css/shared.css">
+<style>
+body { background: #f0f1f5; min-height: 100vh; }
+.landing { max-width: 720px; margin: 0 auto; padding: 40px 20px; }
+.landing h2 { font-size: 22px; font-weight: 700; color: #1a1a2e; margin-bottom: 8px; }
+.landing p { font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 24px; }
+.map-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.map-card {
+  display: block; background: #fff; border-radius: 8px; padding: 24px;
+  text-decoration: none; color: #1a1a2e; border: 1px solid #d8dae0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06); transition: box-shadow 0.15s;
+}
+.map-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.12); }
+.map-card h3 { font-size: 17px; font-weight: 600; margin-bottom: 8px; }
+.map-card p { font-size: 13px; color: #555; line-height: 1.5; margin: 0; }
+.landing-footer { margin-top: 32px; font-size: 12px; color: #999; }
+.landing-footer a { color: #2563eb; text-decoration: none; }
+.landing-footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<header id="header">
+  <div class="header-left">
+    <h1 class="brand">Municipality Emails</h1>
+  </div>
+</header>
+<div class="landing">
+  <h2>Municipality Email Maps</h2>
+  <p>Interactive maps showing email infrastructure of municipalities in Germany and UK based on public DNS records and network signals.</p>
+  <div class="map-list">
+    <a href="cards/providers.html" class="map-card">
+      <h3>📨 Email Providers</h3>
+      <p>Which provider handles each municipality's official email? Classified by jurisdiction: US cloud (Microsoft, Google, AWS), domestic, or foreign (lower tier).</p>
+    </a>
+    <a href="cards/providers_lk.html" class="map-card">
+      <h3>📨 Email Providers upper tier</h3>
+      <p>Which provider handles each municipality's official email? Classified by jurisdiction: US cloud (Microsoft, Google, AWS), domestic, or foreign.</p>
+    </a>
+    <a href="cards/security_spf.html" class="map-card">
+      <h3>SPF (lower tier)</h3>
+      <p>Sender Policy Framework protection of municipality email domains.</p>
+    </a>
+    <a href="cards/security_spf_lk.html" class="map-card">
+      <h3>SPF (upper tier)</h3>
+      <p>Sender Policy Framework protection of municipality email domains.</p>
+    </a>
+    <a href="cards/security_dmarc.html" class="map-card">
+      <h3>DMARC (lower tier)</h3>
+      <p>DMARC protection of municipality email domains</p>
+    </a>
+    <a href="cards/security_dmarc_lk.html" class="map-card">
+      <h3>DMARC (upper tier)</h3>
+      <p>DMARC protection of municipality email domains.</p>
+    </a>
+    <a href="cards/security_dnssec.html" class="map-card">
+      <h3>DNSSEC (lower tier)</h3>
+      <p>DNS Security Extensions support for municipality email domains.</p>
+    </a>
+    <a href="cards/security_dnssec_lk.html" class="map-card">
+      <h3>DNSSEC (upper tier)</h3>
+      <p>DNS Security Extensions support for municipality email domains.</p>
+    </a>
+        <a href="cards/security_dane.html" class="map-card">
+      <h3>DANE (lower tier)</h3>
+      <p>DNS-based Authentication of Named Entities for municipality email domains.</p>
+    </a>
+    <a href="cards/security_dane_lk.html" class="map-card">
+      <h3>DANE (upper tier)</h3>
+      <p>DNS-based Authentication of Named Entities for municipality email domains.</p>
+    </a>
+    <a href="cards/security_mtasts.html" class="map-card">
+      <h3>MTA-STS (lower tier)</h3>
+      <p>Mail Transfer Agent Strict Transport Security for municipality email domains.</p>
+    </a>
+    <a href="cards/security_mtasts_lk.html" class="map-card">
+      <h3>MTA-STS (upper tier)</h3>
+      <p>Mail Transfer Agent Strict Transport Security for municipality email domains.</p>
+    </a>
+    <a href="cards/security_tls_ver.html" class="map-card">
+      <h3>min. TLS versions (lower tier)</h3>
+      <p>The lowest TLS protocol version supported by municipal email servers (based on availability tests for TLS 1.0, 1.1, and 1.2)</p>
+    </a>
+    <a href="cards/security_tls_ver_lk.html" class="map-card">
+      <h3>min. TLS versions (upper tier)</h3>
+      <p>The lowest TLS protocol version supported by municipal email servers (based on availability tests for TLS 1.0, 1.1, and 1.2)</p>
+    </a>
+    <a href="cards/security_tlsrpt.html" class="map-card">
+      <h3>TLS-RPT (lower tier)</h3>
+      <p>TLS Reporting support of municipality email domains.</p>
+    </a>
+    <a href="cards/security_tlsrpt_lk.html" class="map-card">
+      <h3>TLS-RPT  (upper tier)</h3>
+      <p>TLS Reporting support of municipality email domains.</p>
+    </a>
+  </div>
+  <div class="landing-footer">
+    <p> Open source &amp; open data on <a href="https://github.com/mxmap/mxmap-gb" target="_blank">GitHub</a>.</p>
+  </div>
+</div>
+</body>
+</html>

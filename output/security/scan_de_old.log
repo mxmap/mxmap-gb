@@ -1,0 +1,9 @@
+2026-09-02 17:50:26 | DEBUG   | mail_municipalities.security_analysis.runner:ensure_env:46 | Using existing .env at C:\Users\jorel\Desktop\8. Sem BA\Codes\ba-e-mail-sec-uk-de\src\security_test\.env
+2026-09-02 17:50:26 | INFO    | mail_municipalities.security_analysis.runner:run:318 | Phase 1: Preparing scanner input for de
+2026-09-02 17:50:26 | INFO    | mail_municipalities.security_analysis.runner:run:322 | Phase 2: Running security scanner (Docker)
+2026-09-02 17:50:26 | INFO    | mail_municipalities.security_analysis.runner:run:325 | Scanner completed in 0.0s
+2026-09-02 17:50:26 | INFO    | mail_municipalities.security_analysis.runner:run:328 | Phase 3: Running evaluator (Docker)
+2026-09-02 17:50:26 | INFO    | mail_municipalities.security_analysis.runner:run:331 | Evaluator completed in 0.0s
+2026-09-02 17:50:26 | INFO    | mail_municipalities.security_analysis.runner:run:340 | Phase 4: Building output
+2026-09-02 17:50:37 | INFO    | mail_municipalities.security_analysis.runner:run:355 | Wrote output\security\security_de.json (129191 KB)
+2026-09-02 17:50:37 | INFO    | mail_municipalities.security_analysis.runner:run:356 | --- Security scan: 11399 municipalities ---

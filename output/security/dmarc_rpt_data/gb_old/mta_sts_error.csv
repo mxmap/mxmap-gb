@@ -1,0 +1,5 @@
+﻿"scope";"domainname";"generalErrorType";"detailedErrorType"
+"mxHost";"ag.dmarcian-eu.com";"policyMtaNoValidTls";""
+"mxHost";"ag.eu.dmarcian.com";"policyMtaNoValidTls";""
+"domain";"hullcc.gov.uk";"policySyntaxError";"SyntaxErrorKeyValueFormat"
+"domain";"nottscc.gov.uk";"policyRetrievalError";"GeneralRetrievalError"

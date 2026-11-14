@@ -1,0 +1,295 @@
+﻿AGS-Code;RegionaleBezeichnung;Name;NUTS3; Fläche km² ¹⁾;Bevölkerung auf Grundlage des ZENSUS 2022 ²⁾ insgesamt;Bevölkerung auf Grundlage des ZENSUS 2022 ²⁾ männlich;Bevölkerung auf Grundlage des ZENSUS 2022 ²⁾ weiblich;Bevölkerung auf Grundlage des ZENSUS 2022 ²⁾ je km²;Bundesland;homepage_url;email_domain
+01051;Landkreis;Dithmarschen;DEF05;   1 428,17;   133 460;   65 838;   67 622;    93;Schleswig-Holstein;www.dithmarschen.de;dithmarschen.de
+01053;Landkreis;Herzogtum Lauenburg;DEF06;   1 263,06;   206 235;   100 801;   105 434;    163;Schleswig-Holstein;http://www.kreis-rz.de/;kreis-rz.de
+01054;Landkreis;Nordfriesland;DEF07;   2 083,56;   170 029;   82 956;   87 073;    82;Schleswig-Holstein;http://www.nordfriesland.de/;nordfriesland.de
+01055;Landkreis;Ostholstein;DEF08;   1 393,02;   201 472;   96 823;   104 649;    145;Schleswig-Holstein;http://www.kreis-oh.de/;kreis-oh.de
+01056;Landkreis;Pinneberg;DEF09;    664,25;   325 223;   159 658;   165 565;    490;Schleswig-Holstein;http://www.kreis-pinneberg.de/;kreis-pinneberg.de
+01057;Landkreis;Plön;DEF0A;   1 083,56;   130 609;   62 878;   67 731;    121;Schleswig-Holstein;http://www.kreis-ploen.de/;kreis-ploen.de
+01058;Landkreis;Rendsburg-Eckernförde;DEF0B;   2 189,79;   278 058;   136 574;   141 484;    127;Schleswig-Holstein;http://www.kreis-rendsburg-eckernfoerde.de/;kreis-rd.de
+01059;Landkreis;Schleswig-Flensburg;DEF0C;   2 071,28;   205 472;   101 224;   104 248;    99;Schleswig-Holstein;http://www.schleswig-flensburg.de/;schleswig-flensburg.de
+01060;Landkreis;Segeberg;DEF0D;   1 344,47;   283 562;   139 729;   143 833;    211;Schleswig-Holstein;http://www.segeberg.de/;segeberg.de
+01061;Landkreis;Steinburg;DEF0E;   1 055,70;   132 731;   65 769;   66 962;    126;Schleswig-Holstein;http://www.steinburg.de/;steinburg.de
+01062;Landkreis;Stormarn;DEF0F;    766,22;   246 974;   120 418;   126 556;    322;Schleswig-Holstein;http://www.kreis-stormarn.de/;kreis-stormarn.de
+03151;Landkreis;Gifhorn;DE914;   1 567,57;   175 943;   87 419;   88 524;    112;Niedersachsen;http://www.landkreis-gifhorn.de/;landkreis-gifhorn.de
+03153;Landkreis;Goslar;DE916;    966,72;   126 775;   62 494;   64 281;    131;Niedersachsen;http://www.landkreis-goslar.de/;landkreis-goslar.de
+03154;Landkreis;Helmstedt;DE917;    676,12;   90 227;   44 753;   45 474;    133;Niedersachsen;http://www.landkreis-helmstedt.de/;landkreis-helmstedt.de
+03155;Landkreis;Northeim;DE918;   1 268,77;   125 623;   62 034;   63 589;    99;Niedersachsen;http://www.landkreis-northeim.de/;landkreis-northeim.de
+03157;Landkreis;Peine;DE91A;    536,50;   137 045;   67 979;   69 066;    255;Niedersachsen;http://www.landkreis-peine.de/;landkreis-peine.de
+03158;Landkreis;Wolfenbüttel;DE91B;    724,32;   118 290;   58 553;   59 737;    163;Niedersachsen;http://www.lkwf.de/;lk-wf.de
+03159;Landkreis;Göttingen;DE91C;   1 755,41;   328 028;   161 346;   166 682;    187;Niedersachsen;http://www.landkreisgoettingen.de/;landkreisgoettingen.de
+03241;Landkreis;Region Hannover;DE929;   2 297,13;  1 140 888;   559 435;   581 453;    497;Niedersachsen;http://www.hannover.de/;region-hannover.de
+03251;Landkreis;Diepholz;DE922;   1 991,02;   221 202;   109 490;   111 712;    111;Niedersachsen;http://www.diepholz.de/;diepholz.de
+03252;Landkreis;Hameln-Pyrmont;DE923;    797,53;   150 203;   73 079;   77 124;    188;Niedersachsen;http://www.hameln-pyrmont.de/;hameln-pyrmont.de
+03254;Landkreis;Hildesheim;DE925;   1 208,33;   267 506;   130 749;   136 757;    221;Niedersachsen;http://www.landkreishildesheim.de/;landkreishildesheim.de
+03255;Landkreis;Holzminden;DE926;    694,27;   65 581;   32 684;   32 897;    94;Niedersachsen;http://www.landkreis-holzminden.de/;landkreis-holzminden.de
+03256;Landkreis;Nienburg (Weser);DE927;   1 400,81;   121 468;   60 082;   61 386;    87;Niedersachsen;http://www.lk-nienburg.de/;kreis-ni.de
+03257;Landkreis;Schaumburg;DE928;    675,67;   156 841;   76 747;   80 094;    232;Niedersachsen;http://www.schaumburg.de/;landkreis-schaumburg.de
+03351;Landkreis;Celle;DE931;   1 550,83;   172 449;   84 218;   88 231;    111;Niedersachsen;http://www.landkreis-celle.de/;lkcelle.de
+03352;Landkreis;Cuxhaven;DE932;   2 058,96;   198 842;   97 356;   101 486;    97;Niedersachsen;http://www.landkreis-cuxhaven.de/;landkreis-cuxhaven.de
+03353;Landkreis;Harburg;DE933;   1 248,45;   265 864;   132 100;   133 764;    213;Niedersachsen;http://www.landkreis-harburg.de/;lkharburg.de
+03354;Landkreis;Lüchow-Dannenberg;DE934;   1 227,31;   46 502;   22 695;   23 807;    38;Niedersachsen;http://www.luechow-dannenberg.de/;luechow-dannenberg.de
+03355;Landkreis;Lüneburg;DE935;   1 327,83;   179 448;   87 096;   92 352;    135;Niedersachsen;http://www.landkreis-lueneburg.de/;landkreis.lueneburg.de
+03356;Landkreis;Osterholz;DE936;    652,67;   113 598;   55 447;   58 151;    174;Niedersachsen;http://www.landkreis-osterholz.de/;landkreis-osterholz.de
+03357;Landkreis;Rotenburg (Wümme);DE937;   2 074,76;   165 904;   83 060;   82 844;    80;Niedersachsen;http://www.lk-row.de/;lk-row.de
+03358;Landkreis;Heidekreis;DE938;   1 881,46;   141 321;   70 064;   71 257;    75;Niedersachsen;http://www.heidekreis.de/;heidekreis.de
+03359;Landkreis;Stade;DE939;   1 267,38;   207 700;   103 090;   104 610;    164;Niedersachsen;http://www.landkreis-stade.de/;landkreis-stade.de
+03360;Landkreis;Uelzen;DE93A;   1 462,60;   91 638;   44 907;   46 731;    63;Niedersachsen;http://www.landkreis-uelzen.de/;landkreis-uelzen.de
+03361;Landkreis;Verden;DE93B;    789,33;   138 626;   68 108;   70 518;    176;Niedersachsen;http://www.landkreis-verden.de/;landkreis-verden.de
+03451;Landkreis;Ammerland;DE946;    730,65;   127 751;   62 524;   65 227;    175;Niedersachsen;http://www.ammerland.de/;ammerland.de
+03452;Landkreis;Aurich;DE947;   1 287,35;   188 816;   92 834;   95 982;    147;Niedersachsen;http://www.landkreis-aurich.de/;landkreis-aurich.de
+03453;Landkreis;Cloppenburg;DE948;   1 420,34;   177 025;   89 995;   87 030;    125;Niedersachsen;http://www.lkclp.de/;lkclp.de
+03454;Landkreis;Emsland;DE949;   2 883,67;   334 539;   169 840;   164 699;    116;Niedersachsen;http://www.emsland.de/;emsland.de
+03455;Landkreis;Friesland;DE94A;    609,52;   100 411;   48 803;   51 608;    165;Niedersachsen;http://www.friesland.de/;friesland.de
+03456;Landkreis;Grafschaft Bentheim;DE94B;    981,79;   144 543;   72 256;   72 287;    147;Niedersachsen;http://www.grafschaft-bentheim.de/;grafschaft.de
+03457;Landkreis;Leer;DE94C;   1 085,72;   169 103;   83 339;   85 764;    156;Niedersachsen;http://www.landkreis-leer.de/;lkleer.de
+03458;Landkreis;Oldenburg;DE94D;   1 064,83;   132 008;   65 265;   66 743;    124;Niedersachsen;http://www.oldenburg-kreis.de/;oldenburg-kreis.de
+03459;Landkreis;Osnabrück;DE94E;   2 121,80;   354 821;   175 240;   179 581;    167;Niedersachsen;http://www.landkreis-osnabrueck.de/;landkreis-osnabrueck.de
+03460;Landkreis;Vechta;DE94F;    814,21;   146 539;   73 681;   72 858;    180;Niedersachsen;http://www.landkreis-vechta.de/;landkreis-vechta.de
+03461;Landkreis;Wesermarsch;DE94G;    824,78;   88 936;   44 437;   44 499;    108;Niedersachsen;http://www.landkreis-wesermarsch.de/;wesermarsch.de
+03462;Landkreis;Wittmund;DE94H;    656,86;   55 969;   27 392;   28 577;    85;Niedersachsen;http://www.landkreis-wittmund.de/;lk.wittmund.de
+05154;Landkreis;Kleve;DEA1B;   1 232,99;   322 018;   160 893;   161 125;    261;Nordrhein-Westfalen;http://www.kreis-kleve.de/;kreis-kleve.de
+05158;Landkreis;Mettmann;DEA1C;    407,22;   490 910;   238 038;   252 872;   1 206;Nordrhein-Westfalen;http://www.kreis-mettmann.de/;kreis-mettmann.de
+05162;Landkreis;Rhein-Kreis Neuss;DEA1D;    576,44;   457 077;   223 233;   233 844;    793;Nordrhein-Westfalen;http://www.rhein-kreis-neuss.de/;rhein-kreis-neuss.de
+05166;Landkreis;Viersen;DEA1E;    563,28;   297 857;   145 900;   151 957;    529;Nordrhein-Westfalen;http://www.kreis-viersen.de/;kreis-viersen.de
+05170;Landkreis;Wesel;DEA1F;   1 042,76;   457 918;   223 012;   234 906;    439;Nordrhein-Westfalen;http://www.kreis-wesel.de/;kreis-wesel.de
+05334;Landkreis;Städteregion Aachen;DEA2D;    706,91;   582 410;   294 641;   287 769;    824;Nordrhein-Westfalen;http://www.staedteregion-aachen.de/;staedteregion-aachen.de
+05358;Landkreis;Düren;DEA26;    941,49;   279 285;   139 089;   140 196;    297;Nordrhein-Westfalen;http://www.kreis-dueren.de/;kreis-dueren.de
+05362;Landkreis;Rhein-Erft-Kreis;DEA27;    704,70;   477 988;   234 807;   243 181;    678;Nordrhein-Westfalen;http://www.rhein-erft-kreis.de/;rhein-erft-kreis.de
+05366;Landkreis;Euskirchen;DEA28;   1 248,73;   202 609;   100 723;   101 886;    162;Nordrhein-Westfalen;http://www.kreis-euskirchen.de/;kreis-euskirchen.de
+05370;Landkreis;Heinsberg;DEA29;    627,91;   263 681;   130 693;   132 988;    420;Nordrhein-Westfalen;http://www.kreis-heinsberg.de/;kreis-heinsberg.de
+05374;Landkreis;Oberbergischer Kreis;DEA2A;    918,85;   274 057;   135 037;   139 020;    298;Nordrhein-Westfalen;http://www.oberbergischer-kreis.de/;obk.de
+05378;Landkreis;Rheinisch-Bergischer Kreis;DEA2B;    437,32;   284 273;   138 211;   146 062;    650;Nordrhein-Westfalen;http://www.rbk-direkt.de/;rbk-online.de
+05382;Landkreis;Rhein-Sieg-Kreis;DEA2C;   1 153,21;   605 441;   297 627;   307 814;    525;Nordrhein-Westfalen;http://www.rhein-sieg-kreis.de/;rhein-sieg-kreis.de
+05554;Landkreis;Borken;DEA34;   1 420,99;   380 796;   190 679;   190 117;    268;Nordrhein-Westfalen;http://www.kreis-borken.de/;kreis-borken.de
+05558;Landkreis;Coesfeld;DEA35;   1 112,04;   227 859;   112 586;   115 273;    205;Nordrhein-Westfalen;http://www.kreis-coesfeld.de/;kreis-coesfeld.de
+05562;Landkreis;Recklinghausen;DEA36;    761,31;   621 305;   303 445;   317 860;    816;Nordrhein-Westfalen;http://www.kreis-re.de/;kreis-re.de
+05566;Landkreis;Steinfurt;DEA37;   1 795,75;   451 712;   225 189;   226 523;    252;Nordrhein-Westfalen;http://www.kreis-steinfurt.de/;kreis-steinfurt.de
+05570;Landkreis;Warendorf;DEA38;   1 319,42;   282 639;   139 942;   142 697;    214;Nordrhein-Westfalen;http://www.kreis-warendorf.de/;kreis-warendorf.de
+05754;Landkreis;Gütersloh;DEA42;    969,21;   363 982;   181 577;   182 405;    376;Nordrhein-Westfalen;http://www.kreis-guetersloh.de/;gt-net.de
+05758;Landkreis;Herford;DEA43;    450,40;   254 404;   125 258;   129 146;    565;Nordrhein-Westfalen;http://www.kreis-herford.de/;kreis-herford.de
+05762;Landkreis;Höxter;DEA44;   1 201,42;   139 252;   69 585;   69 667;    116;Nordrhein-Westfalen;http://www.kreis-hoexter.de/;kreis-hoexter.de
+05766;Landkreis;Lippe;DEA45;   1 246,21;   347 149;   170 653;   176 496;    279;Nordrhein-Westfalen;http://www.kreis-lippe.de/;kreis-lippe.de
+05770;Landkreis;Minden-Lübbecke;DEA46;   1 152,41;   320 557;   159 027;   161 530;    278;Nordrhein-Westfalen;http://www.minden-luebbecke.de/;minden-luebbecke.de
+05774;Landkreis;Paderborn;DEA47;   1 246,80;   315 912;   158 202;   157 710;    253;Nordrhein-Westfalen;http://www.kreis-paderborn.de/;kreis-paderborn.de
+05954;Landkreis;Ennepe-Ruhr-Kreis;DEA56;    409,64;   314 167;   152 061;   162 106;    767;Nordrhein-Westfalen;http://www.enkreis.de/;en-kreis.de
+05958;Landkreis;Hochsauerlandkreis;DEA57;   1 960,17;   260 843;   130 226;   130 617;    133;Nordrhein-Westfalen;http://www.hochsauerlandkreis.de/;hochsauerlandkreis.de
+05962;Landkreis;Märkischer Kreis;DEA58;   1 061,09;   408 046;   201 307;   206 739;    385;Nordrhein-Westfalen;http://www.maerkischer-kreis.de/;maerkischer-kreis.de
+05966;Landkreis;Olpe;DEA59;    712,11;   132 346;   66 427;   65 919;    186;Nordrhein-Westfalen;http://www.kreis-olpe.de/;kreis-olpe.de
+05970;Landkreis;Siegen-Wittgenstein;DEA5A;   1 132,89;   274 074;   136 549;   137 525;    242;Nordrhein-Westfalen;http://www.siegen-wittgenstein.de/;siegen-wittgenstein.de
+05974;Landkreis;Soest;DEA5B;   1 328,64;   300 297;   149 302;   150 995;    226;Nordrhein-Westfalen;http://www.kreis-soest.de/;kreis-soest.de
+05978;Landkreis;Unna;DEA5C;    543,21;   393 784;   192 270;   201 514;    725;Nordrhein-Westfalen;http://www.kreis-unna.de/;kreis-unna.de
+06431;Landkreis;Bergstraße;DE715;    719,47;   274 169;   135 499;   138 670;    381;Hessen;http://www.kreis-bergstrasse.de/;kreis-bergstrasse.de
+06432;Landkreis;Darmstadt-Dieburg;DE716;    658,64;   302 021;   149 541;   152 480;    459;Hessen;http://www.ladadi.de/;ladadi.de
+06433;Landkreis;Groß-Gerau;DE717;    453,03;   268 310;   134 294;   134 016;    592;Hessen;http://www.kreisgg.de/;kreisgg.de
+06434;Landkreis;Hochtaunuskreis;DE718;    481,84;   241 664;   117 216;   124 448;    502;Hessen;http://www.hochtaunuskreis.de/;hochtaunuskreis.de
+06435;Landkreis;Main-Kinzig-Kreis;DE719;   1 397,32;   420 914;   208 023;   212 891;    301;Hessen;http://www.mkk.de/;mkk.de
+06436;Landkreis;Main-Taunus-Kreis;DE71A;    222,53;   238 775;   117 280;   121 495;   1 073;Hessen;http://www.mtk.org/;mtk.org
+06437;Landkreis;Odenwaldkreis;DE71B;    623,97;   93 846;   46 314;   47 532;    150;Hessen;http://www.odenwaldkreis.de/;odenwaldkreis.de
+06438;Landkreis;Offenbach;DE71C;    356,24;   358 022;   176 280;   181 742;   1 005;Hessen;http://www.kreis-offenbach.de/;kreis-offenbach.de
+06439;Landkreis;Rheingau-Taunus-Kreis;DE71D;    811,40;   185 651;   90 890;   94 761;    229;Hessen;http://www.rheingau-taunus.de/;rheingau-taunus.de
+06440;Landkreis;Wetteraukreis;DE71E;   1 100,66;   311 593;   153 938;   157 655;    283;Hessen;http://www.wetteraukreis.de/;wetteraukreis.de
+06531;Landkreis;Gießen;DE721;    854,56;   268 418;   132 027;   136 391;    314;Hessen;http://www.lkgi.de/;lkgi.de
+06532;Landkreis;Lahn-Dill-Kreis;DE722;   1 066,30;   254 074;   125 448;   128 626;    238;Hessen;http://www.lahn-dill-kreis.de/;lahn-dill-kreis.de
+06533;Landkreis;Limburg-Weilburg;DE723;    738,44;   173 830;   86 127;   87 703;    235;Hessen;http://www.landkreis-limburg-weilburg.de/;limburg-weilburg.de
+06534;Landkreis;Marburg-Biedenkopf;DE724;   1 262,37;   242 805;   118 996;   123 809;    192;Hessen;http://www.marburg-biedenkopf.de/;marburg-biedenkopf.de
+06535;Landkreis;Vogelsbergkreis;DE725;   1 458,91;   101 163;   50 250;   50 913;    69;Hessen;http://www.vogelsbergkreis.de/;vogelsbergkreis.de
+06631;Landkreis;Fulda;DE732;   1 380,41;   222 283;   110 607;   111 676;    161;Hessen;http://www.landkreis-fulda.de/;landkreis-fulda.de
+06632;Landkreis;Hersfeld-Rotenburg;DE733;   1 097,77;   117 414;   58 370;   59 044;    107;Hessen;http://www.hef-rof.de/;hef-rof.de
+06633;Landkreis;Kassel;DE734;   1 293,31;   231 073;   113 256;   117 817;    179;Hessen;http://www.landkreiskassel.de/;landkreiskassel.de
+06634;Landkreis;Schwalm-Eder-Kreis;DE735;   1 539,01;   180 071;   90 023;   90 048;    117;Hessen;http://www.schwalm-eder-kreis.de/;schwalm-eder-kreis.de
+06635;Landkreis;Waldeck-Frankenberg;DE736;   1 848,70;   155 126;   77 043;   78 083;    84;Hessen;http://www.landkreis-waldeck-frankenberg.de/;lkwafkb.de
+06636;Landkreis;Werra-Meißner-Kreis;DE737;   1 024,83;   97 695;   48 384;   49 311;    95;Hessen;http://www.werra-meissner-kreis.de/;werra-meissner-kreis.de
+07131;Landkreis;Ahrweiler;DEB12;    787,03;   129 353;   63 855;   65 498;    164;Rheinland-Pfalz;http://www.kreis-ahrweiler.de/;kreis-ahrweiler.de
+07132;Landkreis;Altenkirchen (Westerwald);DEB13;    642,38;   132 125;   65 563;   66 562;    206;Rheinland-Pfalz;http://www.kreis-altenkirchen.de/;kreis-ak.de
+07133;Landkreis;Bad Kreuznach;DEB14;    863,89;   164 748;   80 845;   83 903;    191;Rheinland-Pfalz;http://www.kreis-badkreuznach.de/;kreis-badkreuznach.de
+07134;Landkreis;Birkenfeld;DEB15;    776,83;   82 611;   40 778;   41 833;    106;Rheinland-Pfalz;http://www.landkreis-birkenfeld.de/;landkreis-birkenfeld.de
+07135;Landkreis;Cochem-Zell;DEB1C;    692,44;   61 608;   30 814;   30 794;    89;Rheinland-Pfalz;http://www.cochem-zell.de/;cochem-zell.de
+07137;Landkreis;Mayen-Koblenz;DEB17;    817,72;   217 228;   107 404;   109 824;    266;Rheinland-Pfalz;http://www.kvmyk.de/;kvmyk.de
+07138;Landkreis;Neuwied;DEB18;    627,06;   189 061;   93 494;   95 567;    302;Rheinland-Pfalz;http://www.kreis-neuwied.de/;kreis-neuwied.de
+07140;Landkreis;Rhein-Hunsrück-Kreis;DEB1D;    991,06;   106 705;   53 083;   53 622;    108;Rheinland-Pfalz;http://www.rheinhunsrueck.de/;rheinhunsrueck.de
+07141;Landkreis;Rhein-Lahn-Kreis;DEB1A;    782,24;   125 588;   62 292;   63 296;    161;Rheinland-Pfalz;http://www.rhein-lahn-kreis.de/;rhein-lahn.rlp.de
+07143;Landkreis;Westerwaldkreis;DEB1B;    989,04;   207 803;   103 124;   104 679;    210;Rheinland-Pfalz;http://www.westerwaldkreis.de/;westerwaldkreis.de
+07231;Landkreis;Bernkastel-Wittlich;DEB22;   1 167,93;   113 187;   56 576;   56 611;    97;Rheinland-Pfalz;http://www.bernkastel-wittlich.de/;bernkastel-wittlich.de
+07232;Landkreis;Eifelkreis Bitburg-Prüm;DEB23;   1 626,95;   99 788;   50 195;   49 593;    61;Rheinland-Pfalz;http://www.bitburg-pruem.de/;bitburg-pruem.de
+07233;Landkreis;Vulkaneifel;DEB24;    911,64;   59 313;   29 723;   29 590;    65;Rheinland-Pfalz;http://www.vulkaneifel.de/;vulkaneifel.de
+07235;Landkreis;Trier-Saarburg;DEB25;   1 102,24;   148 953;   73 947;   75 006;    135;Rheinland-Pfalz;http://www.trier-saarburg.de/;trier-saarburg.de
+07331;Landkreis;Alzey-Worms;DEB3B;    588,07;   131 238;   65 114;   66 124;    223;Rheinland-Pfalz;http://www.kreis-alzey-worms.de/;alzey-worms.de
+07332;Landkreis;Bad Dürkheim;DEB3C;    594,64;   134 329;   65 964;   68 365;    226;Rheinland-Pfalz;http://www.kreis-bad-duerkheim.de/;kreis-bad-duerkheim.de
+07333;Landkreis;Donnersbergkreis;DEB3D;    645,41;   74 783;   37 027;   37 756;    116;Rheinland-Pfalz;http://www.donnersberg.de/;donnersberg.de
+07334;Landkreis;Germersheim;DEB3E;    463,32;   131 383;   65 476;   65 907;    284;Rheinland-Pfalz;http://www.kreis-germersheim.de/;kreis-germersheim.de
+07335;Landkreis;Kaiserslautern;DEB3F;    640,00;   106 343;   52 260;   54 083;    166;Rheinland-Pfalz;http://www.kaiserslautern-kreis.de/;kaiserslautern-kreis.de
+07336;Landkreis;Kusel;DEB3G;    573,61;   69 334;   34 569;   34 765;    121;Rheinland-Pfalz;http://www.landkreis-kusel.de/;kv-kus.de
+07337;Landkreis;Südliche Weinstraße;DEB3H;    639,93;   113 031;   55 609;   57 422;    177;Rheinland-Pfalz;http://www.suedliche-weinstrasse.de/;suedliche-weinstrasse.de
+07338;Landkreis;Rhein-Pfalz-Kreis;DEB3I;    304,99;   155 882;   76 751;   79 131;    511;Rheinland-Pfalz;http://www.rhein-pfalz-kreis.de/;rheinpfalzkreis.de
+07339;Landkreis;Mainz-Bingen;DEB3J;    605,33;   206 454;   101 668;   104 786;    341;Rheinland-Pfalz;http://www.mainz-bingen.de/;mainz-bingen.de
+07340;Landkreis;Südwestpfalz;DEB3K;    953,52;   89 974;   44 254;   45 720;    94;Rheinland-Pfalz;http://www.lksuedwestpfalz.de/;lksuedwestpfalz.de
+08115;Landkreis;Böblingen;DE112;    617,77;   395 167;   196 289;   198 878;    640;Baden-Wüttemberg;http://www.landkreis-boeblingen.de/;lrabb.de
+08116;Landkreis;Esslingen;DE113;    641,28;   536 601;   267 483;   269 118;    837;Baden-Wüttemberg;http://www.landkreis-esslingen.de/;lra-es.de
+08117;Landkreis;Göppingen;DE114;    642,34;   258 809;   128 397;   130 412;    403;Baden-Wüttemberg;http://www.landkreis-goeppingen.de/;lkgp.de
+08118;Landkreis;Ludwigsburg;DE115;    686,77;   535 374;   264 437;   270 937;    780;Baden-Wüttemberg;http://www.landkreis-ludwigsburg.de/;landkreis-ludwigsburg.de
+08119;Landkreis;Rems-Murr-Kreis;DE116;    858,08;   440 696;   218 261;   222 435;    514;Baden-Wüttemberg;http://www.rems-murr-kreis.de/;rems-murr-kreis.de
+08125;Landkreis;Heilbronn;DE118;   1 099,91;   353 877;   177 112;   176 765;    322;Baden-Wüttemberg;http://www.landkreis-heilbronn.de/;landratsamt-heilbronn.de
+08126;Landkreis;Hohenlohekreis;DE119;    776,75;   115 644;   58 330;   57 314;    149;Baden-Wüttemberg;http://www.hohenlohekreis.de/;hohenlohekreis.de
+08127;Landkreis;Schwäbisch Hall;DE11A;   1 484,08;   200 902;   100 788;   100 114;    135;Baden-Wüttemberg;http://www.lrasha.de/;lrasha.de
+08128;Landkreis;Main-Tauber-Kreis;DE11B;   1 304,12;   133 169;   66 541;   66 628;    102;Baden-Wüttemberg;http://www.main-tauber-kreis.de/;main-tauber-kreis.de
+08135;Landkreis;Heidenheim;DE11C;    627,13;   135 235;   67 420;   67 815;    216;Baden-Wüttemberg;http://www.landkreis-heidenheim.de/;landkreis-heidenheim.de
+08136;Landkreis;Ostalbkreis;DE11D;   1 511,39;   317 427;   157 913;   159 514;    210;Baden-Wüttemberg;http://www.ostalbkreis.de/;ostalbkreis.de
+08215;Landkreis;Karlsruhe;DE123;   1 084,98;   456 264;   227 640;   228 624;    421;Baden-Wüttemberg;http://www.landkreis-karlsruhe.de/;landratsamt-karlsruhe.de
+08216;Landkreis;Rastatt;DE124;    738,43;   230 737;   114 780;   115 957;    312;Baden-Wüttemberg;http://www.landkreis-rastatt.de/;landkreis-rastatt.de
+08225;Landkreis;Neckar-Odenwald-Kreis;DE127;   1 125,95;   145 263;   72 819;   72 444;    129;Baden-Wüttemberg;http://www.neckar-odenwald-kreis.de/;neckar-odenwald-kreis.de
+08226;Landkreis;Rhein-Neckar-Kreis;DE128;   1 061,55;   558 561;   274 511;   284 050;    526;Baden-Wüttemberg;http://www.rhein-neckar-kreis.de/;rhein-neckar-kreis.de
+08235;Landkreis;Calw;DE12A;    797,29;   161 251;   80 392;   80 859;    202;Baden-Wüttemberg;http://www.kreis-calw.de/;kreis-calw.de
+08236;Landkreis;Enzkreis;DE12B;    573,60;   199 745;   99 097;   100 648;    348;Baden-Wüttemberg;http://www.enzkreis.de/;enzkreis.de
+08237;Landkreis;Freudenstadt;DE12C;    870,40;   121 958;   60 978;   60 980;    140;Baden-Wüttemberg;http://www.landkreis-freudenstadt.de/;kreis-fds.de
+08315;Landkreis;Breisgau-Hochschwarzwald;DE132;   1 378,32;   272 558;   134 223;   138 335;    198;Baden-Wüttemberg;http://www.breisgau-hochschwarzwald.de/;lkbh.de
+08316;Landkreis;Emmendingen;DE133;    679,80;   169 787;   83 979;   85 808;    250;Baden-Wüttemberg;http://www.landkreis-emmendingen.de/;landkreis-emmendingen.de
+08317;Landkreis;Ortenaukreis;DE134;   1 860,29;   444 858;   222 136;   222 722;    239;Baden-Wüttemberg;http://www.ortenaukreis.de/;ortenaukreis.de
+08325;Landkreis;Rottweil;DE135;    769,42;   140 237;   70 140;   70 097;    182;Baden-Wüttemberg;http://www.landkreis-rottweil.de/;landkreis-rottweil.de
+08326;Landkreis;Schwarzwald-Baar-Kreis;DE136;   1 025,34;   214 065;   106 013;   108 052;    209;Baden-Wüttemberg;http://www.lrasbk.de/;lrasbk.de
+08327;Landkreis;Tuttlingen;DE137;    734,38;   145 208;   72 862;   72 346;    198;Baden-Wüttemberg;http://www.landkreis-tuttlingen.de/;landkreis-tuttlingen.de
+08335;Landkreis;Konstanz;DE138;    817,98;   291 841;   142 116;   149 725;    357;Baden-Wüttemberg;http://www.lrakn.de/;lrakn.de
+08336;Landkreis;Lörrach;DE139;    806,66;   238 263;   117 059;   121 204;    295;Baden-Wüttemberg;http://www.loerrach-landkreis.de/;loerrach-landkreis.de
+08337;Landkreis;Waldshut;DE13A;   1 131,15;   171 579;   84 728;   86 851;    152;Baden-Wüttemberg;http://www.landkreis-waldshut.de/;landkreis-waldshut.de
+08415;Landkreis;Reutlingen;DE141;   1 092,48;   293 483;   145 362;   148 121;    269;Baden-Wüttemberg;http://www.kreis-reutlingen.de/;kreis-reutlingen.de
+08416;Landkreis;Tübingen;DE142;    519,12;   233 546;   113 123;   120 423;    450;Baden-Wüttemberg;http://www.kreis-tuebingen.de/;kreis-tuebingen.de
+08417;Landkreis;Zollernalbkreis;DE143;    917,58;   193 326;   95 664;   97 662;    211;Baden-Wüttemberg;http://www.zollernalbkreis.de/;zollernalbkreis.de
+08425;Landkreis;Alb-Donau-Kreis;DE145;   1 358,54;   202 354;   101 708;   100 646;    149;Baden-Wüttemberg;http://www.alb-donau-kreis.de/;alb-donau-kreis.de
+08426;Landkreis;Biberach;DE146;   1 409,52;   207 415;   104 534;   102 881;    147;Baden-Wüttemberg;http://www.biberach.de/;biberach.de
+08435;Landkreis;Bodenseekreis;DE147;    664,77;   220 804;   108 578;   112 226;    332;Baden-Wüttemberg;http://www.bodenseekreis.de/;bodenseekreis.de
+08436;Landkreis;Ravensburg;DE148;   1 632,08;   291 102;   144 864;   146 238;    178;Baden-Wüttemberg;http://www.rv.de/;rv.de
+08437;Landkreis;Sigmaringen;DE149;   1 204,24;   132 167;   66 166;   66 001;    110;Baden-Wüttemberg;http://www.landkreis-sigmaringen.de/;lrasig.de
+09171;Landkreis;Altötting;DE214;    569,28;   113 938;   56 554;   57 384;    200;Bayern;http://www.lra-aoe.de/;lra-aoe.de
+09172;Landkreis;Berchtesgadener Land;DE215;    839,83;   105 292;   51 509;   53 783;    125;Bayern;http://www.lra-bgl.de/;lra-bgl.de
+09173;Landkreis;Bad Tölz-Wolfratshausen;DE216;   1 110,67;   130 248;   64 304;   65 944;    117;Bayern;http://www.lra-toelz.de/;lra-toelz.de
+09174;Landkreis;Dachau;DE217;    579,16;   153 595;   76 759;   76 836;    265;Bayern;http://www.landratsamt-dachau.de/;lra-dah.bayern.de
+09175;Landkreis;Ebersberg;DE218;    549,39;   144 225;   71 960;   72 265;    263;Bayern;http://www.lra-ebe.de/;lra-ebe.de
+09176;Landkreis;Eichstätt;DE219;   1 213,85;   135 668;   68 617;   67 051;    112;Bayern;http://www.landkreis-eichstaett.de/;lra-ei.bayern.de
+09177;Landkreis;Erding;DE21A;    870,74;   140 127;   70 345;   69 782;    161;Bayern;http://www.landkreis-erding.de/;lra-ed.de
+09178;Landkreis;Freising;DE21B;    799,85;   184 564;   94 308;   90 256;    231;Bayern;http://www.kreis-freising.de/;kreis-fs.de
+09179;Landkreis;Fürstenfeldbruck;DE21C;    434,80;   218 227;   106 932;   111 295;    502;Bayern;http://www.lra-ffb.de/;lra-ffb.de
+09180;Landkreis;Garmisch-Partenkirchen;DE21D;   1 012,17;   89 296;   42 874;   46 422;    88;Bayern;http://www.lra-gap.de/;lra-gap.de
+09181;Landkreis;Landsberg am Lech;DE21E;    804,36;   122 107;   60 703;   61 404;    152;Bayern;http://www.lra-ll.de/;lra-ll.bayern.de
+09182;Landkreis;Miesbach;DE21F;    866,21;   97 152;   47 719;   49 433;    112;Bayern;http://www.landkreis-miesbach.de/;lra-mb.bayern.de
+09183;Landkreis;Mühldorf a.Inn;DE21G;    805,36;   122 037;   61 753;   60 284;    152;Bayern;http://www.lra-mue.de/;lra-mue.de
+09184;Landkreis;München;DE21H;    664,25;   354 396;   175 337;   179 059;    534;Bayern;http://www.landkreis-muenchen.de/;lra-m.bayern.de
+09185;Landkreis;Neuburg-Schrobenhausen;DE21I;    739,71;   99 364;   49 866;   49 498;    134;Bayern;http://www.neuburg-schrobenhausen.de/;neuburg-schrobenhausen.de
+09186;Landkreis;Pfaffenhofen a.d.Ilm;DE21J;    761,05;   130 781;   66 344;   64 437;    172;Bayern;http://www.landkreis-pfaffenhofen.de/;landratsamt-paf.de
+09187;Landkreis;Rosenheim;DE21K;   1 439,41;   258 637;   127 252;   131 385;    180;Bayern;http://www.landkreis-rosenheim.de/;lra-rosenheim.de
+09188;Landkreis;Starnberg;DE21L;    487,71;   139 329;   67 398;   71 931;    286;Bayern;http://www.landkreis-starnberg.de/;lra-starnberg.de
+09189;Landkreis;Traunstein;DE21M;   1 533,76;   175 144;   86 118;   89 026;    114;Bayern;http://www.traunstein.bayern/;traunstein.bayern
+09190;Landkreis;Weilheim-Schongau;DE21N;    966,28;   138 957;   68 635;   70 322;    144;Bayern;http://www.weilheim-schongau.de/;lra-wm.bayern.de
+09271;Landkreis;Deggendorf;DE224;    861,17;   121 844;   61 102;   60 742;    141;Bayern;http://www.landkreis-deggendorf.de/;lra-deg.bayern.de
+09272;Landkreis;Freyung-Grafenau;DE225;    983,85;   78 710;   39 097;   39 613;    80;Bayern;http://www.freyung-grafenau.de/;landkreis-frg.de
+09273;Landkreis;Kelheim;DE226;   1 065,13;   126 037;   63 830;   62 207;    118;Bayern;http://www.landkreis-kelheim.de/;landkreis-kelheim.de
+09274;Landkreis;Landshut;DE227;   1 347,55;   162 170;   81 552;   80 618;    120;Bayern;http://www.landkreis-landshut.de/;landkreis-landshut.de
+09275;Landkreis;Passau;DE228;   1 530,10;   194 699;   96 600;   98 099;    127;Bayern;http://www.landkreis-passau.de/;landkreis-passau.de
+09276;Landkreis;Regen;DE229;    974,78;   77 267;   38 465;   38 802;    79;Bayern;http://www.landkreis-regen.de/;lra.landkreis-regen.de
+09277;Landkreis;Rottal-Inn;DE22A;   1 281,20;   120 497;   60 008;   60 489;    94;Bayern;http://www.rottal-inn.de/;rottal-inn.de
+09278;Landkreis;Straubing-Bogen;DE22B;   1 201,62;   103 041;   51 616;   51 425;    86;Bayern;http://www.landkreis-straubing-bogen.de/;landkreis-straubing-bogen.de
+09279;Landkreis;Dingolfing-Landau;DE22C;    877,58;   101 035;   52 011;   49 024;    115;Bayern;http://www.landkreis-dingolfing-landau.de/;landkreis-dingolfing-landau.de
+09371;Landkreis;Amberg-Sulzbach;DE234;   1 255,85;   103 982;   51 958;   52 024;    83;Bayern;http://www.amberg-sulzbach.de/;amberg-sulzbach.de
+09372;Landkreis;Cham;DE235;   1 526,83;   128 534;   64 621;   63 913;    84;Bayern;http://www.landkreis-cham.de/;lra.landkreis-cham.de
+09373;Landkreis;Neumarkt i.d.OPf.;DE236;   1 343,96;   138 693;   70 211;   68 482;    103;Bayern;http://www.landkreis-neumarkt.de/;landkreis-neumarkt.de
+09374;Landkreis;Neustadt a.d.Waldnaab;DE237;   1 425,81;   96 049;   47 956;   48 093;    67;Bayern;http://www.kreis-nea.de/;kreis-nea.de
+09375;Landkreis;Regensburg;DE238;   1 391,65;   196 213;   98 183;   98 030;    141;Bayern;http://www.landkreis-regensburg.de/;landratsamt-regensburg.de
+09376;Landkreis;Schwandorf;DE239;   1 458,34;   149 312;   74 863;   74 449;    102;Bayern;http://www.landkreis-schwandorf.de/;landkreis-schwandorf.de
+09377;Landkreis;Tirschenreuth;DE23A;   1 084,25;   72 210;   35 893;   36 317;    67;Bayern;http://www.kreis-tir.de/;tirschenreuth.de
+09471;Landkreis;Bamberg;DE245;   1 167,81;   147 777;   73 832;   73 945;    127;Bayern;http://www.landkreis-bamberg.de/;lra-ba.bayern.de
+09472;Landkreis;Bayreuth;DE246;   1 275,50;   103 215;   51 236;   51 979;    81;Bayern;http://www.landkreis-bayreuth.de/;lra-bt.bayern.de
+09473;Landkreis;Coburg;DE247;    590,42;   84 468;   41 904;   42 564;    143;Bayern;http://www.landkreis-coburg.de/;landkreis-coburg.de
+09474;Landkreis;Forchheim;DE248;    642,83;   116 184;   57 708;   58 476;    181;Bayern;http://www.landkreis-forchheim.de/;lra-fo.de
+09475;Landkreis;Hof;DE249;    892,52;   92 191;   45 174;   47 017;    103;Bayern;http://www.landkreis-hof.de/;landkreis-hof.de
+09476;Landkreis;Kronach;DE24A;    651,49;   64 545;   32 034;   32 511;    99;Bayern;http://www.landkreis-kronach.de/;lra-kc.bayern.de
+09477;Landkreis;Kulmbach;DE24B;    658,33;   71 518;   35 340;   36 178;    109;Bayern;http://www.landkreis-kulmbach.de/;landkreis-kulmbach.de
+09478;Landkreis;Lichtenfels;DE24C;    519,94;   67 379;   33 227;   34 152;    130;Bayern;http://www.landkreis-lichtenfels.de/;landkreis-lichtenfels.de
+09479;Landkreis;Wunsiedel i.Fichtelgebirge;DE24D;    606,37;   70 549;   34 367;   36 182;    116;Bayern;http://www.landkreis-wunsiedel.de/;landkreis-wunsiedel.de
+09571;Landkreis;Ansbach;DE256;   1 971,32;   187 633;   94 059;   93 574;    95;Bayern;http://www.landkreis-ansbach.de/;landratsamt-ansbach.de
+09572;Landkreis;Erlangen-Höchstadt;DE257;    564,55;   138 325;   68 585;   69 740;    245;Bayern;http://www.erlangen-hoechstadt.de/;erlangen-hoechstadt.de
+09573;Landkreis;Fürth;DE258;    307,44;   117 719;   57 200;   60 519;    383;Bayern;http://www.landkreis-fuerth.de/;lra-fue.bayern.de
+09574;Landkreis;Nürnberger Land;DE259;    799,52;   168 813;   82 883;   85 930;    211;Bayern;http://www.nuernberger-land.de/;nuernberger-land.de
+09575;Landkreis;Neustadt a.d.Aisch-Bad Windsheim;DE25A;   1 267,45;   101 043;   50 635;   50 408;    80;Bayern;;kreis-nea.de
+09576;Landkreis;Roth;DE25B;    895,16;   128 632;   63 826;   64 806;    144;Bayern;;landratsamt-roth.de
+09577;Landkreis;Weißenburg-Gunzenhausen;DE25C;    970,78;   94 695;   47 198;   47 497;    98;Bayern;;landkreis-wug.de
+09671;Landkreis;Aschaffenburg;DE264;    698,90;   170 945;   84 642;   86 303;    245;Bayern;;lra-ab.bayern.de
+09672;Landkreis;Bad Kissingen;DE265;   1 136,90;   103 489;   50 913;   52 576;    91;Bayern;;kg.de
+09673;Landkreis;Rhön-Grabfeld;DE266;   1 021,68;   79 375;   39 560;   39 815;    78;Bayern;;rhoen-grabfeld.de
+09674;Landkreis;Haßberge;DE267;    956,19;   83 869;   42 107;   41 762;    88;Bayern;;landratsamt-hassberge.de
+09675;Landkreis;Kitzingen;DE268;    684,14;   91 287;   45 737;   45 550;    133;Bayern;;kitzingen.de
+09676;Landkreis;Miltenberg;DE269;    715,58;   127 547;   63 368;   64 179;    178;Bayern;;lra-mil.de
+09677;Landkreis;Main-Spessart;DE26A;   1 321,20;   125 282;   62 434;   62 848;    95;Bayern;;lramsp.de
+09678;Landkreis;Schweinfurt;DE26B;    841,39;   113 977;   57 097;   56 880;    135;Bayern;;lrasw.de
+09679;Landkreis;Würzburg;DE26C;    968,35;   162 216;   80 236;   81 980;    168;Bayern;;lra-wue.bayern.de
+09771;Landkreis;Aichach-Friedberg;DE275;    780,23;   136 803;   68 122;   68 681;    175;Bayern;;lra-aic-fdb.de
+09772;Landkreis;Augsburg;DE276;   1 070,74;   262 811;   130 475;   132 336;    245;Bayern;;lra-a.bayern.de
+09773;Landkreis;Dillingen a.d.Donau;DE277;    792,23;   98 899;   49 565;   49 334;    125;Bayern;;landratsamt.dillingen.de
+09774;Landkreis;Günzburg;DE278;    762,40;   129 846;   65 608;   64 238;    170;Bayern;;landkreis-guenzburg.de
+09775;Landkreis;Neu-Ulm;DE279;    515,84;   183 595;   91 689;   91 906;    356;Bayern;;landkreis-nu.de
+09776;Landkreis;Lindau (Bodensee);DE27A;    323,39;   82 411;   40 476;   41 935;    255;Bayern;;landkreis-lindau.de
+09777;Landkreis;Ostallgäu;DE27B;   1 394,44;   142 047;   70 631;   71 416;    102;Bayern;;lra-oal.bayern.de
+09778;Landkreis;Unterallgäu;DE27C;   1 229,57;   147 255;   74 424;   72 831;    120;Bayern;;lra.unterallgaeu.de
+09779;Landkreis;Donau-Ries;DE27D;   1 274,57;   135 098;   68 441;   66 657;    106;Bayern;;lra-donau-ries.de
+09780;Landkreis;Oberallgäu;DE27E;   1 527,97;   155 413;   76 381;   79 032;    102;Bayern;;lra-oa.bayern.de
+10041;Landkreis;Regionalverband Saarbrücken;DEC01;    410,95;   333 149;   164 280;   168 869;    811;Saarland;;rvsbr.de
+10042;Landkreis;Merzig-Wadern;DEC02;    557,11;   108 779;   54 137;   54 642;    195;Saarland;;merzig-wadern.de
+10043;Landkreis;Neunkirchen;DEC03;    249,80;   133 179;   65 653;   67 526;    533;Saarland;;landkreis-neunkirchen.de
+10044;Landkreis;Saarlouis;DEC04;    459,35;   205 129;   100 939;   104 190;    447;Saarland;;kreis-saarlouis.de
+10045;Landkreis;Saarpfalz-Kreis;DEC05;    418,28;   144 092;   70 319;   73 773;    344;Saarland;;saarpfalz-kreis.de
+10046;Landkreis;St. Wendel;DEC06;    476,52;   87 813;   43 316;   44 497;    184;Saarland;;lkwnd.de
+12060;Landkreis;Barnim;DE405;   1 479,58;   194 169;   95 588;   98 581;    131;Brandenburg;;kvbarnim.de
+12061;Landkreis;Dahme-Spreewald;DE406;   2 274,51;   178 793;   88 616;   90 177;    79;Brandenburg;;dahme-spreewald.de
+12062;Landkreis;Elbe-Elster;DE407;   1 899,18;   97 967;   48 497;   49 470;    52;Brandenburg;;lkee.de
+12063;Landkreis;Havelland;DE408;   1 727,31;   170 834;   84 262;   86 572;    99;Brandenburg;;havelland.de
+12064;Landkreis;Märkisch-Oderland;DE409;   2 158,66;   197 817;   97 547;   100 270;    92;Brandenburg;;landkreismol.de
+12065;Landkreis;Oberhavel;DE40A;   1 808,26;   217 690;   107 199;   110 491;    120;Brandenburg;;oberhavel.de
+12066;Landkreis;Oberspreewald-Lausitz;DE40B;   1 223,48;   107 793;   52 714;   55 079;    88;Brandenburg;;osl-online.de
+12067;Landkreis;Oder-Spree;DE40C;   2 256,76;   179 817;   88 616;   91 201;    80;Brandenburg;;l-os.de
+12068;Landkreis;Ostprignitz-Ruppin;DE40D;   2 526,39;   99 152;   49 049;   50 103;    39;Brandenburg;;opr.de
+12069;Landkreis;Potsdam-Mittelmark;DE40E;   2 592,03;   221 268;   109 434;   111 834;    85;Brandenburg;;potsdam-mittelmark.de
+12070;Landkreis;Prignitz;DE40F;   2 138,58;   75 595;   37 505;   38 090;    35;Brandenburg;;lkprignitz.de
+12071;Landkreis;Spree-Neiße;DE40G;   1 657,00;   109 635;   53 733;   55 902;    66;Brandenburg;;lkspn.de
+12072;Landkreis;Teltow-Fläming;DE40H;   2 104,20;   177 688;   88 811;   88 877;    84;Brandenburg;;teltow-flaeming.de
+12073;Landkreis;Uckermark;DE40I;   3 077,02;   117 432;   57 795;   59 637;    38;Brandenburg;;uckermark.de
+13071;Landkreis;Mecklenburgische Seenplatte;DE80J; 5 495,41;  246 318;  119 976;  126 342;   45;Mecklenburg-Vorpommern;;lk-seenplatte.de
+13072;Landkreis;Landkreis Rostock;DE80K;   3 431,06;   218 721;   108 028;   110 693;    64;Mecklenburg-Vorpommern;;lkros.de
+13073;Landkreis;Vorpommern-Rügen;DE80L;   3 215,70;   215 203;   104 436;   110 767;    67;Mecklenburg-Vorpommern;;lk-vr.de
+13074;Landkreis;Nordwestmecklenburg;DE80M;   2 127,10;   156 692;   77 541;   79 151;    74;Mecklenburg-Vorpommern;;nordwestmecklenburg.de
+13075;Landkreis;Vorpommern-Greifswald;DE80N;   3 946,18;   224 956;   109 449;   115 507;    57;Mecklenburg-Vorpommern;;kreis-vg.de
+13076;Landkreis;Ludwigslust-Parchim;DE80O;   4 766,60;   208 092;   103 564;   104 528;    44;Mecklenburg-Vorpommern;;kreis-lup.de
+14521;Landkreis;Erzgebirgskreis;DED42;   1 827,92;   318 394;   155 744;   162 650;    174;Sachsen;;kreis-erz.de
+14522;Landkreis;Mittelsachsen;DED43;   2 116,85;   296 431;   147 002;   149 429;    140;Sachsen;;landkreis-mittelsachsen.de
+14523;Landkreis;Vogtlandkreis;DED44;   1 412,39;   219 100;   106 988;   112 112;    155;Sachsen;;vogtlandkreis.de
+14524;Landkreis;Zwickau;DED45;    949,79;   306 793;   150 432;   156 361;    323;Sachsen;;landkreis-zwickau.de
+14625;Landkreis;Bautzen;DED2C;   2 395,59;   292 608;   144 258;   148 350;    122;Sachsen;;lra-bautzen.de
+14626;Landkreis;Görlitz;DED2D;   2 111,40;   243 958;   119 629;   124 329;    116;Sachsen;;kreis-gr.de
+14627;Landkreis;Meißen;DED2E;   1 454,58;   239 221;   117 433;   121 788;    164;Sachsen;;kreis-meissen.de
+14628;Landkreis;Sächsische Schweiz-Osterzgebirge;DED2F;   1 654,25;   243 996;   120 379;   123 617;    147;Sachsen;;landratsamt-pirna.de
+14729;Landkreis;Leipzig;DED52;   1 651,27;   260 127;   127 933;   132 194;    158;Sachsen;;lk-l.de
+14730;Landkreis;Nordsachsen;DED53;   2 028,54;   199 422;   98 780;   100 642;    98;Sachsen;;lra-nordsachsen.de
+15081;Landkreis;Altmarkkreis Salzwedel;DEE04;   2 304,44;   79 980;   39 712;   40 268;    35;Sachsen-Anhalt;;altmarkkreis-salzwedel.de
+15082;Landkreis;Anhalt-Bitterfeld;DEE05;   1 461,45;   153 035;   74 985;   78 050;    105;Sachsen-Anhalt;;anhalt-bitterfeld.de
+15083;Landkreis;Börde;DEE07;   2 376,86;   167 924;   83 570;   84 354;    71;Sachsen-Anhalt;;landkreis-boerde.de
+15084;Landkreis;Burgenlandkreis;DEE08;   1 419,92;   173 684;   85 097;   88 587;    122;Sachsen-Anhalt;;blk.de
+15085;Landkreis;Harz;DEE09;   2 110,40;   205 484;   100 159;   105 325;    97;Sachsen-Anhalt;;kreis-hz.de
+15086;Landkreis;Jerichower Land;DEE06;   1 589,38;   88 509;   43 807;   44 702;    56;Sachsen-Anhalt;;lkjl.de
+15087;Landkreis;Mansfeld-Südharz;DEE0A;   1 456,33;   129 029;   63 662;   65 367;    89;Sachsen-Anhalt;;lkmsh.de
+15088;Landkreis;Saalekreis;DEE0B;   1 440,45;   182 451;   90 248;   92 203;    127;Sachsen-Anhalt;;saalekreis.de
+15089;Landkreis;Salzlandkreis;DEE0C;   1 433,60;   180 771;   88 293;   92 478;    126;Sachsen-Anhalt;;kreis-slk.de
+15090;Landkreis;Stendal;DEE0D;   2 436,21;   106 538;   52 432;   54 106;    44;Sachsen-Anhalt;;landkreis-stendal.de
+15091;Landkreis;Wittenberg;DEE0E;   1 942,78;   121 694;   59 839;   61 855;    63;Sachsen-Anhalt;;landkreis-wittenberg.de
+16061;Landkreis;Eichsfeld;DEG06;   1 002,32;   103 694;   51 953;   51 741;    103;Thüringen;;kreis-eic.de
+16062;Landkreis;Nordhausen;DEG07;    713,91;   80 762;   39 852;   40 910;    113;Thüringen;;lrandh.thueringen.de
+16063;Landkreis;Wartburgkreis;DEG0R;   1 367,16;   154 957;   76 953;   78 004;    113;Thüringen;;wartburgkreis.de
+16064;Landkreis;Unstrut-Hainich-Kreis;DEG09;    924,41;   94 613;   46 928;   47 685;    102;Thüringen;;uh-kreis.de
+16065;Landkreis;Kyffhäuserkreis;DEG0A;   1 037,90;   71 738;   35 661;   36 077;    69;Thüringen;;kyffhaeuser.de
+16066;Landkreis;Schmalkalden-Meiningen;DEG0Q;   1 251,21;   120 214;   59 962;   60 252;    96;Thüringen;;lra-sm.de
+16067;Landkreis;Gotha;DEG0C;    936,08;   135 838;   67 285;   68 553;    145;Thüringen;;kreis-gth.de
+16068;Landkreis;Sömmerda;DEG0D;    806,88;   67 693;   33 786;   33 907;    84;Thüringen;;lra-soemmerda.de
+16069;Landkreis;Hildburghausen;DEG0E;    938,42;   59 987;   30 060;   29 927;    64;Thüringen;;lrahbn.thueringen.de
+16070;Landkreis;Ilm-Kreis;DEG0T;    805,11;   106 657;   53 859;   52 798;    132;Thüringen;;ilm-kreis.de
+16071;Landkreis;Weimarer Land;DEG0G;    804,48;   82 392;   40 797;   41 595;    102;Thüringen;;weimarerland.de
+16072;Landkreis;Sonneberg;DEG0V;    460,85;   54 964;   27 106;   27 858;    119;Thüringen;;lkson.de
+16073;Landkreis;Saalfeld-Rudolstadt;DEG0U;   1 008,78;   100 105;   49 203;   50 902;    99;Thüringen;;kreis-slf.de
+16074;Landkreis;Saale-Holzland-Kreis;DEG0J;    815,24;   83 342;   41 343;   41 999;    102;Thüringen;;lrashk.de
+16075;Landkreis;Saale-Orla-Kreis;DEG0K;   1 151,31;   77 341;   38 370;   38 971;    67;Thüringen;;lrasok.thueringen.de
+16076;Landkreis;Greiz;DEG0L;    845,97;   93 707;   46 321;   47 386;    111;Thüringen;;landkreis-greiz.de
+16077;Landkreis;Altenburger Land;DEG0M;    569,42;   87 508;   42 448;   45 060;    154;Thüringen;;altenburgerland.de

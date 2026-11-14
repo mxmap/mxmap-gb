@@ -1,0 +1,443 @@
+2026-08-17 15:51:22 | DEBUG   | mail_municipalities.security_analysis.runner:ensure_env:46 | Using existing .env at C:\Users\jorel\Desktop\8. Sem BA\Codes\ba-e-mail-sec-uk-de\src\security_test\.env
+2026-08-17 15:51:22 | INFO    | mail_municipalities.security_analysis.runner:run:311 | Phase 1: Preparing scanner input for cc
+2026-08-17 15:51:22 | INFO    | mail_municipalities.security_analysis.runner:prepare_scanner_input:80 | Prepared 1 unique domains for scanning from domains_cc.json
+2026-08-17 15:51:22 | INFO    | mail_municipalities.security_analysis.runner:run:315 | Phase 2: Running security scanner (Docker)
+2026-08-17 15:51:22 | INFO    | mail_municipalities.security_analysis.runner:_run_container:97 | Running: docker compose up --build scanmuni unbound --exit-code-from scanmuni (cwd=C:\Users\jorel\Desktop\8. Sem BA\Codes\ba-e-mail-sec-uk-de\src\security_test)
+2026-08-17 15:51:22 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] Compose can now delegate builds to bake for better performance.
+2026-08-17 15:51:22 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni]  To do so, set COMPOSE_BAKE=true.
+2026-08-17 15:51:23 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #0 building with "desktop-linux" instance using docker driver
+2026-08-17 15:51:23 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #1 [scanmuni internal] load build definition from Dockerfile
+2026-08-17 15:51:23 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #1 transferring dockerfile: 2.21kB done
+2026-08-17 15:51:23 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #1 DONE 0.0s
+2026-08-17 15:51:23 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #2 [scanmuni internal] load metadata for docker.io/library/eclipse-temurin:17-jdk
+2026-08-17 15:51:23 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #2 DONE 1.1s
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #3 [scanmuni internal] load .dockerignore
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #3 transferring context: 2B done
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #3 DONE 0.0s
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #4 [scanmuni  1/42] FROM docker.io/library/eclipse-temurin:17-jdk@sha256:f9b295135b39ed8c650c713c6116600dd4c39ac5f3883f566d96fdec917ce3b2
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #4 resolve docker.io/library/eclipse-temurin:17-jdk@sha256:f9b295135b39ed8c650c713c6116600dd4c39ac5f3883f566d96fdec917ce3b2 0.0s done
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #4 DONE 0.0s
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #5 [scanmuni internal] load build context
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #5 transferring context: 11.36kB 0.0s done
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #5 DONE 0.1s
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #6 [scanmuni 13/42] RUN go get github.com/miekg/dns
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #6 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #7 [scanmuni 20/42] RUN pip3 install --no-cache-dir pyleri checkdmarc dataclasses-json
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #7 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #8 [scanmuni 21/42] WORKDIR /app
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #8 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #9 [scanmuni 40/42] RUN gradle installDist
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #9 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #10 [scanmuni 15/42] RUN go get github.com/shuque/dane
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #10 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #11 [scanmuni 17/42] RUN go get github.com/shuque/gotls
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #11 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #12 [scanmuni 16/42] RUN go build github.com/shuque/dane
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #12 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #13 [scanmuni 12/42] RUN go mod init module
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #13 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #14 [scanmuni 31/42] RUN chmod +x /app/SPF_DMARC_Scripts/dmarcSyntaxCheck.py
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #14 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #15 [scanmuni 32/42] RUN chmod +x /app/SPF_DMARC_Scripts/spfTest.py
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #15 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #16 [scanmuni 34/42] RUN chmod +x /usr/bin/dss
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #16 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #17 [scanmuni 41/42] RUN cp -r ./build/install/scanner/* /app/
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #17 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #18 [scanmuni 33/42] COPY dss /usr/bin/dss
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #18 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #19 [scanmuni 35/42] WORKDIR /build
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #19 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #20 [scanmuni 26/42] RUN sed -i 's/\r$//' /app/testssl/testssl.sh
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #20 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #21 [scanmuni 14/42] RUN go build github.com/miekg/dns
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #21 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #22 [scanmuni 24/42] RUN chmod +x /usr/bin/openssl
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #22 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #23 [scanmuni 30/42] RUN chmod +x /app/SPF_DMARC_Scripts/
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #23 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #24 [scanmuni 19/42] RUN localedef -i en_US -f UTF-8 en_US.UTF-8
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #24 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #25 [scanmuni 22/42] COPY testssl.sh/ testssl/
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #25 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #26 [scanmuni 18/42] RUN go build github.com/shuque/gotls
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #26 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #27 [scanmuni  4/42] RUN curl -O https://dl.google.com/go/go1.21.0.linux-amd64.tar.gz
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #27 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #28 [scanmuni  3/42] RUN apt-get install -y bsdmainutils dnsutils locales unzip python3 python3-pip
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #28 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #29 [scanmuni 36/42] COPY build.gradle.kts /build/build.gradle.kts
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #29 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #30 [scanmuni 28/42] COPY SPF_DMARC_Scripts/dmarcSyntaxCheck.py /app/SPF_DMARC_Scripts/dmarcSyntaxCheck.py
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #30 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #31 [scanmuni  7/42] RUN wget -q -P /tmp https://services.gradle.org/distributions/gradle-7.6.3-bin.zip
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #31 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #32 [scanmuni 25/42] RUN chmod +x /app/testssl/testssl.sh
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #32 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #33 [scanmuni  2/42] RUN apt-get update
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #33 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #34 [scanmuni  8/42] RUN unzip -q -d /opt/gradle /tmp/gradle-7.6.3-bin.zip
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #34 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #35 [scanmuni  5/42] RUN tar -xvf go1.21.0.linux-amd64.tar.gz
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #35 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #36 [scanmuni  6/42] RUN mv go /usr/local
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #36 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #37 [scanmuni 11/42] WORKDIR /app/gotls
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #37 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #38 [scanmuni 38/42] RUN gradle dependencies
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #38 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #39 [scanmuni  9/42] RUN chmod +x /opt/gradle/gradle-7.6.3/bin/gradle
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #39 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #40 [scanmuni 23/42] COPY testssl.sh/bin/openssl.Linux.x86_64 /usr/bin/openssl
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #40 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #41 [scanmuni 27/42] RUN sed -i 's/\r$//' /app/testssl/etc/tls_data.txt
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #41 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #42 [scanmuni 37/42] COPY settings.gradle.kts /build/settings.gradle.kts
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #42 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #43 [scanmuni 10/42] RUN ln -s /opt/gradle/gradle-7.6.3/bin/gradle /usr/bin/gradle
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #43 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #44 [scanmuni 29/42] COPY SPF_DMARC_Scripts/spfTest.py /app/SPF_DMARC_Scripts/spfTest.py
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #44 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #45 [scanmuni 39/42] COPY src/ /build/src
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #45 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #46 [scanmuni 42/42] WORKDIR /app
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #46 CACHED
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #47 [scanmuni] exporting to image
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #47 exporting layers 0.0s done
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #47 exporting manifest sha256:7a726ac0c8dec6d8633e39f336d6d079ef03c13f5b9a808c67840e1cd7257e7d done
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #47 exporting config sha256:e7e8db2a794fc1bf92fb91fd6bfb455c470771e828de621e64e75e6eb2f25c2b done
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #47 exporting attestation manifest sha256:94184366ed380856ac1c8f5946ec620efab9a498d76992a21ad9b58016a25a64 0.1s done
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #47 exporting manifest list sha256:f377d8ee26c32e269218ef66006bb5237b500afb46c211a4c5041652eb326d17
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #47 exporting manifest list sha256:f377d8ee26c32e269218ef66006bb5237b500afb46c211a4c5041652eb326d17 0.0s done
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #47 naming to docker.io/library/security_test-scanmuni:latest done
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #47 unpacking to docker.io/library/security_test-scanmuni:latest 0.1s done
+2026-08-17 15:51:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #47 DONE 0.6s
+2026-08-17 15:51:26 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #48 [scanmuni] resolving provenance for metadata file
+2026-08-17 15:51:27 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] #48 DONE 0.2s
+2026-08-17 15:51:27 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni]  scanmuni  Built
+2026-08-17 15:51:27 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni]  Container security_test-unbound-1  Created
+2026-08-17 15:51:27 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni]  Container security_test-scanmuni-1  Recreate
+2026-08-17 15:51:29 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni]  Container security_test-scanmuni-1  Recreated
+2026-08-17 15:51:29 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] Attaching to scanmuni-1, unbound-1
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Config - loaded variable LOG_LEVEL from environment. received value: INFO. using value: INFO
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Config - loaded variable INPUT_FILE from environment. received value: . using value:
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] unbound-1   | [1786974691] unbound[1:0] notice: init module 0: subnetcache
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] unbound-1   | [1786974691] unbound[1:0] notice: init module 1: validator
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] unbound-1   | [1786974691] unbound[1:0] notice: init module 2: iterator
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Config - loaded variable DNS_NAMESERVER from environment. received value: 8.8.8.8. using value: 8.8.8.8
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Config - loaded variable DNS_QUERIES_PER_SECOND from environment. received value: 3.0. using value: 3.0
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Config - loaded variable DNS_THREAD_MULTIPLIER from environment. received value: 4. using value: 4
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] unbound-1   | [1786974691] unbound[1:0] info: start of service (unbound 1.22.0).
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Config - loaded variable TESTSSL_STARTTLS_SLEEP from environment. received value: 60. using value: 60
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Config - loaded variable TESTSSL_CONNECT_TIMEOUT from environment. received value: 30s. using value: 30s
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Config - loaded variable TESTSSL_OPENSSL_TIMEOUT from environment. received value: 30s. using value: 30s
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Config - loaded variable SCAN_THREAD_MULTIPLIER from environment. received value: 4. using value: 4
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Config - loaded variable DANE_RETRIES from environment. received value: 2. using value: 2
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Config - loaded variable DANE_TRIES_PER_SECOND from environment. received value: 3.0. using value: 3.0
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Config - loaded variable DANE_TIMEOUT from environment. received value: 300. using value: 300
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Config - loaded variable TLS_RETRIES from environment. received value: 2. using value: 2
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Config - loaded variable TLS_TRIES_PER_SECOND from environment. received value: 2.0. using value: 2.0
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Config - loaded variable TLS_TIMEOUT from environment. received value: 300. using value: 300
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Config - loaded variable DSS_TRIES_PER_SECOND from environment. received value: 3.0. using value: 3.0
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Config - loaded variable DATASET_DELAY_MINUTES from environment. received value: 0. using value: 0
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Application - starting email test
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Application - loaded 1 unique domains from cc
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Preprocessing - starting to resolve MX records from domains
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Preprocessing - using 64 threads for resolving MX records
+2026-08-17 15:51:31 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Preprocessing - using a rate limit of 3 queries per second
+2026-08-17 15:51:32 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Preprocessing - 0.12 seconds: resolving MXRecord dllee.cc 1 / 1. 100%
+2026-08-17 15:51:32 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Preprocessing - resolved 1 domains to 1 distinct MX records in 0.33 seconds
+2026-08-17 15:51:32 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Application - loaded 1 unique mx records
+2026-08-17 15:51:32 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Preprocessing - starting to resolve IP addresses from MX records
+2026-08-17 15:51:32 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Preprocessing - using 64 threads for resolving IP addresses
+2026-08-17 15:51:32 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Preprocessing - using a rate limit of 3 queries per second
+2026-08-17 15:51:32 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Preprocessing - 0.00 seconds: resolving IPAddress 1 / 1. 100%
+2026-08-17 15:51:32 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Preprocessing - resolved 1 MX Records to 1 distinct domain + mx + ip combinations in 0.12 seconds
+2026-08-17 15:51:32 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Application - loaded 1 unique combinations of domain + mx + ip
+2026-08-17 15:51:32 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Application - loaded 1 unique combinations of mx + ip
+2026-08-17 15:51:32 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - starting to measure tls and cert data from domains
+2026-08-17 15:51:32 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using 64 threads for resolving MX records
+2026-08-17 15:51:32 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using a rate limit of 2 queries per second
+2026-08-17 15:51:32 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - starting tls cert scan
+2026-08-17 15:51:32 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [0.00s]:tls cert scan: started for dllee2.ddnss.eu (1 from 1)
+2026-08-17 15:51:35 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [2.85s]:tls cert scan encountered an error. retrying once for dllee2.ddnss.eu  (1 from 1)
+2026-08-17 15:51:36 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [3.88s]:tls cert scan: started for dllee2.ddnss.eu (1 from 1)
+2026-08-17 15:51:36 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] unbound-1   | [1786974696] unbound[1:0] info: generate keytag query _ta-4f66-9728. NULL IN
+2026-08-17 15:51:36 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [4.10s]:tls cert scan: finished for dllee2.ddnss.eu (1 from 1)
+2026-08-17 15:51:36 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - [4.10s]: finished tls cert scan
+2026-08-17 15:51:36 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - starting to lookup MTASTS dns records for domains
+2026-08-17 15:51:36 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using 64 threads
+2026-08-17 15:51:36 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using a rate limit of 3 queries per second
+2026-08-17 15:51:36 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [0.01s]:mtaStsDnsRec scan: started for dllee.cc (1 from 1)
+2026-08-17 15:51:36 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [0.24s]:mtaStsDnsRec scan: finished for dllee.cc (1 from 1)
+2026-08-17 15:51:36 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - [0.24s]: finished mtaStsDnsRecord scan
+2026-08-17 15:51:36 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - starting to test mta-Sts-Policy
+2026-08-17 15:51:36 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using 64 threads
+2026-08-17 15:51:36 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using a rate limit of 1 queries per second
+2026-08-17 15:51:36 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - [0.00s]: finished mtaStsPolicy scan
+2026-08-17 15:51:36 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - starting to lookup tlsrpt from domains
+2026-08-17 15:51:36 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using 64 threads
+2026-08-17 15:51:36 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using a rate limit of 3 queries per second
+2026-08-17 15:51:36 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [0.01s]:tlsrptDnsRec scan: started for dllee.cc (1 from 1)
+2026-08-17 15:51:38 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [1.23s]:tlsrptDnsRec scan: finished for dllee.cc (1 from 1)
+2026-08-17 15:51:38 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - [1.23s]: finished tlsrpt scan
+2026-08-17 15:51:38 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - starting to check supported tls versions
+2026-08-17 15:51:38 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using 64 threads
+2026-08-17 15:51:38 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using a rate limit of 2 queries per second
+2026-08-17 15:51:39 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [1.01s] started for 87.163.54.196 dllee2.ddnss.eu
+2026-08-17 15:51:39 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [1.05s]: 87.163.54.196 dllee2.ddnss.eu try 0 tls version range scan started
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [21.41s]: 87.163.54.196 dllee2.ddnss.eu try 0 version range scan finished
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [21.41s] ended for 87.163.54.196 dllee2.ddnss.eu
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - [21.41s]:  finished tls version range scan
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - starting to test dane for mx
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using 64 threads
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using a rate limit of 2 queries per second
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [0.00s]:dane scan: started for dllee2.ddnss.eu (1 from 1)
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [0.11s]:dane scan: fully finished for dllee2.ddnss.eu (1 from 1)
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - [0.11s]:finished dane scan
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - starting to check DMARC
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using 64 threads
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using a rate limit of 3 queries per second
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [0.00s]:dmarc scan: started for dllee.cc (1 from 1)
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [0.30s]:dmarc scan: fully finished for dllee.cc (1 from 1)
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - [0.30s]:finished dmarc scan
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - starting to check DKIM
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using 64 threads
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using a rate limit of 3 queries per second
+2026-08-17 15:51:59 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [0.04s]:dkim scan: started for dllee.cc (1 from 1)
+2026-08-17 15:52:01 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [1.48s]:dkim scan: fully finished for dllee.cc (1 from 1)
+2026-08-17 15:52:01 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - [1.48s]:finished dkim scan
+2026-08-17 15:52:01 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - starting to check SPF
+2026-08-17 15:52:01 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using 64 threads
+2026-08-17 15:52:01 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using a rate limit of 0 queries per second
+2026-08-17 15:52:01 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [0.00s]:spf scan: started for dllee.cc (1 from 1)
+2026-08-17 15:52:04 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [3.58s]:spf scan: fully finished for dllee.cc (1 from 1)
+2026-08-17 15:52:04 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - [3.58s]:finished spf scan
+2026-08-17 15:52:04 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - starting to check DNSSEC for Domain
+2026-08-17 15:52:04 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [0.00s]:dnssec domain scan: started for dllee.cc (1 from 1)
+2026-08-17 15:52:05 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [0.31s]:dnssec domain scan: fully finished for dllee.cc (1 from 1)
+2026-08-17 15:52:05 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - [0.31s]:finished dnssec domain scan
+2026-08-17 15:52:05 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - starting to check DNSSEC for MX
+2026-08-17 15:52:05 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [0.00s]:dnssec mx scan: started for dllee2.ddnss.eu (1 from 1)
+2026-08-17 15:52:06 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [1.31s]:dnssec mx scan: fully finished for dllee2.ddnss.eu (1 from 1)
+2026-08-17 15:52:06 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - [1.31s]:finished mx scan
+2026-08-17 15:52:06 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - starting to test dane for mx
+2026-08-17 15:52:06 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using 64 threads
+2026-08-17 15:52:06 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - using a rate limit of 2 queries per second
+2026-08-17 15:52:06 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [0.00s]:tls 1_2 scan scan: started for dllee2.ddnss.eu (1 from 1)
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:07 PM org.bouncycastle.jsse.provider.PropertyUtils getStringSecurityProperty
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: Found string security property [jdk.tls.disabledAlgorithms]: SSLv3, TLSv1, TLSv1.1, DTLSv1.0, RC4, DES, MD5withRSA, DH keySize < 1024, EC keySize < 224, 3DES_EDE_CBC, anon, NULL, ECDH, TLS_RSA_*, rsa_pkcs1_sha1 usage HandshakeSignature, ecdsa_sha1 usage HandshakeSignature, dsa_sha1 usage HandshakeSignature
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:07 PM org.bouncycastle.jsse.provider.DisabledAlgorithmConstraints create
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | WARNING: Ignoring unsupported entry in 'jdk.tls.disabledAlgorithms': rsa_pkcs1_sha1 usage HandshakeSignature
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:07 PM org.bouncycastle.jsse.provider.DisabledAlgorithmConstraints create
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | WARNING: Ignoring unsupported entry in 'jdk.tls.disabledAlgorithms': ecdsa_sha1 usage HandshakeSignature
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:07 PM org.bouncycastle.jsse.provider.DisabledAlgorithmConstraints create
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | WARNING: Ignoring unsupported entry in 'jdk.tls.disabledAlgorithms': dsa_sha1 usage HandshakeSignature
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:07 PM org.bouncycastle.jsse.provider.PropertyUtils getStringSecurityProperty
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: Found string security property [jdk.certpath.disabledAlgorithms]: MD2, MD5, SHA1 jdkCA & usage TLSServer, RSA keySize < 1024, DSA keySize < 1024, EC keySize < 224, SHA1 usage SignedJAR & denyAfter 2019-01-01
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:07 PM org.bouncycastle.jsse.provider.DisabledAlgorithmConstraints create
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | WARNING: Ignoring unsupported entry in 'jdk.certpath.disabledAlgorithms': SHA1 jdkCA & usage TLSServer
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:07 PM org.bouncycastle.jsse.provider.DisabledAlgorithmConstraints create
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | WARNING: Ignoring unsupported entry in 'jdk.certpath.disabledAlgorithms': SHA1 usage SignedJAR & denyAfter 2019-01-01
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:07 PM org.bouncycastle.jsse.provider.ProvTlsClient notifyHandshakeBeginning
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: [client #1 @139927a2] opening connection to dllee2.ddnss.eu:25
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:07 PM org.bouncycastle.jsse.provider.ProvTlsClient notifyAlertReceived
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: [client #1 @139927a2] received fatal(2) handshake_failure(40) alert
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:07 PM org.bouncycastle.jsse.provider.ProvTlsClient notifyConnectionClosed
+2026-08-17 15:52:07 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: [client #1 @139927a2] disconnected from dllee2.ddnss.eu:25
+2026-08-17 15:52:08 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:08 PM org.bouncycastle.jsse.provider.ProvTlsClient notifyHandshakeBeginning
+2026-08-17 15:52:08 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: [client #2 @71e3fde8] opening connection to dllee2.ddnss.eu:25
+2026-08-17 15:52:08 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:08 PM org.bouncycastle.jsse.provider.ProvTlsClient notifyAlertReceived
+2026-08-17 15:52:08 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: [client #2 @71e3fde8] received fatal(2) handshake_failure(40) alert
+2026-08-17 15:52:08 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:08 PM org.bouncycastle.jsse.provider.ProvTlsClient notifyConnectionClosed
+2026-08-17 15:52:08 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: [client #2 @71e3fde8] disconnected from dllee2.ddnss.eu:25
+2026-08-17 15:52:09 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:09 PM org.bouncycastle.jsse.provider.ProvTlsClient notifyHandshakeBeginning
+2026-08-17 15:52:09 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: [client #3 @3b2e1888] opening connection to dllee2.ddnss.eu:25
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:10 PM org.bouncycastle.jsse.provider.ProvTlsClient notifyAlertRaised
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: [client #3 @3b2e1888] raised fatal(2) certificate_unknown(46) alert: Failed to read record
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | org.bouncycastle.tls.TlsFatalAlert: certificate_unknown(46)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.ProvSSLSocketWrap.checkServerTrusted(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.ProvTlsClient$1.notifyServerCertificate(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.tls.TlsUtils.processServerCertificate(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.tls.TlsClientProtocol.handleServerCertificate(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.tls.TlsClientProtocol.handleHandshakeMessage(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.tls.TlsProtocol.processHandshakeQueue(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.tls.TlsProtocol.processRecord(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.tls.RecordStream.readRecord(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.tls.TlsProtocol.safeReadRecord(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.tls.TlsProtocol.blockForHandshake(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.tls.TlsClientProtocol.connect(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.ProvSSLSocketWrap.startHandshake(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.ProvSSLSocketWrap.startHandshake(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at commands.TLS.testTLS(TLS.kt:34)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at commands.TlsSmtpCertCheck.testSmtpTlsHandshake(TlsSmtpCertCheck.kt:80)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at commands.TLS_1_2_Command.checkTLSConfig(TLS_1_2_Command.kt:58)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at commands.TLS_1_2_Command.testTlsNCSC(TLS_1_2_Command.kt:36)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at commands.TLS_1_2_Command$testTlsNCSC$1.invokeSuspend(TLS_1_2_Command.kt)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Caused by: java.security.cert.CertificateException: No subject alternative name found matching domain name dllee2.ddnss.eu
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.HostnameUtil.checkHostname(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.ProvX509TrustManager.checkEndpointID(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.ProvX509TrustManager.checkEndpointID(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.ProvX509TrustManager.checkExtendedTrust(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.ImportX509TrustManager_5.checkAdditionalTrust(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.ImportX509TrustManager_5.checkServerTrusted(Unknown Source)
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	... 26 more
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  |
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:10 PM org.bouncycastle.jsse.provider.ProvTlsClient notifyConnectionClosed
+2026-08-17 15:52:10 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: [client #3 @3b2e1888] disconnected from dllee2.ddnss.eu:25
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:11 PM org.bouncycastle.jsse.provider.ProvTlsClient notifyHandshakeBeginning
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: [client #4 @258d579e] opening connection to dllee2.ddnss.eu:25
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:11 PM org.bouncycastle.jsse.provider.ProvTlsClient notifyAlertRaised
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: [client #4 @258d579e] raised fatal(2) certificate_unknown(46) alert: Failed to read record
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | org.bouncycastle.tls.TlsFatalAlert: certificate_unknown(46)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.ProvSSLSocketWrap.checkServerTrusted(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.ProvTlsClient$1.notifyServerCertificate(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.tls.TlsUtils.processServerCertificate(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.tls.TlsClientProtocol.handleServerCertificate(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.tls.TlsClientProtocol.handleHandshakeMessage(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.tls.TlsProtocol.processHandshakeQueue(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.tls.TlsProtocol.processRecord(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.tls.RecordStream.readRecord(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.tls.TlsProtocol.safeReadRecord(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.tls.TlsProtocol.blockForHandshake(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.tls.TlsClientProtocol.connect(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.ProvSSLSocketWrap.startHandshake(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.ProvSSLSocketWrap.startHandshake(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at commands.TLS.testTLS(TLS.kt:34)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at commands.TlsSmtpCertCheck.testSmtpTlsHandshake(TlsSmtpCertCheck.kt:80)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at commands.TLS_1_2_Command.checkTLSConfig(TLS_1_2_Command.kt:59)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at commands.TLS_1_2_Command.testTlsNCSC(TLS_1_2_Command.kt:36)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at commands.TLS_1_2_Command$testTlsNCSC$1.invokeSuspend(TLS_1_2_Command.kt)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Caused by: java.security.cert.CertificateException: No subject alternative name found matching domain name dllee2.ddnss.eu
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.HostnameUtil.checkHostname(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.ProvX509TrustManager.checkEndpointID(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.ProvX509TrustManager.checkEndpointID(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.ProvX509TrustManager.checkExtendedTrust(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.ImportX509TrustManager_5.checkAdditionalTrust(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	at org.bouncycastle.jsse.provider.ImportX509TrustManager_5.checkServerTrusted(Unknown Source)
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | 	... 26 more
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  |
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:11 PM org.bouncycastle.jsse.provider.ProvTlsClient notifyConnectionClosed
+2026-08-17 15:52:11 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: [client #4 @258d579e] disconnected from dllee2.ddnss.eu:25
+2026-08-17 15:52:12 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:12 PM org.bouncycastle.jsse.provider.ProvTlsClient notifyHandshakeBeginning
+2026-08-17 15:52:12 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: [client #5 @24f6d9ff] opening connection to dllee2.ddnss.eu:25
+2026-08-17 15:52:12 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:12 PM org.bouncycastle.jsse.provider.ProvTlsClient notifyAlertReceived
+2026-08-17 15:52:12 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: [client #5 @24f6d9ff] received fatal(2) handshake_failure(40) alert
+2026-08-17 15:52:12 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:12 PM org.bouncycastle.jsse.provider.ProvTlsClient notifyConnectionClosed
+2026-08-17 15:52:12 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: [client #5 @24f6d9ff] disconnected from dllee2.ddnss.eu:25
+2026-08-17 15:52:13 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:13 PM org.bouncycastle.jsse.provider.ProvTlsClient notifyHandshakeBeginning
+2026-08-17 15:52:13 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: [client #6 @268e7138] opening connection to dllee2.ddnss.eu:25
+2026-08-17 15:52:13 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:13 PM org.bouncycastle.jsse.provider.ProvTlsClient notifyAlertReceived
+2026-08-17 15:52:13 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: [client #6 @268e7138] received fatal(2) handshake_failure(40) alert
+2026-08-17 15:52:13 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | Aug 17, 2026 1:52:13 PM org.bouncycastle.jsse.provider.ProvTlsClient notifyConnectionClosed
+2026-08-17 15:52:13 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | INFO: [client #6 @268e7138] disconnected from dllee2.ddnss.eu:25
+2026-08-17 15:52:13 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [DefaultDispatcher-worker-1] INFO Measurement - [6.78s]:tls 1_2 scan: fully finished for dllee2.ddnss.eu (1 from 1)
+2026-08-17 15:52:13 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Measurement - [6.78s]:finished tls 1_2 scan
+2026-08-17 15:52:13 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Application - finished scan result from cc
+2026-08-17 15:52:13 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] scanmuni-1  | [main] INFO Application - total scan time: 42.06 seconds
+2026-08-17 15:52:13 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] [Kscanmuni-1 exited with code 0
+2026-08-17 15:52:13 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni] Aborting on container exit...
+2026-08-17 15:52:13 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni]  Container security_test-unbound-1  Stopping
+2026-08-17 15:52:13 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni]  Container security_test-scanmuni-1  Stopping
+2026-08-17 15:52:13 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni]  Container security_test-scanmuni-1  Stopped
+2026-08-17 15:52:13 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [scanmuni]  Container security_test-unbound-1  Stopped
+2026-08-17 15:52:14 | INFO    | mail_municipalities.security_analysis.runner:run:318 | Scanner completed in 52.0s
+2026-08-17 15:52:14 | INFO    | mail_municipalities.security_analysis.runner:run:321 | Phase 3: Running evaluator (Docker)
+2026-08-17 15:52:14 | INFO    | mail_municipalities.security_analysis.runner:_run_container:97 | Running: docker compose up --build evalmuni unbound --exit-code-from evalmuni (cwd=C:\Users\jorel\Desktop\8. Sem BA\Codes\ba-e-mail-sec-uk-de\src\security_test)
+2026-08-17 15:52:14 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] Compose can now delegate builds to bake for better performance.
+2026-08-17 15:52:14 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni]  To do so, set COMPOSE_BAKE=true.
+2026-08-17 15:52:15 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #0 building with "desktop-linux" instance using docker driver
+2026-08-17 15:52:15 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #1 [evalmuni internal] load build definition from Dockerfile
+2026-08-17 15:52:15 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #1 transferring dockerfile: 748B 0.0s done
+2026-08-17 15:52:15 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #1 DONE 0.1s
+2026-08-17 15:52:15 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #2 [evalmuni internal] load metadata for docker.io/library/eclipse-temurin:17-jdk
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #2 DONE 0.9s
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #3 [evalmuni internal] load .dockerignore
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #3 transferring context: 2B done
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #3 DONE 0.0s
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #4 [evalmuni  1/15] FROM docker.io/library/eclipse-temurin:17-jdk@sha256:f9b295135b39ed8c650c713c6116600dd4c39ac5f3883f566d96fdec917ce3b2
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #4 resolve docker.io/library/eclipse-temurin:17-jdk@sha256:f9b295135b39ed8c650c713c6116600dd4c39ac5f3883f566d96fdec917ce3b2 0.0s done
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #4 DONE 0.1s
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #5 [evalmuni internal] load build context
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #5 transferring context: 9.35kB 0.0s done
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #5 DONE 0.1s
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #6 [evalmuni  4/15] RUN unzip -q -d /opt/gradle /tmp/gradle-7.6.3-bin.zip
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #6 CACHED
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #7 [evalmuni 12/15] RUN gradle installDist
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #7 CACHED
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #8 [evalmuni  9/15] COPY settings.gradle.kts /build/settings.gradle.kts
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #8 CACHED
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #9 [evalmuni 11/15] COPY src/ /build/src
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #9 CACHED
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #10 [evalmuni  5/15] RUN chmod +x /opt/gradle/gradle-7.6.3/bin/gradle
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #10 CACHED
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #11 [evalmuni  2/15] RUN apt-get update && apt-get install -y unzip && rm -rf /var/lib/apt/lists/*
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #11 CACHED
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #12 [evalmuni  7/15] WORKDIR /build
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #12 CACHED
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #13 [evalmuni 10/15] RUN gradle dependencies
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #13 CACHED
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #14 [evalmuni  3/15] RUN wget -q -P /tmp https://services.gradle.org/distributions/gradle-7.6.3-bin.zip
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #14 CACHED
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #15 [evalmuni 14/15] RUN cp -r ./build/install/emailtest.evaluator/* /app/
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #15 CACHED
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #16 [evalmuni  8/15] COPY build.gradle.kts /build/build.gradle.kts
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #16 CACHED
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #17 [evalmuni  6/15] RUN ln -s /opt/gradle/gradle-7.6.3/bin/gradle /usr/bin/gradle
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #17 CACHED
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #18 [evalmuni 13/15] RUN mkdir /app
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #18 CACHED
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #19 [evalmuni 15/15] WORKDIR /app
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #19 CACHED
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #20 [evalmuni] exporting to image
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #20 exporting layers 0.0s done
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #20 exporting manifest sha256:4f06d816a7b84774a36f52fb8d9947dd0c89e29c1acf5cdb308ef35209adbbf6 done
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #20 exporting config sha256:fb325e6ab14b863f7648fd5b3ebbc67b1be9a8e212ad9f6732b4541212de5557 done
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #20 exporting attestation manifest sha256:22a7f85165709ddd9ed523e8f7687b95d6a1ca78b2d6e421c195215cdec93fcc 0.1s done
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #20 exporting manifest list sha256:60b3fa39fde1c56f2f5e969c38095fdded445d10347c3b6e4cb899a0cf80fc60
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #20 exporting manifest list sha256:60b3fa39fde1c56f2f5e969c38095fdded445d10347c3b6e4cb899a0cf80fc60 0.0s done
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #20 naming to docker.io/library/security_test-evalmuni:latest done
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #20 unpacking to docker.io/library/security_test-evalmuni:latest 0.1s done
+2026-08-17 15:52:16 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #20 DONE 0.4s
+2026-08-17 15:52:17 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #21 [evalmuni] resolving provenance for metadata file
+2026-08-17 15:52:17 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] #21 DONE 0.3s
+2026-08-17 15:52:17 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni]  evalmuni  Built
+2026-08-17 15:52:18 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni]  Container security_test-unbound-1  Created
+2026-08-17 15:52:18 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni]  Container security_test-evalmuni-1  Recreate
+2026-08-17 15:52:20 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni]  Container security_test-evalmuni-1  Recreated
+2026-08-17 15:52:20 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] Attaching to evalmuni-1, unbound-1
+2026-08-17 15:52:22 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] evalmuni-1  | Das Programm sucht hier: /app/./evaluator-input
+2026-08-17 15:52:22 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] unbound-1   | [1786974742] unbound[1:0] notice: init module 0: subnetcache
+2026-08-17 15:52:22 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] unbound-1   | [1786974742] unbound[1:0] notice: init module 1: validator
+2026-08-17 15:52:22 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] unbound-1   | [1786974742] unbound[1:0] notice: init module 2: iterator
+2026-08-17 15:52:22 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] unbound-1   | [1786974742] unbound[1:0] info: start of service (unbound 1.22.0).
+2026-08-17 15:52:22 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] evalmuni-1  | [main] INFO emailtest.models.RunEvaluation - loaded scan result from cc_scanResult
+2026-08-17 15:52:22 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] evalmuni-1  | 0
+2026-08-17 15:52:23 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] evalmuni-1  | [main] INFO emailtest.models.RunEvaluation - finished scan result from cc_scanResult (database written)
+2026-08-17 15:52:23 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] evalmuni-1  | [main] INFO emailtest.models.RunEvaluation - evaluation finished
+2026-08-17 15:52:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] [Kevalmuni-1 exited with code 0
+2026-08-17 15:52:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni] Aborting on container exit...
+2026-08-17 15:52:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni]  Container security_test-unbound-1  Stopping
+2026-08-17 15:52:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni]  Container security_test-evalmuni-1  Stopping
+2026-08-17 15:52:24 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni]  Container security_test-evalmuni-1  Stopped
+2026-08-17 15:52:25 | INFO    | mail_municipalities.security_analysis.runner:_run_container:112 | [evalmuni]  Container security_test-unbound-1  Stopped
+2026-08-17 15:52:26 | INFO    | mail_municipalities.security_analysis.runner:run:324 | Evaluator completed in 12.6s
+2026-08-17 15:52:26 | INFO    | mail_municipalities.security_analysis.runner:run:333 | Phase 4: Building output
+2026-08-17 15:52:27 | INFO    | mail_municipalities.security_analysis.runner:run:348 | Wrote output\security\security_cc.json (7 KB)
+2026-08-17 15:52:27 | INFO    | mail_municipalities.security_analysis.runner:run:349 | --- Security scan: 1 municipalities ---

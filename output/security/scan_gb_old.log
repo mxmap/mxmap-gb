@@ -1,0 +1,24 @@
+2026-09-09 20:52:59 | DEBUG   | mail_municipalities.security_analysis.runner:ensure_env:47 | Using existing .env at C:\Users\jorel\Desktop\8. Sem BA\Codes\ba-e-mail-sec-uk-de\src\security_test\.env
+2026-09-09 20:52:59 | INFO    | mail_municipalities.security_analysis.runner:run:562 | Phase 1: Preparing scanner input for gb
+2026-09-09 20:52:59 | INFO    | mail_municipalities.security_analysis.runner:run:566 | Phase 2: Running security scanner (Docker)
+2026-09-09 20:52:59 | INFO    | mail_municipalities.security_analysis.runner:run:569 | Scanner completed in 0.0s
+2026-09-09 20:52:59 | INFO    | mail_municipalities.security_analysis.runner:run:572 | Phase 3: Running evaluator (Docker)
+2026-09-09 20:52:59 | INFO    | mail_municipalities.security_analysis.runner:run:575 | Evaluator completed in 0.0s
+2026-09-09 20:52:59 | INFO    | mail_municipalities.security_analysis.runner:run:584 | Phase 4: Building output
+2026-09-09 20:53:00 | INFO    | mail_municipalities.security_analysis.runner:run:602 | Wrote output\security\security_gb.json (5009 KB)
+2026-09-09 20:53:00 | INFO    | mail_municipalities.security_analysis.runner:extract_to_csv:406 | Starte Datenexport für output\security\security_gb.json...
+2026-09-09 20:53:02 | INFO    | mail_municipalities.security_analysis.runner:extract_1_to_1_table:273 | Gespeichert: output\security\data\gb\antispoofing_data (382 Zeilen)
+2026-09-09 20:53:03 | INFO    | mail_municipalities.security_analysis.runner:extract_1_to_1_table:273 | Gespeichert: output\security\data\gb\transport_data (382 Zeilen)
+2026-09-09 20:53:03 | INFO    | mail_municipalities.security_analysis.runner:extract_1_to_n_table:307 | Gespeichert: output\security\data\gb\mx_data (577 Zeilen)
+2026-09-09 20:53:03 | INFO    | mail_municipalities.security_analysis.runner:extract_1_to_n_table:307 | Gespeichert: output\security\data\gb\mta_sts_error (27 Zeilen)
+2026-09-09 20:53:03 | INFO    | mail_municipalities.security_analysis.runner:extract_1_to_n_table:307 | Gespeichert: output\security\data\gb\dmarc_report_domain (740 Zeilen)
+2026-09-09 20:53:04 | INFO    | mail_municipalities.security_analysis.runner:extract_1_to_n_table:307 | Gespeichert: output\security\data\gb\external_dependencies. (2775 Zeilen)
+2026-09-09 20:53:04 | INFO    | mail_municipalities.security_analysis.runner:extract_to_csv_rpt:433 | Starte Datenexport für C:\Users\jorel\Desktop\8. Sem BA\Codes\ba-e-mail-sec-uk-de\src\security_test\evaluator\evaluator-result\extgb_domainInfoList.json
+2026-09-09 20:53:04 | INFO    | mail_municipalities.security_analysis.runner:extract_1_to_1_table_rpt:337 | Gespeichert: output\security\dmarc_rpt_data\gb\antispoofing_data (51 Zeilen)
+2026-09-09 20:53:04 | INFO    | mail_municipalities.security_analysis.runner:extract_1_to_1_table_rpt:337 | Gespeichert: output\security\dmarc_rpt_data\gb\transport_data (51 Zeilen)
+2026-09-09 20:53:04 | INFO    | mail_municipalities.security_analysis.runner:extract_1_to_n_table_rpt:377 | Gespeichert: output\security\dmarc_rpt_data\gb\mx_data (57 Zeilen)
+2026-09-09 20:53:04 | INFO    | mail_municipalities.security_analysis.runner:extract_1_to_n_table_rpt:377 | Gespeichert: output\security\dmarc_rpt_data\gb\mta_sts_error (4 Zeilen)
+2026-09-09 20:53:04 | INFO    | mail_municipalities.security_analysis.runner:extract_1_to_n_table_rpt:377 | Gespeichert: output\security\dmarc_rpt_data\gb\dmarc_report_domain (74 Zeilen)
+2026-09-09 20:53:04 | INFO    | mail_municipalities.security_analysis.runner:extract_1_to_n_table_rpt:377 | Gespeichert: output\security\dmarc_rpt_data\gb\external_dependencies. (118 Zeilen)
+2026-09-09 20:53:04 | INFO    | mail_municipalities.security_analysis.runner:run:611 | Wrote output\security\security_gb.json (5009 KB)
+2026-09-09 20:53:04 | INFO    | mail_municipalities.security_analysis.runner:run:612 | --- Security scan: 382 municipalities ---

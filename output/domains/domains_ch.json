@@ -1,0 +1,409 @@
+{
+  "generated": "2026-04-02T22:47:33.314895Z",
+  "total": 1,
+  "municipalities":[
+    {
+      "code": "2915",
+      "name": "Dörflingen",
+      "region": "Kanton Schaffhausen",
+      "website": "doerflingen.ch",
+      "emails": [
+        "doerflingen.ch"
+      ]
+    },
+    {
+      "code": "2917",
+      "name": "Lohn (SH)",
+      "region": "Kanton Schaffhausen",
+      "website": "lohn.ch",
+      "emails": [
+        "lohn.ch"
+      ]
+    },
+    {
+      "code": "2919",
+      "name": "Stetten (SH)",
+      "region": "Kanton Schaffhausen",
+      "website": "stetten.ch",
+      "emails": [
+        "stetten.ch"
+      ]
+    },
+    {
+      "code": "292",
+      "name": "Stammheim",
+      "region": "Kanton Zürich",
+      "website": "stammheim.ch",
+      "emails": [
+        "stammheim.ch"
+      ]
+    },
+    {
+      "code": "2920",
+      "name": "Thayngen",
+      "region": "Kanton Schaffhausen",
+      "website": "thayngen.ch",
+      "emails": [
+        "thayngen.ch",
+        "sh.ch"
+      ]
+    },
+    {
+      "code": "293",
+      "name": "Wädenswil",
+      "region": "Kanton Wallis",
+      "website": "waedenswil.ch",
+      "emails": [
+        "waedenswil.ch"
+      ]
+    },
+    {
+      "code": "2931",
+      "name": "Bargen (SH)",
+      "region": "Kanton Schaffhausen",
+      "website": "bargen.ch",
+      "emails": [
+        "sh.ch"
+      ]
+    },
+    {
+      "code": "2932",
+      "name": "Beringen",
+      "region": "Kanton Schaffhausen",
+      "website": "beringen.ch",
+      "emails": [
+        "beringen.ch"
+      ]
+    },
+    {
+      "code": "2933",
+      "name": "Buchberg",
+      "region": "Kanton Schaffhausen",
+      "website": "buchberg.ch",
+      "emails": [
+        "buchberg.ch",
+        "sh.ch"
+      ]
+    },
+    {
+      "code": "2936",
+      "name": "Merishausen",
+      "region": "Kanton Schaffhausen",
+      "website": "merishausen.ch",
+      "emails": [
+        "merishausen.ch",
+        "sh.ch"
+      ]
+    },
+    {
+      "code": "2937",
+      "name": "Neuhausen am Rheinfall",
+      "region": "Kanton Schaffhausen",
+      "website": "neuhausen.ch",
+      "emails": [
+        "neuhausen.ch"
+      ]
+    },
+    {
+      "code": "2938",
+      "name": "Rüdlingen",
+      "region": "Kanton Schaffhausen",
+      "website": "ruedlingen.ch",
+      "emails": [
+        "ruedlingen.ch",
+        "sh.ch"
+      ]
+    },
+    {
+      "code": "2939",
+      "name": "Schaffhausen",
+      "region": "Kanton Schaffhausen",
+      "website": "stadt-schaffhausen.ch",
+      "emails": [
+        "stsh.ch"
+      ]
+    },
+    {
+      "code": "294",
+      "name": "Elgg",
+      "region": "Kanton Zürich",
+      "website": "elgg.ch",
+      "emails": [
+        "elgg.ch"
+      ]
+    },
+    {
+      "code": "295",
+      "name": "Horgen",
+      "region": "Kanton Wallis",
+      "website": "horgen.ch",
+      "emails": [
+        "horgen.ch"
+      ]
+    },
+    {
+      "code": "2951",
+      "name": "Beggingen",
+      "region": "Kanton Schaffhausen",
+      "website": "beggingen.ch",
+      "emails": [
+        "beggingen.ch"
+      ]
+    },
+    {
+      "code": "2952",
+      "name": "Schleitheim",
+      "region": "Kanton Schaffhausen",
+      "website": "schleitheim.ch",
+      "emails": [
+        "schleitheim.ch"
+      ]
+    },
+    {
+      "code": "2953",
+      "name": "Siblingen",
+      "region": "Kanton Schaffhausen",
+      "website": "siblingen.ch",
+      "emails": [
+        "siblingen.ch"
+      ]
+    },
+    {
+      "code": "296",
+      "name": "Illnau-Effretikon",
+      "region": "Kanton Zürich",
+      "website": "ilef.ch",
+      "emails": [
+        "ilef.ch"
+      ]
+    },
+    {
+      "code": "2961",
+      "name": "Buch (SH)",
+      "region": "Kanton Schaffhausen",
+      "website": "buch-sh.ch",
+      "emails": [
+        "buch-sh.ch"
+      ]
+    },
+    {
+      "code": "2962",
+      "name": "Hemishofen",
+      "region": "Kanton Schaffhausen",
+      "website": "hemishofen.ch",
+      "emails": [
+        "hemishofen.ch"
+      ]
+    },
+    {
+      "code": "3111",
+      "name": "Oberegg",
+      "region": "Kanton Appenzell Innerrhoden",
+      "website": "oberegg.ch",
+      "emails": [
+        "oberegg.ai.ch"
+      ]
+    },
+    {
+      "code": "3112",
+      "name": "Schwende-Rüte",
+      "region": "Kanton Appenzell Innerrhoden",
+      "website": "schwende-ruete.ch",
+      "emails": [
+        "schwende-ruete.ai.ch"
+      ]
+    },
+    {
+      "code": "312",
+      "name": "Seedorf (BE)",
+      "region": "Kanton Bern",
+      "website": "seedorf.ch",
+      "emails": [
+        "seedorf.ch"
+      ]
+    },
+    {
+      "code": "3201",
+      "name": "Häggenschwil",
+      "region": "Kanton St. Gallen",
+      "website": "haeggenschwil.ch",
+      "emails": [
+        "haeggenschwil.ch"
+      ]
+    },
+    {
+      "code": "3202",
+      "name": "Muolen",
+      "region": "Kanton St. Gallen",
+      "website": "muolen.ch",
+      "emails": [
+        "muolen.ch"
+      ]
+    },
+    {
+      "code": "3203",
+      "name": "St. Gallen",
+      "region": "Kanton St. Gallen",
+      "website": "stadt.sg.ch",
+      "emails": [
+        "stadt.sg.ch",
+        "sg.ch"
+      ]
+    },
+    {
+      "code": "3204",
+      "name": "Wittenbach",
+      "region": "Kanton St. Gallen",
+      "website": "wittenbach.ch",
+      "emails": [
+        "wittenbach.ch"
+      ]
+    },
+    {
+      "code": "321",
+      "name": "Aarwangen",
+      "region": "Kanton Bern",
+      "website": "aarwangen.ch",
+      "emails": [
+        "aarwangen.ch"
+      ]
+    },
+    {
+      "code": "3211",
+      "name": "Berg (SG)",
+      "region": "Kanton St. Gallen",
+      "website": "bergsg.ch",
+      "emails": [
+        "bergsg.ch"
+      ]
+    },
+    {
+      "code": "3212",
+      "name": "Eggersriet",
+      "region": "Kanton St. Gallen",
+      "website": "eggersriet.ch",
+      "emails": [
+        "eggersriet.ch"
+      ]
+    },
+    {
+      "code": "3213",
+      "name": "Goldach",
+      "region": "Kanton St. Gallen",
+      "website": "goldach.ch",
+      "emails": [
+        "goldach.ch"
+      ]
+    },
+    {
+      "code": "3214",
+      "name": "Mörschwil",
+      "region": "Kanton St. Gallen",
+      "website": "moerschwil.ch",
+      "emails": [
+        "moerschwil.ch"
+      ]
+    },
+    {
+      "code": "3215",
+      "name": "Rorschach",
+      "region": "Kanton St. Gallen",
+      "website": "rorschach.ch",
+      "emails": [
+        "rorschach.ch"
+      ]
+    },
+    {
+      "code": "3216",
+      "name": "Rorschacherberg",
+      "region": "Kanton St. Gallen",
+      "website": "rorschacherberg.ch",
+      "emails": [
+        "rorschacherberg.ch"
+      ]
+    },
+    {
+      "code": "3217",
+      "name": "Steinach",
+      "region": "Kanton St. Gallen",
+      "website": "steinach.ch",
+      "emails": [
+        "steinach.ch"
+      ]
+    },
+    {
+      "code": "3218",
+      "name": "Tübach",
+      "region": "Kanton St. Gallen",
+      "website": "tuebach.ch",
+      "emails": [
+        "tuebach.ch"
+      ]
+    },
+    {
+      "code": "3219",
+      "name": "Untereggen",
+      "region": "Kanton St. Gallen",
+      "website": "untereggen.ch",
+      "emails": [
+        "untereggen.ch"
+      ]
+    },
+    {
+      "code": "322",
+      "name": "Auswil",
+      "region": "Kanton Bern",
+      "website": "",
+      "emails": [
+        "auswil.ch"
+      ]
+    },
+    {
+      "code": "323",
+      "name": "Bannwil",
+      "region": "Kanton Bern",
+      "website": "bannwil.ch",
+      "emails": [
+        "bannwil.ch",
+        "be.ch"
+      ]
+    },
+    {
+      "code": "3231",
+      "name": "Au (SG)",
+      "region": "Kanton St. Gallen",
+      "website": "",
+      "emails": [
+        "au.ch"
+      ]
+    },
+    {
+      "code": "3232",
+      "name": "Balgach",
+      "region": "Kanton St. Gallen",
+      "website": "balgach.ch",
+      "emails": [
+        "balgach.ch"
+      ]
+    },
+    {
+      "code": "3233",
+      "name": "Berneck",
+      "region": "Kanton St. Gallen",
+      "website": "berneck.ch",
+      "emails": [
+        "berneck.ch"
+      ]
+    },
+    {
+      "code": "3234",
+      "name": "Diepoldsau",
+      "region": "Kanton St. Gallen",
+      "website": "diepoldsau.ch",
+      "emails": [
+        "diepoldsau.ch",
+        "sg.ch"
+      ]
+    }
+  ]
+}

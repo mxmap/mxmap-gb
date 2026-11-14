@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--
+  TopoJSON sources:
+  - CH: swiss-maps (https://github.com/interactivethings/swiss-maps), CC BY 4.0 swisstopo
+  - AT: GeoJSON-TopoJSON-Austria (https://github.com/ginseng666/GeoJSON-TopoJSON-Austria), CC BY 4.0 Statistik Austria
+  - DE: BKG VG250 via B42Labs/mxmap (https://github.com/B42Labs/mxmap), © GeoBasis-DE / BKG
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
+<link rel="preconnect" href="https://a.basemaps.cartocdn.com" crossorigin>
+<link rel="preconnect" href="https://b.basemaps.cartocdn.com" crossorigin>
+<link rel="preconnect" href="https://c.basemaps.cartocdn.com" crossorigin>
+<link rel="preconnect" href="https://d.basemaps.cartocdn.com" crossorigin>
+
+<title>MTA-STS usage of UK and DE Municipalities (lower tier)</title>
+<meta name="description" content="Interactive map showing email security (SPF, DMARC) of ~15,300 municipalities in Germany, Austria, and Switzerland.">
+<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+<link rel="manifest" href="../favicon/site.webmanifest">
+
+<link rel="stylesheet" href="css/shared.css">
+<link rel="stylesheet" href="css/map.css">
+
+<!-- Leafleat CSS einbinden -->
+<link rel="preload" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"></noscript>
+
+<!-- Leaflet JavaScript einbinden mit  -->
+<!-- defer: Skript werden Nach HTML-Dokumentparsing (nicht währenddessen) und Vor DOMContentLoaded ausgeführt also Nicht HTML-Parsing blockierend während des Parsens -->
+<!-- DOMContendLoaded: Nach Laden des HTML-Dokuments und nach Ausführung aller defered Scripts wird das Event ausgeführt -->
+<!-- Event wartet nicht auf das Laden der bisher geparsten Stylesheets (geparste HTML-Tags) aber die Skripte widerrum schon -> Indirekte Ladenbedingung -->
+<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script defer src="https://unpkg.com/topojson-client@3/dist/topojson-client.min.js"></script>
+
+<!--Eigne JS-Dateien -->
+<script defer src="js/map-shared.js"></script>
+<script defer src="js/map-security_mtasts.js"></script>
+</head>
+<body>
+<header id="header">
+  <div class="header-left">
+    <h1 class="brand"><a href="../index.html">Municipality Emails</a></h1>
+    <nav id="nav"></nav>
+  </div>
+  <div class="header-right">
+    <button class="toggle-info" id="toggle-info" aria-expanded="true" aria-controls="info-bar">About &#9652;</button>
+  </div>
+</header>
+<section id="info-bar" aria-label="About this project">
+<script>if(window.innerWidth<=600)document.getElementById('info-bar').classList.add('collapsed');</script>
+  <h2 class="info-title">Email Security of DACH Municipalities</h2>
+</section>
+
+<!-- hier ist die Leafleat-Karte im Dokument-->
+<main id="map" role="application" aria-label="Interactive map of DACH municipality email security">
+  <div id="map-loading" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:1000;background:rgba(255,255,255,0.85);font-size:15px;color:#555;">Loading map data&hellip;</div>
+</main>
+
+<script>
+  // Damit DOM nicht vor fertigstellung durch Skript beeinflusst wird
+  // DOM Content Loaded -> HTML Dokument wurde vollständig geparst, JS-Skriptdateien wurden Heruntergeladen und Ausgeführt 
+
+
+  
+document.addEventListener('DOMContentLoaded', function () {
+  loadSecurityMap(
+    { center: [49, 10.5], zoom: 6, minZoom: 4 },
+    [
+      {
+        label: 'Germany',
+        topoUrl: '../topo/de-gemeinden.json',
+        dataUrl: '../output/security/security_de.json',
+        topoObject: 'VG250_GEM',
+        featureCodeFn: function(f) { return String(f.id); },
+        REGION_CODES: {
+          'Schleswig-Holstein': 'SH', 'Hamburg': 'HH', 'Niedersachsen': 'NI',
+          'Bremen': 'HB', 'Nordrhein-Westfalen': 'NW', 'Hessen': 'HE',
+          'Rheinland-Pfalz': 'RP', 'Baden-Württemberg': 'BW', 'Bayern': 'BY',
+          'Saarland': 'SL', 'Berlin': 'BE', 'Brandenburg': 'BB',
+          'Mecklenburg-Vorpommern': 'MV', 'Sachsen': 'SN', 'Sachsen-Anhalt': 'ST',
+          'Thüringen': 'TH'
+        },
+      },
+      {
+        label: 'GB',
+        topoUrl: '../topo/gb-ltla.json',
+        dataUrl: '../output/security/security_gb.json',
+        topoObject: 'ltla',
+        featureCodeFn: function(f) {  if(!f.properties.end){return String(f.properties.areacd); }},
+        REGION_CODES: {
+        'England' : 'E92', 
+        'Northern Ireland' : 'N92',
+        'Scotland' : 'S92',
+        'Wales' :  'W92'
+        },
+      }
+      
+    ], false
+  ).catch(handleLoadError);
+});
+</script>
+</body>
+</html>
