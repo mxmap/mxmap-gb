@@ -29,6 +29,7 @@
   });
   nav.appendChild(inlineWrap);
 
+  /*
   var toggle = document.createElement('button');
   toggle.className = 'nav-menu-toggle';
   toggle.setAttribute('aria-label', 'More links');
@@ -37,10 +38,11 @@
   nav.appendChild(toggle);
 
   var extras = [
-    { href: 'impressum.html', label: 'Impressum', match: ['impressum.html'] },
-    { href: 'datenschutz.html', label: 'Datenschutz', match: ['datenschutz.html'] },
+ //   { href: 'impressum.html', label: 'Impressum', match: ['impressum.html'] },
+ //   { href: 'datenschutz.html', label: 'Datenschutz', match: ['datenschutz.html'] },
   ];
 
+  
   var menu = document.createElement('div');
   menu.className = 'nav-menu';
   primary.forEach(function (link) {
@@ -63,4 +65,5 @@
       toggle.setAttribute('aria-expanded', 'false');
     }
   });
+  */
 })();

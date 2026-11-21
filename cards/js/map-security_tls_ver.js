@@ -324,9 +324,7 @@ function loadSecurityMap(mapConfig, countries, upperTier) {
             layer.bindPopup(
               '<div class="info-popup">' +
               '<strong>' + nameDisplay + '</strong><br>' +
-              '<strong>' +'Domain:' + '</strong>' + eDomain + '<br>'+ 
-              '<strong>' + 'Record:'  + '</strong>' + getRecord(m) + '<br>' +
-              '<strong>' + 'Error:'  + '</strong>' +getErrorMessage(m) + '<br>' +
+              '<strong>' +'Domain: ' + '</strong>' + eDomain + '<br>'+ 
               '</div>',
               { maxWidth: isMobile ? 300 : 400 }
             );

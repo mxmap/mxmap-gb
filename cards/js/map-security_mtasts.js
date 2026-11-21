@@ -238,7 +238,7 @@ function loadSecurityMap(mapConfig, countries, upperTier) {
       div.innerHTML =
         '<button class="legend-toggle" aria-label="Toggle legend" aria-expanded="' + (!isMobile) + '">' + (isMobile ? 'Legend \u25B8' : '') + '</button>' +
         '<div class="legend-content">' +
-        '<strong>Email Security</strong><span class="legend-hint">click to filter</span>' +
+        '<strong>MTA-STS policy</strong><span class="legend-hint">click to filter</span>' +
         
         secLegendItem('MTA-STS enforce', 'mtasts_enforce', catCounts['mtasts_enforce']) +
         secLegendItem('MTA-STS testing', 'mtasts_testing', catCounts['mtasts_testing']) +
@@ -369,8 +369,8 @@ function loadSecurityMap(mapConfig, countries, upperTier) {
             layer.bindPopup(
               '<div class="info-popup">' +
               '<strong>' + nameDisplay + '</strong><br>' +
-              '<strong>' +'Domain:' + '</strong>' + eDomain + '<br>'+ 
-              '<strong>' + 'Record:'  + '</strong>' + getRecord(m) + '<br>' +
+              '<strong>' +'Domain: ' + '</strong>' + eDomain + '<br>'+ 
+              '<strong>Record:</strong> <span style="overflow-wrap: anywhere; word-break: break-all;">' + escapeHtml(getRecord(m)) + '</span><br>' +
               '<strong>' + 'Error:'  + '</strong>' +getErrorMessage(m) + '<br>' +
               '</div>',
               { maxWidth: isMobile ? 300 : 400 }

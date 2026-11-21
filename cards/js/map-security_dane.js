@@ -199,7 +199,7 @@ function loadSecurityMap(mapConfig, countries, upperTier) {
       div.innerHTML =
         '<button class="legend-toggle" aria-label="Toggle legend" aria-expanded="' + (!isMobile) + '">' + (isMobile ? 'Legend \u25B8' : '') + '</button>' +
         '<div class="legend-content">' +
-        '<strong>Email Security</strong><span class="legend-hint">click to filter</span>' +
+        '<strong>DANE usage</strong><span class="legend-hint">click to filter</span>' +
         
         secLegendItem('valid DANE all MTA', 'validdane_all_mx', catCounts['validdane_all_mx']) +
         secLegendItem('valid DANE at least one MTA', 'validdane_atleastone_mx', catCounts['validdane_atleastone_mx']) +
@@ -329,9 +329,7 @@ function loadSecurityMap(mapConfig, countries, upperTier) {
             layer.bindPopup(
               '<div class="info-popup">' +
               '<strong>' + nameDisplay + '</strong><br>' +
-              '<strong>' +'Domain:' + '</strong>' + eDomain + '<br>'+ 
-              '<strong>' + 'Record:'  + '</strong>' + getRecord(m) + '<br>' +
-              '<strong>' + 'Error:'  + '</strong>' +getErrorMessage(m) + '<br>' +
+              '<strong>' +'Domain: ' + '</strong>' + eDomain + '<br>'+ 
               '</div>',
               { maxWidth: isMobile ? 300 : 400 }
             );

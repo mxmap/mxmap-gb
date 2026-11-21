@@ -52,7 +52,7 @@
   </div>
 </header>
 <section id="info-bar" aria-label="About this project">
-  <h2 class="info-title">DMARC Adoption Among UK and German Municipalities (lower tier)</h2>
+  <h2 class="info-title">DMARC Adoption Among UK Municipalities (lower tier)</h2>
 </section>
 
 <!-- hier ist die Leafleat-Karte im Dokument-->
@@ -68,23 +68,8 @@
   
 document.addEventListener('DOMContentLoaded', function () {
   loadSecurityMap(
-    { center: [49, 10.5], zoom: 6, minZoom: 4 },
+    { center: [52, -1.5], zoom: 6, minZoom: 4 },
     [
-      {
-        label: 'Germany',
-        topoUrl: '../topo/de-gemeinden.json',
-        dataUrl: '../output/security/security_de.json',
-        topoObject: 'VG250_GEM',
-        featureCodeFn: function(f) { return String(f.id); },
-        REGION_CODES: {
-          'Schleswig-Holstein': 'SH', 'Hamburg': 'HH', 'Niedersachsen': 'NI',
-          'Bremen': 'HB', 'Nordrhein-Westfalen': 'NW', 'Hessen': 'HE',
-          'Rheinland-Pfalz': 'RP', 'Baden-Württemberg': 'BW', 'Bayern': 'BY',
-          'Saarland': 'SL', 'Berlin': 'BE', 'Brandenburg': 'BB',
-          'Mecklenburg-Vorpommern': 'MV', 'Sachsen': 'SN', 'Sachsen-Anhalt': 'ST',
-          'Thüringen': 'TH'
-        },
-      },
       {
         label: 'GB',
         topoUrl: '../topo/gb-ltla.json',
