@@ -3,46 +3,40 @@
 // Anpassung an mehr und generischen (Farbe durch Anzahl geprägt) Kategorien notwendig
 var SEC_COLOR_SCHEMES = {
   default: {
-    'fullreject_reporting':       '#04ff86',
-    'fullreject': '#04ff86',
+    'fullreject_reporting': '#04ff86', 
+    'fullreject':           '#7effc0', 
 
-    'quarantine_reporting':       '#9cfc01',
-    'quarantine':       '#9cfc01',
+    'quarantine_reporting': '#9cfc01', 
+    'quarantine':           '#c4ff66', 
 
-    
-    'partly_reporting': '#dcfd06',
-    'partly':       '#dcfd06',
+    'partly_reporting':     '#dcfd06', 
+    'partly':               '#ecff70', 
 
+    'none_reporting':       '#ffe600', 
+    'none':                 '#fff275', 
 
-    'none_reporting': '#ffe600',
-    'none': '#ffe600',
-
-
-    'error':       '#ffa60d',
-    'nodmarc':       '#fe2815',
-    'no-data': '#BFBFBF',
-    lake: '#89B3D6',
+    'error':                '#ffa60d',
+    'nodmarc':              '#fe2815',
+    'no-data':              '#BFBFBF',
+    lake:                   '#89B3D6',
   },
   colorblind: {
-    'fullreject_reporting':       '#04b8ff',
-    'fullreject': '#68d4ff',
+      'fullreject_reporting': '#003366',
+      'fullreject':           '#1D5BA6',
 
-    'quarantine_reporting':       '#00ff73',
-    'quarantine':       '#a5ffca',
+      'quarantine_reporting': '#7A1C5C',
+      'quarantine':           '#B5498E',
 
-    
-    'partly_reporting': '#e9fab8',
-    'partly':       '#bfff00',
+      'partly_reporting':     '#007A5A',
+      'partly':               '#00AD80',
 
+      'none_reporting':       '#E6C600',
+      'none':                 '#F7E859',
 
-    'none_reporting': '#ffee00',
-    'none': '#fbf5a7',
-
-
-    'error':       '#ffa60d',
-    'nodmarc':       '#fe2815',
-    'no-data': '#BFBFBF',
-    lake: '#89B3D6',
+      'error':                '#D55E00',
+      'nodmarc':              '#8A0000',
+      'no-data':              '#BFBFBF',
+      lake:                   '#89B3D6',
   },
 };
 var SEC_COLORS = SEC_COLOR_SCHEMES.default;

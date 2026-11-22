@@ -15,15 +15,13 @@ var SEC_COLOR_SCHEMES = {
     lake: '#89B3D6',
   },
   colorblind: {
-    'full_dnssec': '#04ff1d',
-
-    'dnssec_domain': '#dcfd06',
-    'dnssec_allmx': '#ffe600',
-    'dnssec_atleastonemx':       '#ffa60d',
-
-    'nodnssec':       '#fe2815',
-    'no-data': '#BFBFBF',
-    lake: '#89B3D6',
+    'dnssec_full':         '#004488', 
+    'dnssec_domain':       '#AA3377', 
+    'dnssec_allmx':        '#F0E442', 
+    'dnssec_atleastonemx': '#E69F00', 
+    'nodnssec':            '#990000', 
+    'no-data':             '#BFBFBF',
+    lake:                  '#89B3D6',
   },
 };
 var SEC_COLORS = SEC_COLOR_SCHEMES.default;

@@ -23,7 +23,7 @@ function initMap(elementId, options) {
   });
 
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png?key=' + CARTO_KEY, {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a> TopoJSON: <a href="https://github.com/ONSdigital/uk-topojson">ONS</a>',
     subdomains: 'abcd', // Paralles Herunterladen von einer Domain wird ermöglicht
     maxZoom: 19,
     crossOrigin: ''

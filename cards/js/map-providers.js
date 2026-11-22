@@ -7,11 +7,11 @@ var COLOR_SCHEMES = {
     'foreign':   { high: '#f8c936', medium: '#fde89a', low: '#cccccc' },
     lake: '#89B3D6',
   },
-  colorblind: {
-    'us-cloud':  { high: '#f1be61', medium: '#fde7c4', low: '#cccccc' },
-    'domestic':  { high: '#6fa2d0', medium: '#C0D8E8', low: '#cccccc' },
-    'foreign':   { high: '#e8916d', medium: '#f5c9b5', low: '#cccccc' },
-    lake: '#c4afff',
+ colorblind: {
+    'us-cloud':  { high: '#D55E00', medium: '#f29e5c', low: '#cccccc' }, 
+    'domestic':  { high: '#004488', medium: '#4a80bc', low: '#cccccc' }, 
+    'foreign':   { high: '#AA3377', medium: '#d67ab1', low: '#cccccc' }, 
+    lake: '#89B3D6',
   },
 };
 var CATEGORY_COLORS = COLOR_SCHEMES.default;

@@ -36,7 +36,7 @@ body { background: #f0f1f5; min-height: 100vh; }
 </header>
 <div class="landing">
   <h2>Municipality Email Maps</h2>
-  <p>Interactive maps showing email infrastructure of municipalities in UK based on public DNS records and network signals.</p>
+  <p>Interactive maps illustrating the email infrastructure of UK municipalities, based on public DNS records and network signals. The scan data for the provider analysis was collected on 24 August 2026, and the security measurements were conducted on 9-10 September 2026. </p>
   <div class="map-list">
     <a href="cards/providers.html" class="map-card">
       <h3>📨 Email Providers</h3>
@@ -62,6 +62,22 @@ body { background: #f0f1f5; min-height: 100vh; }
       <h3>DMARC (upper tier)</h3>
       <p>DMARC protection of municipality email domains.</p>
     </a>
+        <a href="cards/security_mtasts.html" class="map-card">
+      <h3>MTA-STS (lower tier)</h3>
+      <p>Mail Transfer Agent Strict Transport Security for municipality email domains.</p>
+    </a>
+    <a href="cards/security_mtasts_lk.html" class="map-card">
+      <h3>MTA-STS (upper tier)</h3>
+      <p>Mail Transfer Agent Strict Transport Security for municipality email domains.</p>
+    </a>
+    <a href="cards/security_tlsrpt.html" class="map-card">
+      <h3>TLS-RPT (lower tier)</h3>
+      <p>TLS Reporting support of municipality email domains.</p>
+    </a>
+    <a href="cards/security_tlsrpt_lk.html" class="map-card">
+      <h3>TLS-RPT  (upper tier)</h3>
+      <p>TLS Reporting support of municipality email domains.</p>
+    </a>
     <a href="cards/security_dnssec.html" class="map-card">
       <h3>DNSSEC (lower tier)</h3>
       <p>DNS Security Extensions support for municipality email domains.</p>
@@ -78,14 +94,6 @@ body { background: #f0f1f5; min-height: 100vh; }
       <h3>DANE (upper tier)</h3>
       <p>DNS-based Authentication of Named Entities for municipality email domains.</p>
     </a>
-    <a href="cards/security_mtasts.html" class="map-card">
-      <h3>MTA-STS (lower tier)</h3>
-      <p>Mail Transfer Agent Strict Transport Security for municipality email domains.</p>
-    </a>
-    <a href="cards/security_mtasts_lk.html" class="map-card">
-      <h3>MTA-STS (upper tier)</h3>
-      <p>Mail Transfer Agent Strict Transport Security for municipality email domains.</p>
-    </a>
     <a href="cards/security_tls_ver.html" class="map-card">
       <h3>min. TLS versions (lower tier)</h3>
       <p>The lowest TLS protocol version supported by municipal email servers (based on availability tests for TLS 1.0, 1.1, and 1.2)</p>
@@ -93,14 +101,6 @@ body { background: #f0f1f5; min-height: 100vh; }
     <a href="cards/security_tls_ver_lk.html" class="map-card">
       <h3>min. TLS versions (upper tier)</h3>
       <p>The lowest TLS protocol version supported by municipal email servers (based on availability tests for TLS 1.0, 1.1, and 1.2)</p>
-    </a>
-    <a href="cards/security_tlsrpt.html" class="map-card">
-      <h3>TLS-RPT (lower tier)</h3>
-      <p>TLS Reporting support of municipality email domains.</p>
-    </a>
-    <a href="cards/security_tlsrpt_lk.html" class="map-card">
-      <h3>TLS-RPT  (upper tier)</h3>
-      <p>TLS Reporting support of municipality email domains.</p>
     </a>
   </div>
   <div class="landing-footer">

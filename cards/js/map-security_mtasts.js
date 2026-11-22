@@ -14,13 +14,13 @@ var SEC_COLOR_SCHEMES = {
     lake: '#89B3D6',
   },
   colorblind: {
-    'mtasts_enforce': '#04ff1d',
-    'mtasts_testing': '#dcfd06',
-    'mtasts_none': '#ffd500',
-    'mtasts_error':       '#ff920d',
-    'no_mtasts':       '#fe2815',
-    'no-data': '#BFBFBF',
-    lake: '#89B3D6',
+    'mtasts_enforce': '#004488',
+    'mtasts_testing': '#AA3377',
+    'mtasts_none':    '#F0E442',
+    'mtasts_error':   '#E69F00',
+    'no_mtasts':      '#990000',
+    'no-data':        '#BFBFBF',
+    lake:             '#89B3D6',
   },
 };
 var SEC_COLORS = SEC_COLOR_SCHEMES.default;
@@ -370,7 +370,7 @@ function loadSecurityMap(mapConfig, countries, upperTier) {
               '<div class="info-popup">' +
               '<strong>' + nameDisplay + '</strong><br>' +
               '<strong>' +'Domain: ' + '</strong>' + eDomain + '<br>'+ 
-              '<strong>Record:</strong> <span style="overflow-wrap: anywhere; word-break: break-all;">' + escapeHtml(getRecord(m)) + '</span><br>' +
+              '<strong>Record:</strong> <span style="overflow-wrap: anywhere; word-break: break-all;">' + getRecord(m) + '</span><br>' +
               '<strong>' + 'Error:'  + '</strong>' +getErrorMessage(m) + '<br>' +
               '</div>',
               { maxWidth: isMobile ? 300 : 400 }

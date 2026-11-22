@@ -11,12 +11,12 @@ var SEC_COLOR_SCHEMES = {
     lake: '#89B3D6',
   },
   colorblind: {
-    'tls1_2': '#04ff1d',
-    'tls1_1': '#f5fd06',
-    'tls1': '#fe9d15',
-    'no_starttls' : '#ff0303',
-    'no-data': '#BFBFBF',
-    lake: '#89B3D6',
+      'tls1_2':      '#004488',
+      'tls1_1':      '#AA3377',
+      'tls1':        '#F0E442',
+      'no_starttls': '#D55E00',
+      'no-data':     '#BFBFBF',
+      lake:          '#89B3D6',
   },
 };
 var SEC_COLORS = SEC_COLOR_SCHEMES.default;

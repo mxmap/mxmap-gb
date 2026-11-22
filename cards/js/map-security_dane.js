@@ -11,13 +11,13 @@ var SEC_COLOR_SCHEMES = {
     'no-data': '#BFBFBF',
     lake: '#89B3D6',
   },
-  colorblind: {
-    'validdane_all_mx': '#04ff1d',
-    'validdane_atleastone_mx': '#dcfd06',
-    'dane_atleastone_mx':       '#ffa60d',
-    'nodane':       '#fe2815',
-    'no-data': '#BFBFBF',
-    lake: '#89B3D6',
+colorblind: {
+ 'validdane_all_mx':        '#004488', 
+  'validdane_atleastone_mx': '#AA3377', 
+  'dane_atleastone_mx':      '#F0E442', 
+  'nodane':                  '#D55E00', 
+  'no-data':                 '#BFBFBF',
+  'lake':                    '#89B3D6',
   },
 };
 var SEC_COLORS = SEC_COLOR_SCHEMES.default;
